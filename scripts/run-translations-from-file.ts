@@ -7,11 +7,11 @@ import { adminQuery, disconnect, GraphQLResponse } from "./shopify-admin.js";
 
 // --- Configuration ---
 
-const LOCALE = "bg";
+const LOCALE = "cs";
 const INPUT_CSV_PATH = `scripts/translationInputFiles/${LOCALE}.csv`;
 const RESOURCES_JSON_PATH = "scripts/product-translation-resources.json";
 const PROGRESS_JSON_PATH = `scripts/translationOutputs/${LOCALE}/translated.json`;
-const DRY_RUN = false;
+const DRY_RUN = true;
 const SLEEP_MS_BETWEEN_REQUESTS = 250;
 const MAX_RETRIES = 6;
 
