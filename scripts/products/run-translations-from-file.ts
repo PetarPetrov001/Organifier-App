@@ -1,7 +1,7 @@
 import { resolvePath } from "../shared/helpers.js";
 import { runTranslations } from "../shared/translation-runner.js";
 
-const LOCALE = "sk";
+const LOCALE = "lt";
 
 await runTranslations({
   locale: LOCALE,
