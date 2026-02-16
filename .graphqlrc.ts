@@ -12,6 +12,7 @@ function getConfig() {
         documents: [
           "./app/**/*.{js,ts,jsx,tsx}",
           "./app/.server/**/*.{js,ts,jsx,tsx}",
+          "./scripts/**/*.{js,ts,jsx,tsx}",
         ],
         outputDir: "./app/types",
       }),
