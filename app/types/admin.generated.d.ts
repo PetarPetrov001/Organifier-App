@@ -21,13 +21,17 @@ export type ShopifyRemixTemplateUpdateVariantMutationVariables = AdminTypes.Exac
 
 export type ShopifyRemixTemplateUpdateVariantMutation = { productVariantsBulkUpdate?: AdminTypes.Maybe<{ productVariants?: AdminTypes.Maybe<Array<Pick<AdminTypes.ProductVariant, 'id' | 'price' | 'barcode' | 'createdAt'>>> }> };
 
-export type TranslationsRegisterMutationVariables = AdminTypes.Exact<{
-  resourceId: AdminTypes.Scalars['ID']['input'];
-  translations: Array<AdminTypes.TranslationInput> | AdminTypes.TranslationInput;
+export type GetTranslatableArticlesQueryVariables = AdminTypes.Exact<{
+  resourceType: AdminTypes.TranslatableResourceType;
+  first: AdminTypes.Scalars['Int']['input'];
+  after?: AdminTypes.InputMaybe<AdminTypes.Scalars['String']['input']>;
 }>;
 
 
-export type TranslationsRegisterMutation = { translationsRegister?: AdminTypes.Maybe<{ translations?: AdminTypes.Maybe<Array<Pick<AdminTypes.Translation, 'key' | 'locale' | 'value'>>>, userErrors: Array<Pick<AdminTypes.TranslationUserError, 'code' | 'field' | 'message'>> }> };
+export type GetTranslatableArticlesQuery = { translatableResources: { nodes: Array<(
+      Pick<AdminTypes.TranslatableResource, 'resourceId'>
+      & { translatableContent: Array<Pick<AdminTypes.TranslatableContent, 'digest' | 'key' | 'locale' | 'value'>> }
+    )>, pageInfo: Pick<AdminTypes.PageInfo, 'hasNextPage' | 'endCursor'> } };
 
 export type GetTranslatableProductsQueryVariables = AdminTypes.Exact<{
   resourceType: AdminTypes.TranslatableResourceType;
@@ -41,7 +45,16 @@ export type GetTranslatableProductsQuery = { translatableResources: { nodes: Arr
       & { translatableContent: Array<Pick<AdminTypes.TranslatableContent, 'digest' | 'key' | 'locale' | 'value'>> }
     )>, pageInfo: Pick<AdminTypes.PageInfo, 'hasNextPage' | 'endCursor'> } };
 
+export type TranslationsRegisterMutationVariables = AdminTypes.Exact<{
+  resourceId: AdminTypes.Scalars['ID']['input'];
+  translations: Array<AdminTypes.TranslationInput> | AdminTypes.TranslationInput;
+}>;
+
+
+export type TranslationsRegisterMutation = { translationsRegister?: AdminTypes.Maybe<{ translations?: AdminTypes.Maybe<Array<Pick<AdminTypes.Translation, 'key' | 'locale' | 'value'>>>, userErrors: Array<Pick<AdminTypes.TranslationUserError, 'code' | 'field' | 'message'>> }> };
+
 interface GeneratedQueryTypes {
+  "#graphql\n  query getTranslatableArticles(\n    $resourceType: TranslatableResourceType!\n    $first: Int!\n    $after: String\n  ) {\n    translatableResources(first: $first, after: $after, resourceType: $resourceType) {\n      nodes {\n        resourceId\n        translatableContent {\n          digest\n          key\n          locale\n          value\n        }\n      }\n      pageInfo {\n        hasNextPage\n        endCursor\n      }\n    }\n  }\n": {return: GetTranslatableArticlesQuery, variables: GetTranslatableArticlesQueryVariables},
   "#graphql\n  query getTranslatableProducts(\n    $resourceType: TranslatableResourceType!\n    $first: Int!\n    $after: String\n  ) {\n    translatableResources(first: $first, after: $after, resourceType: $resourceType) {\n      nodes {\n        resourceId\n        translatableContent {\n          digest\n          key\n          locale\n          value\n        }\n      }\n      pageInfo {\n        hasNextPage\n        endCursor\n      }\n    }\n  }\n": {return: GetTranslatableProductsQuery, variables: GetTranslatableProductsQueryVariables},
 }
 

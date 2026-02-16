@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "resourceId": "gid://shopify/Article/614466847044",
+      "locale": "fr",
+      "key": "title",
+      "digest": "f44d6fd16126b9482a26fe3c126fb2873fd9bc55211dee29ac7650be7a7f9877",
+      "valueHash": "28d2df78d4473d0fece453020d6863bd98383c753ee66b80b2083375cc82ffc4",
+      "translatedAt": "2026-02-16T10:10:21.750Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466847044",
+      "locale": "fr",
+      "key": "body_html",
+      "digest": "e4d190f7ec3b4d2fd97f8b3f8ea9728a0dfae2db1032e4887e314d68806004e0",
+      "valueHash": "f4d2ca95c5091c9dbd73b77ef01acdd2b24acbc2ad50885175999e2e70522c89",
+      "translatedAt": "2026-02-16T10:10:21.750Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466847044",
+      "locale": "fr",
+      "key": "meta_description",
+      "digest": "45b5e8a525523ea0f8944fb46a7420412cacddb927a84d1d59b446ce056bd976",
+      "valueHash": "4378181d6c19ec0e6d04741f9a7611c1a12c327ed0f86c8bbffde3ffb69da88b",
+      "translatedAt": "2026-02-16T10:10:21.750Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466879812",
+      "locale": "fr",
+      "key": "title",
+      "digest": "d73db01355404b4e0ffb96e3fd836733f6a265a862b884e24b46f02c2bc0cf52",
+      "valueHash": "c13bbe664d95a3146c637bfd755a7c4c9aa11090864832d0933c0fda91075c98",
+      "translatedAt": "2026-02-16T10:10:22.126Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466879812",
+      "locale": "fr",
+      "key": "body_html",
+      "digest": "01072e3467e6fe29166a2eea0ce944036df3a0a629b57d764983765179580c90",
+      "valueHash": "f0b5216068855f334395262e2d34d674a39da7f020227072f8f63c90eeec44ce",
+      "translatedAt": "2026-02-16T10:10:22.126Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466879812",
+      "locale": "fr",
+      "key": "meta_title",
+      "digest": "502895c81546ec5a52d23db023322954a2b4f5f300f51907f0c2af0f730817bc",
+      "valueHash": "ec002eb9f2087b698225d901dfe37a7df9d91ffe48f15daa4b3a7125417f8d68",
+      "translatedAt": "2026-02-16T10:10:22.126Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466879812",
+      "locale": "fr",
+      "key": "meta_description",
+      "digest": "e787acb2a49e3770a04adbcb7425f1222f9a0b1315a8bb5d8bd0d353b8289076",
+      "valueHash": "d1fc5608d74e8537b0319ece554c643fa411dbc5222b568166d622acfd6ff6f6",
+      "translatedAt": "2026-02-16T10:10:22.126Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466912580",
+      "locale": "fr",
+      "key": "title",
+      "digest": "36ee223db0c56c900cc13cdc93f174fef35bab2bbb7aa899f2473fc88b408edb",
+      "valueHash": "05f595ea2682764dc0cf49bce90c4fd20c4612482c16ed5d198f4ac9a07ef593",
+      "translatedAt": "2026-02-16T10:10:22.451Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466912580",
+      "locale": "fr",
+      "key": "body_html",
+      "digest": "899f928b0cca61091ab4f1b93968e04b693c4f6a7588e76aa6a0511c3d854368",
+      "valueHash": "8431b010cb3443a40ecae2280e24b6e53ec73629231a3511676c7a5341d7027f",
+      "translatedAt": "2026-02-16T10:10:22.451Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466912580",
+      "locale": "fr",
+      "key": "meta_description",
+      "digest": "93d2cfeaa963bde361b2141a5e49d363be6267cfd7b664fee5af532509e9186d",
+      "valueHash": "7a1e9fad6f34cc41edbb30a36dd1a553d11bfc171b5db4c7ce7fae563795eb6b",
+      "translatedAt": "2026-02-16T10:10:22.451Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466945348",
+      "locale": "fr",
+      "key": "title",
+      "digest": "79efad6b6a72b34a358e8fe13490d13a08ecbcf1b4f19b990b1d86bb4ebc7965",
+      "valueHash": "687cc54a9ae7a50e45424327f52f783b6db7bd54374dc0d745f16816469f529d",
+      "translatedAt": "2026-02-16T10:10:22.829Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466945348",
+      "locale": "fr",
+      "key": "body_html",
+      "digest": "ed2f2b2ac2bf4045df16cbad5b5b3ea6688bdbfc11165b9c1d8f3880f85ec9f9",
+      "valueHash": "f73e58b3b7940f9ea50b738ee21598362adf77de0314e91425a68461fffeb2a0",
+      "translatedAt": "2026-02-16T10:10:22.829Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466945348",
+      "locale": "fr",
+      "key": "meta_title",
+      "digest": "dac36d25a917547fa4b3f0c018980c6b182c116208020c1f37177f4ac9136b91",
+      "valueHash": "6d060cede2f0da26ea5eb8e13add91e5aff1986a5d07221e414eb3949e0163b4",
+      "translatedAt": "2026-02-16T10:10:22.829Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466945348",
+      "locale": "fr",
+      "key": "meta_description",
+      "digest": "9a146f4cd3aae143d7089babed87c2c9f26a307e1239376388cbe13ce2eecc54",
+      "valueHash": "04b31d4b3bcb96758cc1fe90b0f627b29c8c40f5f3f687568b37ea2dc0dc5be3",
+      "translatedAt": "2026-02-16T10:10:22.829Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466978116",
+      "locale": "fr",
+      "key": "title",
+      "digest": "0834b4d571479f2d26ec2b90a510ab5ccb69429fcfde9bcd8870aa53708e12a1",
+      "valueHash": "55a22ebe561b55d925f6178d043bb9850d01895d35c893856541279a98a5a596",
+      "translatedAt": "2026-02-16T10:10:23.166Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466978116",
+      "locale": "fr",
+      "key": "body_html",
+      "digest": "1f10aab7354ca89048018a5d59d0f4918b41047e3834e0332105c1a7311e91e9",
+      "valueHash": "5066cd9ce46cdb61a6b9e5546f1815ac32d2c70f902a514b845dec0d3923016f",
+      "translatedAt": "2026-02-16T10:10:23.166Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466978116",
+      "locale": "fr",
+      "key": "meta_title",
+      "digest": "2a47c26e17c6af65386316ce7295adcf603d670130ba5c023f22b4a720d0cab6",
+      "valueHash": "819fc036fd1806a9cc6dc3fb04cd8cecb8b0abd59936eccc4520ce035a6d479b",
+      "translatedAt": "2026-02-16T10:10:23.166Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614466978116",
+      "locale": "fr",
+      "key": "meta_description",
+      "digest": "bbc83a061d4532b3d4709d6c21ce09be8213a906199c852a32111c5913dd8091",
+      "valueHash": "5e9044a9f38f5afc9b03af2a44e8e088880509553cdb0ccd2437fb781dd44a74",
+      "translatedAt": "2026-02-16T10:10:23.166Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467010884",
+      "locale": "fr",
+      "key": "title",
+      "digest": "719206fbb200a1e9a5e9ad481b19fef73ced77ebfa5cb4cf39d0f0feaae339ce",
+      "valueHash": "5a2c78a2cad118725e988f1497b4435662711295e988df6fe8fe0de78a47f4af",
+      "translatedAt": "2026-02-16T10:10:23.767Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467010884",
+      "locale": "fr",
+      "key": "body_html",
+      "digest": "e163fd14291193e77bac0ea37b07a2831854cf6896343435a2e9efe70532aeaf",
+      "valueHash": "53604cd05fd2ee2282276ba3e0949316840952f90b6b2a4fdde3ddd11f590707",
+      "translatedAt": "2026-02-16T10:10:23.767Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467010884",
+      "locale": "fr",
+      "key": "meta_title",
+      "digest": "2f4ff64ea5217afecbb7ab9b22d416fc0b7077e06f6a494cabc1743f4a52d872",
+      "valueHash": "fe334e3926ede0e9f3599ca9dc1084affcbd0fcebd46412d21e3fb06b04b3daf",
+      "translatedAt": "2026-02-16T10:10:23.767Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467010884",
+      "locale": "fr",
+      "key": "meta_description",
+      "digest": "a242ea0e66234a3459a66e2b5c928edf395cf6e1f0cad64568abbee89bd91fbb",
+      "valueHash": "51aa6ef88557b80b2cbf3e5e5330c019aa5c55d1fd5206322084785a14f27197",
+      "translatedAt": "2026-02-16T10:10:23.767Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467043652",
+      "locale": "fr",
+      "key": "title",
+      "digest": "6247cf866882f3a181da2b88c81d58d71e705dbcafe78faed0c8d3ad80ec62db",
+      "valueHash": "084f044fcf39853ed23cd25f8f196547b60839c9a49bfa361011f091a7c68cce",
+      "translatedAt": "2026-02-16T10:10:24.402Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467043652",
+      "locale": "fr",
+      "key": "body_html",
+      "digest": "b08aa6f738d7da81af2989ba132c4c742cba5bfc501a943ee8e1f970b3fc08ad",
+      "valueHash": "305ac32bfaf8ed90077f0a84a26e986050be58baf289c7327787f650d209c3d5",
+      "translatedAt": "2026-02-16T10:10:24.402Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467043652",
+      "locale": "fr",
+      "key": "meta_title",
+      "digest": "1784a45e7dc7fbd275159a5164e7d0ea74ad21e1d02fc146f0f86fcc0207dfb7",
+      "valueHash": "6b5e934e64eebfc8ae3f91b09d9a71bdf6f1db4e9ec6cfa2511b2454090f1b3e",
+      "translatedAt": "2026-02-16T10:10:24.402Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467043652",
+      "locale": "fr",
+      "key": "meta_description",
+      "digest": "4b5da7417e3e16e0e9d4a076126eb5eeec5e200ec3a9b45e84421545efb78709",
+      "valueHash": "600a86dfd3aadeff693ce4253828083130b949f1187c4c7f657ec137e5e5328e",
+      "translatedAt": "2026-02-16T10:10:24.402Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467076420",
+      "locale": "fr",
+      "key": "title",
+      "digest": "387efddb466d064292564232f589e4ac02658b208238d0b03240db2980292b5b",
+      "valueHash": "07d7d35e325627a75c2bc462b4f2d37c74ade56a5ecb51e29f41b245591bfbc9",
+      "translatedAt": "2026-02-16T10:10:24.769Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467076420",
+      "locale": "fr",
+      "key": "body_html",
+      "digest": "702202839afd224f7e894f0ad5ed543604d3d772209c03e2a8483b787460a11f",
+      "valueHash": "224570e8101082aeb3def6bca6f6aa25bc5b51cd40285404a287f53dd09736a1",
+      "translatedAt": "2026-02-16T10:10:24.769Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Article/614467076420",
+      "locale": "fr",
+      "key": "meta_description",
+      "digest": "3215744d76e6a5845bcffeb91dc92787249eb4805e23c1a36ffdbd1171483221",
+      "valueHash": "3f10546012b0cb9af26ab2870cf355475134581f5349ba4050322aeb1d5564ed",
+      "translatedAt": "2026-02-16T10:10:24.769Z",
+      "status": "success"
+    }
+  ]
+}

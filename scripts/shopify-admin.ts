@@ -1,43 +1,14 @@
-import { PrismaClient } from "@prisma/client";
+import type { AdminQueries, AdminMutations } from "@shopify/admin-api-client";
+import {
+  DEFAULT_SHOP,
+  getValidAccessToken,
+  getSession,
+  refreshAccessToken,
+  listStores,
+  disconnect,
+} from "./shopify-auth.js";
 
-// --- Configuration ---
-
-const DEFAULT_SHOP =
-  process.env.SHOPIFY_SHOP ?? "ertis-playground.myshopify.com";
-const CLIENT_ID =
-  process.env.SHOPIFY_API_KEY ?? "23abf99d474f28d199e9e99de8d8f1a8";
-const CLIENT_SECRET = process.env.SHOPIFY_API_SECRET;
-const API_VERSION = "2025-01";
-
-if (!CLIENT_SECRET) {
-  throw new Error(
-    "SHOPIFY_API_SECRET env var is required. " +
-      "Create a .env file or export it before running scripts.",
-  );
-}
-
-// --- Prisma Client ---
-
-const prisma = new PrismaClient();
-
-// --- Types ---
-
-interface SessionRecord {
-  id: string;
-  shop: string;
-  accessToken: string;
-  refreshToken: string | null;
-  expires: Date | null;
-  refreshTokenExpires: Date | null;
-}
-
-interface TokenRefreshResponse {
-  access_token: string;
-  refresh_token: string;
-  expires_in: number;
-  refresh_token_expires_in: number;
-  scope: string;
-}
+const API_VERSION = "2025-07";
 
 export interface GraphQLResponse<T = unknown> {
   data?: T;
@@ -45,106 +16,31 @@ export interface GraphQLResponse<T = unknown> {
   extensions?: unknown;
 }
 
-// --- Token Management ---
-
-async function getSession(shop: string): Promise<SessionRecord> {
-  const sessionId = `offline_${shop}`;
-  const session = await prisma.session.findUnique({
-    where: { id: sessionId },
-  });
-
-  if (!session) {
-    throw new Error(
-      `No offline session found for ${shop}. ` +
-        `Expected session ID: ${sessionId}. ` +
-        `Has the app been installed on this store?`,
-    );
-  }
-
-  return session;
-}
-
-function isTokenExpired(session: SessionRecord): boolean {
-  if (!session.expires) return false;
-  // Refresh 5 minutes early to avoid race conditions
-  const bufferMs = 5 * 60 * 1000;
-  return new Date(session.expires).getTime() - bufferMs < Date.now();
-}
-
-async function refreshAccessToken(
-  shop: string,
-  session: SessionRecord,
-): Promise<SessionRecord> {
-  if (!session.refreshToken) {
-    throw new Error(
-      "Access token is expired but no refresh token is available. " +
-        "Reinstall the app on the store to get fresh tokens.",
-    );
-  }
-
-  console.error(`[shopify-admin] Token expired for ${shop}, refreshing...`);
-
-  const response = await fetch(
-    `https://${shop}/admin/oauth/access_token`,
-    {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        client_id: CLIENT_ID,
-        client_secret: CLIENT_SECRET,
-        grant_type: "refresh_token",
-        refresh_token: session.refreshToken,
-      }),
-    },
-  );
-
-  if (!response.ok) {
-    const body = await response.text();
-    throw new Error(`Token refresh failed (${response.status}): ${body}`);
-  }
-
-  const data: TokenRefreshResponse = await response.json();
-
-  const now = new Date();
-  const newExpires = new Date(now.getTime() + data.expires_in * 1000);
-  const newRefreshExpires = new Date(
-    now.getTime() + data.refresh_token_expires_in * 1000,
-  );
-
-  const updated = await prisma.session.update({
-    where: { id: session.id },
-    data: {
-      accessToken: data.access_token,
-      refreshToken: data.refresh_token,
-      expires: newExpires,
-      refreshTokenExpires: newRefreshExpires,
-    },
-  });
-
-  console.error(
-    `[shopify-admin] Token refreshed. New expiry: ${newExpires.toISOString()}`,
-  );
-
-  return updated;
-}
-
-async function getValidAccessToken(shop: string): Promise<string> {
-  let session = await getSession(shop);
-
-  if (isTokenExpired(session)) {
-    session = await refreshAccessToken(shop, session);
-  }
-
-  return session.accessToken;
-}
-
 // --- GraphQL Execution ---
 
+/** Strip index signatures, keeping only explicit (codegen-generated) keys. */
+type StripIndexSignature<T> = {
+  [K in keyof T as string extends K ? never : K]: T[K];
+};
+type Operations = StripIndexSignature<AdminQueries & AdminMutations>;
+
+/** Typed overload — when the query is a known `#graphql` literal, return & variables are inferred. */
+export async function adminQuery<Q extends string & keyof Operations>(
+  query: Q,
+  variables: Operations[Q]["variables"],
+  shop?: string,
+): Promise<GraphQLResponse<Operations[Q]["return"]>>;
+/** Fallback overload — for ad-hoc / dynamic query strings. */
 export async function adminQuery<T = unknown>(
   query: string,
   variables?: Record<string, unknown>,
+  shop?: string,
+): Promise<GraphQLResponse<T>>;
+export async function adminQuery(
+  query: string,
+  variables?: Record<string, unknown>,
   shop: string = DEFAULT_SHOP,
-): Promise<GraphQLResponse<T>> {
+): Promise<GraphQLResponse> {
   const accessToken = await getValidAccessToken(shop);
 
   const response = await fetch(
@@ -159,7 +55,7 @@ export async function adminQuery<T = unknown>(
     },
   );
 
-  // Handle 401 by attempting one refresh + retry
+  // Handle 401 by attempting one refresh + retry. In case the token expired while making the request.
   if (response.status === 401) {
     console.error(`[shopify-admin] Got 401, attempting token refresh...`);
     const session = await getSession(shop);
@@ -193,20 +89,6 @@ export async function adminQuery<T = unknown>(
   }
 
   return response.json();
-}
-
-// --- Utilities ---
-
-export async function listStores(): Promise<string[]> {
-  const sessions = await prisma.session.findMany({
-    where: { isOnline: false },
-    select: { shop: true },
-  });
-  return sessions.map((s) => s.shop);
-}
-
-export async function disconnect(): Promise<void> {
-  await prisma.$disconnect();
 }
 
 // --- CLI Mode ---

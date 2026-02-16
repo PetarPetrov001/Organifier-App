@@ -1,5 +1,8 @@
 import { writeFileSync } from "fs";
-import { adminQuery, disconnect, GraphQLResponse } from "./shopify-admin.js";
+import { adminQuery, type GraphQLResponse } from "../shopify-admin.js";
+import type { GetTranslatableProductsQuery } from "../../app/types/admin.generated.js";
+import { disconnect } from "../shopify-auth.js";
+import type { TranslatableResource } from "../shared/types.js";
 
 const QUERY = `#graphql
   query getTranslatableProducts(
@@ -23,48 +26,27 @@ const QUERY = `#graphql
       }
     }
   }
-`;
+` as const;
 
 const ALLOWED_KEYS = new Set(["title", "body_html"]);
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
-interface TranslatableContent {
-  digest: string | null;
-  key: string;
-  locale: string;
-  value: string | null;
-}
-
-interface TranslatableResource {
-  resourceId: string;
-  translatableContent: TranslatableContent[];
-}
-
-interface QueryResult {
-  translatableResources: {
-    nodes: TranslatableResource[];
-    pageInfo: {
-      hasNextPage: boolean;
-      endCursor: string | null;
-    };
-  };
-}
-
 console.log("Fetching all PRODUCT translatable resources...");
 
 const allResources: TranslatableResource[] = [];
-let after: string | null = null;
+let after: string | null | undefined = null;
 let page = 0;
 
 try {
   do {
     page++;
-    const result: GraphQLResponse<QueryResult> = await adminQuery(QUERY, {
-      resourceType: "PRODUCT",
-      first: 250,
-      after,
-    });
+    const result: GraphQLResponse<GetTranslatableProductsQuery> =
+      await adminQuery(QUERY, {
+        resourceType: "PRODUCT" as const,
+        first: 250,
+        after,
+      });
 
     if (result.errors) {
       console.error("GraphQL errors:", result.errors);
@@ -89,7 +71,7 @@ try {
       `Page ${page}: fetched ${nodes.length} resources (${allResources.length} total with title/body_html)`
     );
 
-    after = pageInfo.hasNextPage ? pageInfo.endCursor : null;
+    after = pageInfo.hasNextPage ? pageInfo.endCursor ?? null : null;
 
     if (after) {
       await sleep(1000);
