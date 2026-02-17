@@ -1,0 +1,2233 @@
+[
+  {
+    "resourceId": "gid://shopify/Collection/656172155204",
+    "translatableContent": [
+      {
+        "digest": "d0f4365cba7df8606ba603091b3973bcd3e44f74edef671a5164c8a25fc564bf",
+        "key": "title",
+        "locale": "en",
+        "value": "New Arrivals"
+      },
+      {
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "key": "body_html",
+        "locale": "en",
+        "value": ""
+      },
+      {
+        "digest": "685a275dcdfa6dd5ce92ca66931768316790f85bfff5651195ac351a7d34503c",
+        "key": "handle",
+        "locale": "en",
+        "value": "new-arrivals"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/656172187972",
+    "translatableContent": [
+      {
+        "digest": "fdef42612ede9c46001b552610c8b571712a4802a52b79388b8c1d95094a89b9",
+        "key": "title",
+        "locale": "en",
+        "value": "Bestsellers"
+      },
+      {
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "key": "body_html",
+        "locale": "en",
+        "value": ""
+      },
+      {
+        "digest": "3aa2ddb8b08c222c24ea6e847a7fc868e060d41992bdc5f8222e6c74422ba76c",
+        "key": "handle",
+        "locale": "en",
+        "value": "bestsellers"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054171460",
+    "translatableContent": [
+      {
+        "digest": "c52c0459e4a3d2eeb7b61e3ac1a2f63c3e1626714b8b87080534d4bbecca6c8a",
+        "key": "title",
+        "locale": "en",
+        "value": "Cow Manure Pellets"
+      },
+      {
+        "digest": "9e0a8e4b51af575e81cd2571baef8d2a19fc6dfc968ab70a826a0cd186383fa4",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Cow manure pellets 3in1 are highly suitable as a planting fertiliser for ornamental gardens, borders, lawns, bulb and tuber plants, vegetable gardens, roses, potted plants, and fruit trees. These pellets improve soil structure and water retention capacity, promote a fertile soil environment, and provide a natural enrichment of the soil to maintain long-term balance. They are an all-purpose fertiliser that is suitable for all types of soil and can be used perfectly as a planting and base fertiliser for lawns, borders, vegetable gardens, pastures, and orchards. Additionally, the pellets can be used as a soil activator by rapidly stimulating positive soil activity.</p>"
+      },
+      {
+        "digest": "84f66c9198b2b945e6e562048523b9ea8d3c96257999a9c04448498f530f00d7",
+        "key": "handle",
+        "locale": "en",
+        "value": "cow-manure-pellets"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054204228",
+    "translatableContent": [
+      {
+        "digest": "a9106162bf73fee24362593bace93a7742b548ea018f3acf987d4eb49d0abea1",
+        "key": "title",
+        "locale": "en",
+        "value": "Autumn Fertiliser"
+      },
+      {
+        "digest": "40abe80b61b7d0953e24175f1bb65eefa0c110fc0f7390fa7d64f9f46a9346b0",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>This professional autumn fertiliser is very rich in potassium and provides extra protection against the cold winter for lawns, grass, and plants. The fertiliser increases resistance to the direct effects of frost. In addition, minerals and trace elements have been added to the fertiliser granules. Autumn Fertiliser All-In-One granules ensure that your lawn and plants are dark green, strong, and winter-hardy. This high-quality nutrition has an indirect effect on moss and weeds. The odourless fertiliser granules are enriched with easily absorbable nitrogen and potassium (NPK 6-2-12). Thanks to the long-lasting effect (+100 days), there will still be enough nutrients for good regrowth of the grass and the formation of a strong, dense turf in which moss and weeds have no chance, even after scarifying. This results in a healthy, strong turf that is better able to withstand wear, drought, and frost. The effectiveness of autumn fertiliser is often underestimated. By ensuring that grass enters the winter strong and hardened, problems in the spring are prevented.</p>"
+      },
+      {
+        "digest": "bff53c7527841fdbff9941d6142297d1d90abedd2f68f42d8cfb9aebe42b26b6",
+        "key": "handle",
+        "locale": "en",
+        "value": "autumn-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054236996",
+    "translatableContent": [
+      {
+        "digest": "39a4ea977ec3d718cd122144142034f91bc4d51282012a5ba99c56695799a941",
+        "key": "title",
+        "locale": "en",
+        "value": "Pasture Fertiliser"
+      },
+      {
+        "digest": "59379ada457a86f516c4df68ba7a409e11d1dfe01399d3bf15cdc786c28db7b7",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>All-In-One Pasture Fertiliser is the best choice for optimal fertilisation of a horse pasture. It's also very well-suited for mowing pastures and grazing land for hobbyist livestock. A complete all-in-one pasture fertiliser based on hygienised manure, enriched with natural minerals and trace elements for even growth and a strong turf. The result is high-quality and tasty grass/roughage and a naturally fertile soil</p>"
+      },
+      {
+        "digest": "00e51bda6cfb08c73752ab6ec624f136cf1068cc49ff3fd94025499c7b480ac8",
+        "key": "handle",
+        "locale": "en",
+        "value": "pasture-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054302532",
+    "translatableContent": [
+      {
+        "digest": "0cd921d3734753978233a5fda18dce72f66399809be6824b5bfa1559cdd17f85",
+        "key": "title",
+        "locale": "en",
+        "value": "Vegan Plant-Based Fertiliser"
+      },
+      {
+        "digest": "5a7816d367e0978b7ef181d439d44e6946735b45525c37d262c9ba9f4fa7a3c9",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Vegan Plant Fertiliser is a 100% plant-based organic fertiliser that is completely free of animal raw materials such as manure. This professional fertiliser is suitable for all soil types and is excellent as a planting and basic fertiliser for lawns, flower beds, vegetable gardens, orchards, and houseplants. Vegan Plant Fertiliser is a very good soil activator and stimulates soil life. Because of its high content of organic matter, the fertiliser improves the soil structure and moisture retention. Furthermore, the vegan plant fertiliser enables a fertile soil life and ensures a natural soil enrichment to keep the soil permanently balanced. Vegan Plant Fertiliser has a favourable NPK ratio (6-3-2) and a particularly rich composition. The nutrients are excellently absorbed by the plants and released in a dosed manner. This plant fertiliser is universally applicable, has a pleasant scent and is safe for humans and animals.</p>"
+      },
+      {
+        "digest": "4c585235f73bf1fe82a9d225b0722d9c1e81f45a049b629bdbadc9511839fe75",
+        "key": "handle",
+        "locale": "en",
+        "value": "vegan-plant-based-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054335300",
+    "translatableContent": [
+      {
+        "digest": "0ccea2b33f86cf60e8c43efe6d4ea3e3346eef8d193ae615064fece5beba604d",
+        "key": "title",
+        "locale": "en",
+        "value": "Lawn Fertiliser All-In-One"
+      },
+      {
+        "digest": "eff7d4ee48c0b3f56bbace2eb057178bf8ef13a84e96a0a4b836a9d8a8fdaced",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Lawn Fertiliser All-In-One is developed for creating and maintaining a deep green lawn without moss and weeds.</p>\n<p>A high-quality organic-mineral fertiliser suitable for fertilising any type of grass and soil. Due to the presence of extra magnesium, every turf turns intensely green. Suitable for new installations and maintenance fertilisations. The unique combination of both fast-acting and slow-release components enables a quick growth start along with 100 days of complete nutrition. Lawn Fertiliser All-In-One positively stimulates soil life and increases natural soil fertility with each application. The result is a healthy, dense turf with no room for moss and weeds.</p>\n<p>Lawn Fertiliser All-In-One has a high potassium content for a strong turf that is more resistant to wear, drought, and frost. The fertiliser is excellent to apply in both spring and autumn, allowing for year-round lawn fertilisation using the same product. The high-quality microgranulate blend ensures gradual growth, stimulates a healthy, strong turf, and improves the soil. The slow-release granule has a quick start action while maintaining long-lasting effects.</p>\n<p>The unique mix of nutrients is gradually released by soil life. The formation of humus, minerals, and trace elements promote better root development and prevent leaching. This professional fertiliser is ideally suited for lawns, sports fields, and golf courses where a strong, dense turf is desired.</p>"
+      },
+      {
+        "digest": "975db6c8156e660e122db9f7dbf54b37ffbed09ef3ba581b03b371e7ea22ebf5",
+        "key": "handle",
+        "locale": "en",
+        "value": "lawn-fertiliser-all-in-one"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054368068",
+    "translatableContent": [
+      {
+        "digest": "bd6270a1949ecc8dbe8dd633543d9f1925acb5e8f8de638fdb7ccb8502832377",
+        "key": "title",
+        "locale": "en",
+        "value": "Garden Fertiliser"
+      },
+      {
+        "digest": "df3af37a86c33996c5f0bdd73790f87008cfeb08867d57cc91e543ab82fe4df9",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Garden Fertiliser All-In-One is developed for optimal performance of flowering plants, shrubs, trees, roses, perennials, bulbs, fruit trees, strawberries, fruit and root vegetables. Enjoy more and tastier fruits, beautiful plants, deeper colours and more flowers. Improves soil structure and activates positive soil life. The high potassium content ensures a strong, resilient plant. In addition, this fertiliser is extra rich in magnesium for optimal photosynthesis and deeper colours. Garden Fertiliser All-In-One does not affect the acidity of the soil, making it safe to use and suitable for acid-loving plants. This professional fertiliser is universally applicable in every vegetable garden and ornamental garden.</p>"
+      },
+      {
+        "digest": "ea6e4c926666b5fb4d0644fc40cec658093aa2bb421b497cd8b5cd7bb80a21da",
+        "key": "handle",
+        "locale": "en",
+        "value": "garden-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054499140",
+    "translatableContent": [
+      {
+        "digest": "fc427230419fba9448a6d553340664f3e47f3e6ecc8663d1f8ff533ce68b8fc5",
+        "key": "title",
+        "locale": "en",
+        "value": "Lime Granular Fertiliser"
+      },
+      {
+        "digest": "374fdfef21da352f71a9f3578fc96eed4c2d66af3ab68b875d9ea231a6abc125",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>This unique lime fertiliser for all seasons from Organifer has been enriched with magnesium. Ideal to protect your soil from becoming too acidic. It also works indirectly against moss. The application of lime is vital to correct the acidity level (pH value) in your lawn or vegetable garden. For every plant, it is very important that the soil has the correct pH value. Through the uptake of nutrients, which are usually also supplied to the garden and the lawn, the soil becomes acidic. Except for \"acid-loving\" plants, this is anything but ideal for good and healthy growth of cultivated plants and grasses. The added magnesium ensures a deep green colour and contributes to optimal photosynthesis and soil fertility.</p>"
+      },
+      {
+        "digest": "5c6432631118a7849404994e39ba971a24bdc29d523b77c9cff5ef0624d3e7d4",
+        "key": "handle",
+        "locale": "en",
+        "value": "lime-granular-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054728516",
+    "translatableContent": [
+      {
+        "digest": "18102fc49bb2d9b7a5b4411edb841c83818ce52696f577a80a53c57e5ac7cd39",
+        "key": "title",
+        "locale": "en",
+        "value": "Lava Rock Powder"
+      },
+      {
+        "digest": "8039738ba2f76a651d8bcbfdb7c0dca88324043f6e87e4f055e623ec678071f8",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Primordial Rock Lavameal is the finest quality primordial rock meal available in the market. It is a unique lavameal with the highest concentration of absorbable minerals and the best processing capabilities. Widely versatile, it is perfect for spreading, scattering, or mixing. It is extensively used in gardens as a soil enhancer and is excellent for protecting plants, such as boxwood, from pests. Additionally, this rich lavameal indirectly combats horsetail and other weeds.</p>"
+      },
+      {
+        "digest": "b74615aff199ba68037abd64d77edfc831bf0c109d272a56e6c4b59aa961509f",
+        "key": "handle",
+        "locale": "en",
+        "value": "lava-rock-powder"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054826820",
+    "translatableContent": [
+      {
+        "digest": "82258f6cf4e2a3923223a8e852c68285a082c8290da4b474f1ccbf83f3bf78f8",
+        "key": "title",
+        "locale": "en",
+        "value": "Potted plants and hydroponics"
+      },
+      {
+        "digest": "54b1d22ab1c71022a4009bfb5bfe63b17fd3a5d7a53a0aa1ac93a237d43ace29",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer hydro-granules are suitable for both hydroponics and as a drainage layer at the bottom of flower pots and plant containers. Hydro-granules ensure that your plants grow well and provide support to the roots. Therefore, always add a layer of hydro-granules to the bottom of the pot first when filling a pot. Depending on the size of the pot, a 3-6 cm layer can be used at the bottom. Such a layer improves water management in the pot and enables better plant growth. For outdoor pots, it's important that there's a hole at the bottom of the pot, allowing excess water to drain from the pot.<br></p>"
+      },
+      {
+        "digest": "fbe714b0a29393569364a75378448f7dccef1e2c9ae47fb78575096c2af709e7",
+        "key": "handle",
+        "locale": "en",
+        "value": "potted-plants-and-hydroponics"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054892356",
+    "translatableContent": [
+      {
+        "digest": "fb4d22e25e013a6ab658672b7cec6854424303b30cee2efa3e5762611e25dc77",
+        "key": "title",
+        "locale": "en",
+        "value": "Liquid Fertiliser for the Growth Phase"
+      },
+      {
+        "digest": "802016409916afc95bf1190a35b12c034f9c7e562bb6c76bfbe8d08d36c62d50",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Liquid Fertiliser for the Growth Phase - Amino Power is a complete fertiliser specifically for the growth phase of every plant and crop (Phase 1). This powerful concentrate contains a unique blend of essential amino acids and contains 9% organic nitrogen from enzymatically hydrolysed proteins. Organifer Amino Power also contains a unique blend with 18 proteinogenic amino acids.</p>\n<p>Liquid Fertiliser for the Growth Phase - Amino Power reduces abiotic stress and ensures optimal performance, health, and energy-efficient growth.</p>\n<p>The product is based on marine algae, making it quickly and easily absorbed, and promoting healthy, even growth and better root development. It gives the first boost for a healthy, vigorous plant and full bloom.</p>\n<p>Liquid Fertiliser for the Growth Phase - Amino Power is used with great success in hydroponics and substrate cultivation, indoor and outdoor cultivation, agriculture, as well as in ornamental and utility gardens. In addition, the product is also suitable for houseplants. Liquid Fertiliser for the Growth Phase - Amino Power can also be used in organic horticulture and is universally applicable to all plants and crops. Liquid Fertiliser for the Growth Phase - Amino Power is ideal for organic cultivation in soil or coconut. In addition, the product corrects nitrogen problems in your plants. A nitrogen deficiency can be recognised by yellow leaves.</p>"
+      },
+      {
+        "digest": "7d2d928438c79289f5b458624f0f78da72d46b5994eceb6430d18eb1caf27fd4",
+        "key": "handle",
+        "locale": "en",
+        "value": "liquid-fertiliser-for-the-growth-phase"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054925124",
+    "translatableContent": [
+      {
+        "digest": "ad81817ae36c381325e0bdc9c11bd27f77d921f330e80ff005b0f5a1433b40b3",
+        "key": "title",
+        "locale": "en",
+        "value": "Root Stimulator"
+      },
+      {
+        "digest": "75377d870b54125d8dd61efa59742b1dc6b517e1d80e5cad02305ca1fbd81d3a",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Root Stimulator - Roots-Power-Concentrate is a highly concentrated organic root stimulator. This stimulator ensures fast and vigorous root development and quick recovery after transplanting in every plant. In addition, the stimulator improves nutrient uptake and soil structure. It is ideally suited for the growth phase and the first weeks of the blooming phase. It ensures that the plant already has enough roots at the beginning of the blooming phase, so it can put all its energy into blooming. Therefore, stop applying Root Stimulator - Roots-Power-Concentrate after the third week of blooming. Root Stimulator - Roots-Power-Concentrate stimulates root growth and increases plant resistance. It acts quickly and efficiently, and is almost immediately absorbed by the plant.</p>\n<p>Root Stimulator - Roots-Power-Concentrate promotes the development of strong plants. The product is ideal for cuttings and for plants that are being moved. As soon as the first roots of the plant are visible, Root Stimulator - Roots-Power-Concentrate can be applied. The product leads to better and faster root development. Root Stimulator - Roots-Power-Concentrate can also be used for plants infested by root-eating insects to quickly regenerate the roots.</p>\n<p>The effect of this powerful organic concentrate is astonishing. This revitalising liquid ensures faster and better root development, increased oxygen uptake, and accelerated ion transport from the start.</p>"
+      },
+      {
+        "digest": "5a334850109bd559f7dcf0b530ba22fb0527c11335da704919a3cc444c6c717c",
+        "key": "handle",
+        "locale": "en",
+        "value": "root-stimulator"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054957892",
+    "translatableContent": [
+      {
+        "digest": "278b1ce56e8b65d36b36d406945c529f3ffcf54ebe5964348c540192933cb42b",
+        "key": "title",
+        "locale": "en",
+        "value": "Liquid Fertiliser for the Blooming Phase"
+      },
+      {
+        "digest": "bff7f69fe80be99fab80bb85434ae325d4a9a71ad992f10d7dc7a6ba6f277cf2",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Highly concentrated complete nutrition based on Liquid Fertiliser for the Blooming Phase - Iron Power for the blooming phase of the plant. Liquid Fertiliser for the Blooming Phase - Iron Power contains all the important elements for optimal development of buds, flowers, fruits, and plants. Immediate energy supply by supplementing Adenosine Diphosphate (ADP) with Adenosine Triphosphate (ATP). It stimulates the blooming phase with Phosphorus (P) and Potassium (K). Thanks to the unique chelated form of Fe, this form of iron requires no energy from the plant. This energy thus fully benefits the bloom. In addition, Liquid Fertiliser for the Blooming Phase - Iron Power keeps the leaves healthy and green.</p>\n<p>Liquid Fertiliser for the Blooming Phase - Iron Power is a concentrated foliar and root fertiliser, given at the end of the growth phase and in the first 3 weeks of the plant's blooming phase. Liquid Fertiliser for the Blooming Phase - Iron Power contains natural hormones for blooming and growth and increases the cytokinin and chlorophyll content of the leaves. This also increases the sugar level and stimulates the production of chlorophyll. This fertiliser increases the plant's resistance. The plant forms more shoots and flowers, leading to a vigorous plant with abundant blooming and high yield.</p>\n<p>Liquid Fertiliser for the Blooming Phase - Iron Power is used with great success in hydroponics and substrate cultivation, indoors and outdoors, in agriculture, on golf and sports fields, in ornamental and vegetable gardens, as well as for houseplants. Liquid Fertiliser for the Blooming Phase - Iron Power boosts yields and ensures higher quality, more taste, more intense colours, and stronger fruits in all crops</p>"
+      },
+      {
+        "digest": "629ebe07251a62a35d05140fd1fd493385f4f65e6c18d8754af0b4d473ebb9b4",
+        "key": "handle",
+        "locale": "en",
+        "value": "liquid-fertiliser-for-the-blooming-phase"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657054990660",
+    "translatableContent": [
+      {
+        "digest": "86d8b4ba61f7f3a6c466446f10834ae1c5c8c015a5a363b7f9a403bc88b473ee",
+        "key": "title",
+        "locale": "en",
+        "value": "Buxus Vital Concentrate"
+      },
+      {
+        "digest": "5f3fbc9899c0efc938f6411060f966300174c741cc193c49da00f6d8d196a765",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Buxus Vital Concentrate helps your boxwood become more resilient and vibrant in a 100% natural manner. This results in a stronger and healthier boxwood that grows in a balanced and harmonious way. Moreover, a robust and vibrant boxwood is better equipped to fend off insect attacks such as the Boxwood Moth and diseases like boxwood fungus. Buxus Vital Concentrate is an exceptionally effective, stimulating, and nourishing product for every boxwood.</p>\n<p>It consists of a blend of specific, natural herbal extracts and is safe for people, animals, and the environment. The ingredients of Buxus Vital 1000 ml – Concentrate are slowly absorbed by the plant and the roots, and are then distributed through the sap flow. This imparts resilience and vitality to the entire boxwood.</p>\n<p>Buxus Vital Concentrate can be used in both full soil and pots by watering the plant and the ground. The solution is taken up by the soil and the roots of the plant. It's recommended to treat during the growing season and to repeat every 3 weeks. Pour the Buxus Vital Concentrate solution over the entire plant until it is dripping wet. If there's any sign of infestation or excessive rain, increase the interval.</p>"
+      },
+      {
+        "digest": "fa142078b4d83cebcaea8871bb18a678760e04f9de017d058f15d6b317b0dbe2",
+        "key": "handle",
+        "locale": "en",
+        "value": "buxus-vital-concentrate"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055023428",
+    "translatableContent": [
+      {
+        "digest": "de4fe924d8b7b78d819f292d4685ec0c63101ac3db32c7d77e72ea6cdd212aca",
+        "key": "title",
+        "locale": "en",
+        "value": "Snail Prevention concentrate"
+      },
+      {
+        "digest": "3f4e65c5d9f99059ef4bb09cf1ecde14766973a371a6949176767fe2c209fe24",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Snail Prevention Concentrate is suitable for excessive nuisance caused by snails, caterpillars, wildlife foraging and bird pecking. Ideal for agriculture, ornamental and vegetable gardens, pots, as well as lawns, grass surfaces, sports fields, and golf courses. Snail Prevention Concentrate consists of a highly concentrated composition of specific herb concentrates.</p>\n<p>The solution is of natural and botanical origin. The product is non-toxic, non-persistent and leaves no residues in the environment. Snail Prevention Concentrate offers an indirect deterrent effect on snails, caterpillars, wildlife, and birds. The product supports the plant's natural ability to recover, and acts in a nurturing, nourishing, and plant-strengthening manner.</p>\n<p>Snail Prevention Concentrate has been specially developed to prevent damage from snails, caterpillars, wildlife, and birds, but it does not kill them. This product is 100% natural and contains no harmful substances. It is also safe for children, pets and beneficial garden inhabitants! Snail Prevention Concentrate is made from natural herbal extracts. These extracts are absorbed by the soil and the plant. The herbal extracts make the plant and its surroundings more resilient to foraging. Pests will no longer feed on the treated plants due to the unappealing environment. The pests will retreat to their hiding places and cannot further develop. In this way, the nuisance will naturally diminish.</p>\n<p>Snail Prevention Concentrate is suitable for organic gardens. Safe for people, animals, and the environment. Also safe for natural predators, pets, and beneficial insects!</p>"
+      },
+      {
+        "digest": "9289e61e113d2068aaf58fac704da792f6fe109e076be05c92f5a6f503d8e662",
+        "key": "handle",
+        "locale": "en",
+        "value": "snail-prevention-concentrate"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055121732",
+    "translatableContent": [
+      {
+        "digest": "621c626f3359e0c9920abcd28ae47d2cc5b63eddce02fd3c9bbc8baea7b249f0",
+        "key": "title",
+        "locale": "en",
+        "value": "Phytophthora Concentrate"
+      },
+      {
+        "digest": "a8a6c4d7aa64c8badc9cb46f8fc59bbf84eee96b395fae5cd6e89f082bdabcb4",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Phytophthora Concentrate is made from specifically active herb concentrates and is safe for humans, animals, and the environment. The product supports the natural recovery capability. Additionally, it nurtures, feeds, and strengthens plants against external influences, in the soil, and at the roots. It has an indirect effect against Phytophthora in potatoes and tomatoes. The solution is absorbed by the plant's leaves and bolsters its defence system. Phytophthora's development is curtailed and prevented.</p>"
+      },
+      {
+        "digest": "c07aa43c882e88314b967ce313c0bd376fafe894fd8730824b20e04a2ffb28a0",
+        "key": "handle",
+        "locale": "en",
+        "value": "phytophthora-concentrate"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055154500",
+    "translatableContent": [
+      {
+        "digest": "fc15490f93bd45dfaf4127f1d480d9a78c5702fc23ca678b3a55241819054a92",
+        "key": "title",
+        "locale": "en",
+        "value": "Nematodes Concentrate"
+      },
+      {
+        "digest": "5837067cedaead09f3ab4eb359a45353a54362decd833b5bffbb67c23e57935b",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Naturally protects plants from various harmful nematodes in the soil, such as root-knot nematodes (which cause rose fatigue), various negative root nematodes, potato cyst nematodes, and beet cyst nematodes.</p>\n<p>The product is a concentrated composition of specifically acting herbal concentrates and is non-toxic to people, animals, and the environment. The product is not persistent; it breaks down in the soil and leaves no residues behind.</p>\n<p>Nematodes – Soil Nematode Concentrate provides a preventive action against pests in the soil. The substance is absorbed by the plant roots, enabling them to develop their own defence system. Parasitic nematodes will no longer feed on the roots. As a result, the population decreases and, over time, the nuisance will disappear altogether.</p>"
+      },
+      {
+        "digest": "e63821007b687ff03c3a5776a84ca0c7a1468057db4be0ece5efa3253c5216ed",
+        "key": "handle",
+        "locale": "en",
+        "value": "nematodes-concentrate"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055220036",
+    "translatableContent": [
+      {
+        "digest": "ba6bc289df2c66d323637319fe2de41ec8a46e996fb72282f6d56a05cb8bb3b9",
+        "key": "title",
+        "locale": "en",
+        "value": "Soil Fungi Concentrate"
+      },
+      {
+        "digest": "35ee8d76b7c8465b6b2685f11a5591b72774d0a352b5d52d77ea1ee0bab2bc06",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Soil Fungi Ground Fungus Concentrate comprises a highly concentrated blend of specifically acting herb concentrates and provides preventive action against soil fungi such as verticillium (wilt disease), pythium (seedling disease), and fusarium (foot and root rot). The product supports the natural recovery capacity, offers care, nourishment, and strengthens plants against external influences, in the soil and at the roots. Soil Fungi Ground Fungus Concentrate is of natural and plant-based origin and is non-toxic to humans, animals, and the environment.</p>\n<p>Approved for organic and ecological gardening. Soil Fungi Ground Fungus Concentrate is absorbed by the crop's foliage and the soil. Thanks to the present root-stimulating and crop-caring ingredients, the roots, leaves, and soil will develop increased resistance and their own defence system. The ingredients in the product, in addition to improving the soil and strengthening plants, have an indirect effect on harmful soil fungi.</p>"
+      },
+      {
+        "digest": "aa4745f597ca68db67d888f24f35c8767aacd2428abb3a1e47253338a3f0ef76",
+        "key": "handle",
+        "locale": "en",
+        "value": "soil-fungi-concentrate"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055252804",
+    "translatableContent": [
+      {
+        "digest": "46942c07e250303e8548730f5087c257435be85befc65d437fe98ecb6c257915",
+        "key": "title",
+        "locale": "en",
+        "value": "Grass Insect Concentrate"
+      },
+      {
+        "digest": "283784c02480a7ffbbe55718230119182ff65744962bb1857e827f0329312494",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Grass Insects Concentrate has an indirect repelling effect on the presence of chafer grubs (the larvae of many beetles such as the May beetle, June beetle, rose chafer, salland beetle etc.), leatherjackets (the larvae of the crane fly), and larvae of the sciarid fly in grass. Grass Insects Concentrate is absorbed by both the root and the blade of the grass plant. It increases the grass's resilience, enabling it to essentially develop its own defence mechanism. The soil also benefits positively. The plant's roots are stimulated, promoting healthy grass growth. Chafer grubs, leatherjackets, and other harmful larvae will avoid the plants. These pests no longer find the roots and blades appealing. With preventative use, the larvae of leatherjackets, chafer grubs, and sciarid flies will not reach the pupal stage.</p>\n<p> </p>\n<p>The grass becomes healthier, the roots will grow again and also become less appealing to pests. Grass Insects Concentrate is specifically designed for chafer grubs, leatherjackets, and larvae of sciarid flies in lawns, grasslands, and sports fields. The product consists of specifically active herbal extracts and has an indirect preventative role in repelling soil insects. It supports the natural recovery capability, provides care, nourishes, and strengthens plants against external factors, in the soil, and at the roots. Grass Insects Concentrate is of natural and plant-based origin, is non-toxic for humans, animals, and the environment, and is suitable for organic gardening.</p>"
+      },
+      {
+        "digest": "530060efbb8a5a9291e69561545add040b4fe04739c06480b125ed1d26144aea",
+        "key": "handle",
+        "locale": "en",
+        "value": "grass-insect-concentrate"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055318340",
+    "translatableContent": [
+      {
+        "digest": "d1d7a1899e17af9b52934da2df7b0a9827b8af07ddc3b32bb394fb052bc4c3e3",
+        "key": "title",
+        "locale": "en",
+        "value": "Soil Insects Concentrate"
+      },
+      {
+        "digest": "c94280a814c72fecf77d7175855e3b64c8a6f5195ce1eca523eda5ac0128a29f",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer's Soil Insects Concentrate is comprised of specifically functioning herbal extracts and offers a preventive action against soil insects. This product supports the natural recuperative capacity and provides nurturing, nourishing, and plant-strengthening effects against external influences, within the soil and at the roots. Organifer's Soil Insects Concentrate is of natural and plant-based origin and is safe for humans, animals, and the environment. It's particularly suitable for the organic garden. This natural solution offers a preventive function against the presence of wireworms (click beetles), soil caterpillars (moths), vine weevils (snout beetles), larvae of jewel and bark beetles, vegetable flies, root borers, symphylans, and other harmful insects in the soil.</p>\n<p>Organifer's Soil Insects Concentrate is absorbed by the roots and leaves of the plant, shrub, or tree and alters the scent and taste of the crop. This change is only perceptible to insects. By increasing its resilience, the plant will essentially develop its own defence system. Harmful soil insects will then avoid and stop consuming the plant. Consequently, their reproduction will also cease, and their population will significantly decline. In this manner, the nuisances and damages will naturally diminish.</p>"
+      },
+      {
+        "digest": "373d28f3caaeb6ab19425aa2c87f3e32fe9d1de223ecc81fd04abe4e9651b35f",
+        "key": "handle",
+        "locale": "en",
+        "value": "soil-insects-concentrate"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055678788",
+    "translatableContent": [
+      {
+        "digest": "d71f651a2e8dd7051accca996421a486c28db3677cb4346af44d91fc7d12158c",
+        "key": "title",
+        "locale": "en",
+        "value": "Leaf Insects Concentrate"
+      },
+      {
+        "digest": "49e946c6357f2b07bff3f8d38a346cde709c3872919c17a0742412b8a504ed72",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Leaf Insects Concentrate works indirectly and preventively against natural attackers such as aphids, scale insects, root aphids, mealybugs, woolly scale insects, whiteflies, caterpillars (including box tree moth caterpillars), vine weevils, lily beetles, gall midges, spider mites, black flies, leek moths, black bean aphids, strawberry blossom weevils and leafhoppers.</p>\n<p>The agent is absorbed by the leaves of plants, shrubs or trees. As resilience increases, the plant will, so to speak, develop its own defence system through this uptake. Sucking and chewing leaf insects disappear because they do not like the food. Other insects will not be affected. In this way, problems and damages will naturally disappear.</p>\n<p>Leaf Insects Concentrate consists of a highly concentrated composition of specifically active herbal extracts. The product is of natural plant origin and non-toxic to humans, animals, and the environment. Leaf Insects Concentrate can be applied by spraying in the ornamental garden, vegetable garden, and on the terrace or balcony. Edible plants can be safely consumed.</p>"
+      },
+      {
+        "digest": "b0210084d97a3562628d4aebabd63a06473d766cde150b1afaf75c45bc893e0f",
+        "key": "handle",
+        "locale": "en",
+        "value": "leaf-insects-concentrate"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055711556",
+    "translatableContent": [
+      {
+        "digest": "01b9e360867d694fd77f29a2c07fc94e01a2c7d2c8747dfaaf9050d923a3a2fd",
+        "key": "title",
+        "locale": "en",
+        "value": "Leaf Diseases Concentrate"
+      },
+      {
+        "digest": "808f67c9c2135fe2d9c4547afc3bab74e6c1f9851c009488331db74b55c18921",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Leaf Diseases Concentrate consists of a composition of specifically acting (non-toxic) herbal extracts that make plants resilient against leaf fungi and leaf spots. This includes powdery and downy mildew, rust, leaf spot disease, and blackspot, as well as grass and leaf fungi. It is suitable for crops in ornamental gardens, vegetable gardens, and parks where, due to a less vital soil and weaker plant resilience, there may be leaf diseases.</p>\n<p>The product supports the natural healing ability, providing care, nourishment, and strengthening to plants from external influences, in the soil, and at the roots. Leaf Diseases Concentrate is absorbed by the leaves and roots of the crops. Thanks to the present root-stimulating and plant-caring ingredients, plants will develop increased resilience and vitality. Leaf Diseases Concentrate is best administered preventatively, especially when there has been significant nuisance and damage in the past.</p>"
+      },
+      {
+        "digest": "640ce2b4d12105d8217628c3e1149587c95b571c74aa9e16b14d076ef706d5a0",
+        "key": "handle",
+        "locale": "en",
+        "value": "leaf-diseases-concentrate"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055744324",
+    "translatableContent": [
+      {
+        "digest": "d61702d51255c3688ae5bdc7d13e869ac386e5cb4a36fa8064bbb6b38bd58af1",
+        "key": "title",
+        "locale": "en",
+        "value": "Basalt Clay Soil Improver"
+      },
+      {
+        "digest": "7fd66751a2046523c3665f484ea828cae7c43ff5bbcc9c01ef1b0fc4908ce0fe",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Basalt Meal Soil Improver for Clay Soil is exceptionally suitable for improving clay soils. Basalt Meal Soil Improver for Clay Soil is characterised by extraordinarily high electromagnetic values. It reacts with the clay-humus complex, causing the clay to crumble. It breaks the interconnection between clay particles, resulting in a soil that is easier to work and more friable. Furthermore, basalt meal has the positive characteristic of fixing nitrogen, preventing it from leaching quickly. In short, the soil becomes easier to work with and acquires a better structure. It also contains high concentrations of silicon, lime, magnesium, and trace elements that enrich the soil. A 100% natural product made of finely ground basalt, originating from volcanic rock from the Eifel.</p>"
+      },
+      {
+        "digest": "4b4965e78ebb9184bbce9a2fa5b01ad7f8ac6a67ea9e5c3e2765a255091e05f4",
+        "key": "handle",
+        "locale": "en",
+        "value": "basalt-meal"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055777092",
+    "translatableContent": [
+      {
+        "digest": "8131fbcc8b0d7aabb56ca7487d9f928b1a3a90678892934f51adf21c3a2e2ca9",
+        "key": "title",
+        "locale": "en",
+        "value": "Ornamental Lawn Seed"
+      },
+      {
+        "digest": "13ec72776c33de9743bbbf476df31a32f93983319958530ea80736ec14322b0d",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Ornamental Grass Seed – Elegant has been developed for those who demand a high aesthetic value from their lawn. The fine fescues used ensure a dense and fine-leaved turf. This professional grass seed mix thrives in dry conditions and remains robust when mown short. The lawn displays a rich green hue with an upscale appearance. The fine fescues ensure a dense and fine-leaved sward.</p>\n<p>Especially suitable for ornamental lawns and decorative gardens. This mix is often referred to as an ornamental or shade lawn in practice. Composed primarily of slow-growing grass types and varieties that retain their deep green colour year-round, this lawn is low maintenance. Ornamental Grass Seed – Elegant adapts well in shaded regions, forming a closed grass cover and can be mown short.</p>"
+      },
+      {
+        "digest": "f9d8e1e053673356cf9f62b12987e14b3890bace5f1da9d8b24b859a50c459ca",
+        "key": "handle",
+        "locale": "en",
+        "value": "ornamental-lawn-seed"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055809860",
+    "translatableContent": [
+      {
+        "digest": "58ab423594a4cc9355a50795f4ebea5666913b4278d7e12e6f87c120e446caa2",
+        "key": "title",
+        "locale": "en",
+        "value": "Lava Grit"
+      },
+      {
+        "digest": "5971120c7994b7a2a2deaa4c23e5749a1ca93a67e72e3b2457593b16852d65f3",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer primeval rock lava grit is the highest-quality lava grit available on the market. This soil amendment boasts the highest concentration of minerals and the best processing capabilities. It is versatile and excellent for spreading or mixing. Widely used in gardens as a soil enhancer, this highly mineral-rich lava grit also exhibits indirect effects against horsetail and other weeds. It has a very high pore volume and improves soil conditions in compacted soils. It enhances soil structure, water and air retention, root penetration, and the availability of minerals in the soil. Lavagruis is widely and successfully applied in gardens, agriculture, sports fields, forestry, and nurseries.</p>"
+      },
+      {
+        "digest": "87dc566b52874adf102380f8e7a2f28c63dd25d49f1915aaf6aa48951deff2d6",
+        "key": "handle",
+        "locale": "en",
+        "value": "lava-grit"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657055973700",
+    "translatableContent": [
+      {
+        "digest": "2be7a69e276b528efd37697f784d50a2f3bd90ad779f8514b4fcdebd242b5734",
+        "key": "title",
+        "locale": "en",
+        "value": "Lawn Repair Seed"
+      },
+      {
+        "digest": "8feeaffef259cdef2514ef8585cec24429549bbf89c8cdf0449a98c510853426",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Lawn Repair Seed – Resilient contains the ideal recovery formula for renovating and overseeding all types of lawns. Its super-fast germination and establishment in existing grass, backed by its immense competitive strength, guarantee a Fast Repair approach. It quickly fills in bare and open patches. The result is a complete makeover at manageable costs, making every lawn look as good as new.</p>\n<p>Lawn Repair Seed – Resilient combines high foot traffic tolerance and rapid establishment with superior regrowth capacity. This grass seed blend germinates, establishes, and recovers swiftly. Lawn Repair Seed – Resilient ensures a thick turf where moss and weeds don't stand a chance. It's a professional-grade grass seed blend, highly suitable for overseeding lawns post scarifying. Its rapid germination means it swiftly covers bare patches. Numerous gardeners and sports field managers consistently choose the Lawn Repair Seed – Resilient formula for its exceptionally quick emergence and establishment, high regrowth capacity, and attractive appearance. A significant portion of fine English ryegrass facilitates smooth laying, and its combination with meadow fescue ensures an exceptionally robust turf.</p>"
+      },
+      {
+        "digest": "b2c2586dc95020783f5b662fc954c6276951b6c8c80a136342d51595b3c4888b",
+        "key": "handle",
+        "locale": "en",
+        "value": "lawn-repair-seed"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056039236",
+    "translatableContent": [
+      {
+        "digest": "a4e9e04708f43d9f52a10e4263169b862235341f80b29e97467aa9e540201730",
+        "key": "title",
+        "locale": "en",
+        "value": "Chicken Manure Pellets"
+      },
+      {
+        "digest": "88a64e17c196d4d39c64e5b5bfa5af114a1f8ee8bd92fc13f9fa1dfbfc910ea8",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Chicken Manure Pellets provide the perfect solution for any gardener looking for a healthy and fertile soil. These pellets are made from 100% pure chicken manure, sourced from Dutch farms. They are sustainable and cost-effective, making them an attractive option for any gardener.</p>\n<p>Our chicken manure pellets are dried and hygienised using efficient composting, preserving the nutrients. This ensures that our pellets are guaranteed to be free from viruses, germs, unwanted fungi, weeds, and bacteria, and provide a constant quality and the highest fertilisation values without any loss of quality.</p>\n<p>Organifer Chicken Manure Pellets are not only rich in nutrients but also in organic matter. The high content of organic matter ensures an airy soil that allows crops to root deeper and be more resistant to diseases and pests. It improves soil structure and fertility, contributing to the health of the soil. These chicken manure pellets have a great water absorption capacity, up to 4 times their own weight in moisture. This keeps the soil moist and retains water well, reducing the need for watering and making the soil less vulnerable during dry periods.</p>\n<p>Organifer Chicken Manure Pellets are suitable for all types of soils and essential for a healthy and functioning soil. They are perfect for vegetable and ornamental gardens, lawns, trees, and plants. The pellets are easy to spread across the land and garden, and do not create dust. Choose Organifer Chicken Manure Pellets if you are looking for a sustainable and cost-effective solution for 100% organic fertilisation, resulting in a healthy and fertile soil and crops.</p>"
+      },
+      {
+        "digest": "c3b15c4cb578561e654b4d81abd123ad85a3ec84db377582dc5b5ed86a60b91e",
+        "key": "handle",
+        "locale": "en",
+        "value": "chicken-manure-pellets"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056072004",
+    "translatableContent": [
+      {
+        "digest": "1a78e53c71a17cb66cf64cd10958c634eecd5367dd6f90ed75a280570f978e58",
+        "key": "title",
+        "locale": "en",
+        "value": "Pasture Seed Meadow"
+      },
+      {
+        "digest": "c49ecee0d38b6e639b37cf8085c9ace8121e66e7ec35fdf4af74fad311cad36b",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Meadow Grass Seed Meadow - Specifically for Horses and Small Livestock is a high-quality pasture mix suitable for both mowing and grazing. The mix comprises selected certified grass seeds; it contains perennial ryegrass, Timothy grass, meadow fescue, and smooth stalked meadow grass. Due to this composition, this mix is suitable for sowing on all soil types and under extensive conditions.</p>\n<p>This grass seed remains productive and palatable on every soil type and is excellent for grazing. Even under less than ideal growth conditions, Meadow Grass Seed Meadow - Specifically for Horses and Small Livestock holds up well. The pasture mix has a high yield and a long lifespan. Meadow Grass Seed Meadow - Specifically for Horses and Small Livestock is a high-quality pasture mix for horses and is composed of various grasses with a low growth point and ample structure. For an incredibly resilient pasture that is resistant to trampling. Produces very tasty grass, a blend of healthy grasses with low sugar content. The composition of this pasture grass seed mix is also suitable for sheep, goats, and hobby livestock.</p>"
+      },
+      {
+        "digest": "75c8530084f1ab38e5870e37af76892fef57d4367308e97c070ccc4ca2f0bc68",
+        "key": "handle",
+        "locale": "en",
+        "value": "pasture-seed-meadow"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056170308",
+    "translatableContent": [
+      {
+        "digest": "01db231a288b4337f931fb8343edd796a5cc4dec73d4a67a593bf6cde84f2b03",
+        "key": "title",
+        "locale": "en",
+        "value": "Dried Cow Manure"
+      },
+      {
+        "digest": "79304bd54c0bc093faf7837e404a8dcaac30021ba2416313355ddbebefea4e8a",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Premium Dried Cow Manure is produced from 100% pure and fresh cow manure. The hygienised cow manure, with around 55% dry matter, is rich in essential nutrients for a perfect result. The high proportion of organic matter, in the right combination with minerals, humic acids, and trace elements, makes cow manure the perfect all-round fertiliser and soil improver.</p>\n<p>This Dutch quality product is dried and hygienised through composting on Dutch farms, avoiding unnecessary transportation and ensuring production from fresh manure without losses. The unique composting method guarantees a constant quality with the highest fertilisation values and a perfect end product, guaranteed to be completely free of viruses, germs, unwanted fungi, weeds, and bacteria. It is highly suitable for lawns, ornamental gardens, borders, bulb and tuber plants, vegetable gardens, roses, potted plants, fruit trees, and pastures. This dried manure consists of 100% pure and fresh cow manure dried through composting. It improves soil structure and water retention capacity due to the high organic matter content, promotes a fertile soil environment, and provides a natural enrichment of the soil to maintain long-term balance.</p>"
+      },
+      {
+        "digest": "138f2dc99c9d92015030ef9f4dc8ef973c9dd67341d3c8dcaa5204bfb5acb30b",
+        "key": "handle",
+        "locale": "en",
+        "value": "dried-cow-manure"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056268612",
+    "translatableContent": [
+      {
+        "digest": "c626264b145155ffdfbc28253e61cc2c01c77084fe65695fa00167d3c34d03dc",
+        "key": "title",
+        "locale": "en",
+        "value": "Algae lime - Lithothamnium calcareum"
+      },
+      {
+        "digest": "f1fa9a69c615b305fe499fc06bf61b6c4b3176a2622759d5c5f5cbc5b4d136d1",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Algae Lime is derived from 100% pure Lithothamnium calcareum (red algae), a sustainable natural product sourced from the Atlantic Ocean. Setting it apart from other brands, Organifer Algae Lime remains undiluted, guaranteeing its purity. While it might not be the most budget-friendly algae lime option, it boasts the highest quality and is completely pure. As a consequence, it demonstrates remarkable effectiveness. Organifer Algae Lime offers a unique and optimal nutritional profile, resulting in healthy plants and fertile soil.</p>"
+      },
+      {
+        "digest": "44e2d761e24f11b6928de297fd326cbe1404adaa65d436d4d8223ea17bb497f4",
+        "key": "handle",
+        "locale": "en",
+        "value": "seaweed-lime-powder-pure-lithothamnium-calcareum"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056334148",
+    "translatableContent": [
+      {
+        "digest": "59ad6836d71ec48018c522d218d5a79b65e12d7712c034da544750cea4a505cf",
+        "key": "title",
+        "locale": "en",
+        "value": "Mealworm Frass Fertiliser Pellets"
+      },
+      {
+        "digest": "7f39abeea46e21acabf93912993b59e9441ff9e492e616b4094527b886cd10e5",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer dung pellets made from mealworm frass are manufactured using 100% pure frass (insect feces) from mealworm beetles. It is a high-quality product produced in the Netherlands, dried and sanitized through heating, and then compressed into unique micro pellets. Organifer Mealworm Manure Pellets are nearly odorless, making them suitable for indoor plants as well.</p>\n<p>Organifer mealworm frass fertilizer pellets have an NPK value of 4-2-2 and a high chitin content. Additionally, the product is rich in minerals, trace elements, and organic matter. This versatile fertilizer contains all the nutrients necessary for both lawns and plants. As Organifer frass is 100% organic, the nutrients are released in a controlled manner and do not leach out. By using Organifer insect manure, plant and soil growth, flowering, and resistance are improved.</p>"
+      },
+      {
+        "digest": "3a3bd7e5913208852237e711f1d422ec366c151c809a08599539feff4de9bf7f",
+        "key": "handle",
+        "locale": "en",
+        "value": "mealworm-frass-fertiliser-pellets"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056563524",
+    "translatableContent": [
+      {
+        "digest": "58388aee600a5308aa1e86a32f995a008bf2c6c590320b3d30315ddc2c6da8a2",
+        "key": "title",
+        "locale": "en",
+        "value": "Bentonite Sandy Soil Improver"
+      },
+      {
+        "digest": "c5059a44af9a08406cbce0223514a9da86ec1c89e6ece30741ce521227465fe4",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Bentonite is the perfect soil improver for light sandy soils. These expanded clay minerals from natural rock are especially suitable for improving the structure and cohesion of sandy soil. Consequently, sandy soil becomes easier to work with, and the soil structure will improve significantly upon application.</p>\n<p>But that's not all! Organifer Bentonite also improves the soil's water management and prevents the leaching of fertilisers. This is due to its large absorbent capacity, being able to absorb up to 10 times its own weight in water. Therefore, the soil will dry out less quickly, and moisture will remain available for the plants for longer, even during dry summers.</p>\n<p>Organifer Bentonite also has a positive effect on the storage capacity of nutrients and prevents leaching. It activates soil life and enhances the exchange of nutrients between soil and plant, promoting soil fertility and increasing the efficiency of fertilisers.</p>\n<p>In short, Organifer Bentonite is a versatile soil improver that improves the soil's water management, better retains nutrients, and activates soil life, resulting in healthier plants and fertile soil.</p>"
+      },
+      {
+        "digest": "367518b877c55b6a3e5b44c36b463f0131f8ea471cf583d58a70134da6e284d6",
+        "key": "handle",
+        "locale": "en",
+        "value": "bentonite"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056596292",
+    "translatableContent": [
+      {
+        "digest": "c08276b1b0c2340d1e97d62a2706eaf9eba1dfc1f12fcebc8068ab3152fe1e9d",
+        "key": "title",
+        "locale": "en",
+        "value": "Shade Lawn Seed"
+      },
+      {
+        "digest": "e30c40bbbf6f8e68261a6e9c94802ed57986618b08373843e9a7324d8c73d497",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Shade Lawn Seed - Elegant is ideal for creating or repairing a lawn in the shade. Shade Lawn Seed - Elegant has been developed for users who place high demands on the ornamental value of a lawn. The red fescue used forms a dense and fine-bladed turf. This professional grass seed mixture also grows well in the shade. The grass is also suitable for dry conditions and stays upright well when mowed short. The ornamental lawn has a beautiful green colour and an elegant appearance.</p>\n<p>A Perfect Lawn Even in the Shade<br>Shade Lawn Seed - Elegant contains grass types that perform excellently even with little sunlight. Even in the shade, beautiful turf grows. The formation of moss and bald spots is prevented. In addition to its high shade tolerance, the grass seed mixture also has a high drought tolerance. In short, it's very versatile for use as both an ornamental and shade lawn.</p>\n<p>The professional lawn solution for landscape gardeners, specifically tailored to the demanding user in gardens and parks. The sophisticated use of red fescue and fine-leaved ryegrass creates a visual appeal. High success rate on all soils and easy maintenance. The highest quality grass seed on the market with excellent germination ability. Quickly lay a beautiful ornamental lawn that withstands frequent foot traffic and is durable. Moreover, the grass has a high ornamental value and is easy to maintain. Many landscape gardeners exclusively use Organifer grass seeds because they sprout quickly, establish rapidly, have a high regenerative ability, and look beautiful.</p>\n<p>The Best Choice Among Shade Lawns<br>Ideally suited for ornamental lawns and decorative gardens. In practice, this mixture is often referred to as ornamental lawn or shade lawn. As the mixture is mainly composed of slow-growing grasses and grass species that retain their dark green colour throughout the year, the lawn is easy to maintain. Shade Lawn Seed - Elegant adapts well to shady areas. It forms a closed turf that can be mowed short.</p>"
+      },
+      {
+        "digest": "12fd9420b3ee898ecc9bdb0cc3ad6f3226c2c8cf21269425832b18326f755c33",
+        "key": "handle",
+        "locale": "en",
+        "value": "shade-lawn-seed"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056629060",
+    "translatableContent": [
+      {
+        "digest": "8c0afbb23aba9d7fbef7c669d170897ef1d21aa133cba0f861caa98998382cf6",
+        "key": "title",
+        "locale": "en",
+        "value": "Sports and Play Lawn Seed"
+      },
+      {
+        "digest": "b03060ce91aea359a80c4328ca28108473bbbbfc5f9eb857a51578be1098ea79",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Sports and Play Lawn Seed - Resilient contains the perfect formula for lawns that endure heavy foot traffic. Its rapid germination ensures a robust lawn that self-regenerates. Initially developed for professional sports fields, it's the ideal seed mixture for both sports and play lawns. It's also favoured for camping and festival sites, parks, and any location demanding hard-wearing grass with high regenerative ability.</p>\n<p>This seed blend not only offers high wear-resistance and swift establishment but also has an exceptional regenerative capacity. Once sowed, the mix establishes itself promptly, filling in any barren patches. Its composition guarantees a thick lawn where moss and weeds struggle to take hold.</p>\n<p>Professional landscapers and sports field managers favour Sports and Play Lawn Seed - Resilient. Its swift growth and establishment, coupled with its appealing aesthetic, make it stand out. The blend's significant content of fine ryegrass ensures smooth settling. Meanwhile, the addition of meadow fescue results in an incredibly resilient turf.</p>"
+      },
+      {
+        "digest": "463aadffefd2c27853a5d2dd957130d988bc7acabc88f092480f3811690ccea1",
+        "key": "handle",
+        "locale": "en",
+        "value": "sports-and-play-lawn-seed"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056661828",
+    "translatableContent": [
+      {
+        "digest": "cad0e936fdfac149d9cb1c1b8893d05c14ebd8c3d9160ea1017df04dc08d9cd8",
+        "key": "title",
+        "locale": "en",
+        "value": "Soil Improver Activator Mix"
+      },
+      {
+        "digest": "e5d124a5b60515c062f5aa6cb3036d7a0cc0b14f60eac505353a60e931838963",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>This soil conditioner containing live fungi and bacteria (including Mycorrhiza bacillus) stimulates and activates the soil ecosystem. The ultimate soil enhancer based on a blend of worm castings and dried cow manure enriched with minerals and trace elements from volcanic rock dust.</p>"
+      },
+      {
+        "digest": "3aefa2532a5c830794e30f2ba587f4071bee484edc886648fb0b6aec144fd27a",
+        "key": "handle",
+        "locale": "en",
+        "value": "soil-improver-activator-mix"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056694596",
+    "translatableContent": [
+      {
+        "digest": "e8377dc3b574a312b99b92f969ed42fe47e89099d1bd1deb2f51bb17af2f4768",
+        "key": "title",
+        "locale": "en",
+        "value": "Plant Food All-In-One"
+      },
+      {
+        "digest": "de5209ed6317358baab4b63c5ee3a3c786c20af2050f5b40cefdf5f58514dcb8",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Plant Food All-In-One is a universally applicable complete fertiliser for all houseplants, potted plants, patio and balcony plants, but is also widely used in organic cultivation of vegetables, fruits, herbs, and in the liquid fertilisation of lawns and ornamental gardens. This organic universal fertiliser ensures healthy growth and optimal performance</p>"
+      },
+      {
+        "digest": "a2b7289159c097a0f30e62f8152390a3c8ca7e7a27fb2d10c000808a47a7cd9d",
+        "key": "handle",
+        "locale": "en",
+        "value": "plant-food-all-in-one"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056727364",
+    "translatableContent": [
+      {
+        "digest": "956c8761a86d28b43f619e95d15f917da457a8ad20c3bbd08637b6124ac8882e",
+        "key": "title",
+        "locale": "en",
+        "value": "Scarifying Mix"
+      },
+      {
+        "digest": "f18b08255963fa511b16ad59be7d4a2d0f5aeb430157659bfe0dcca70586f388",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Lawn Renovation is the perfect mix to transform weak, thin grass into a full, strong, and green lawn. The professional mix for lawn repair and regeneration provides a healthy and dense green turf within one month after scarifying the lawn. Results and convenience come from the combination of high-quality grass seeds, fertilisers, and a soil improver. All mixed in the optimal ratio in a sturdy bag, this mix guarantees success in one go. It's no wonder that Organifer Lawn Renovation has been successfully used by gardeners and demanding consumers for years. It prevents weeds, moss, and bare spots; with Organifer Lawn Renovation, you're choosing a healthy, dense, dark green turf.</p>"
+      },
+      {
+        "digest": "2c01811db84147ccc48ea1739e731efebdda625cb3227152fa1c487dc5aee90c",
+        "key": "handle",
+        "locale": "en",
+        "value": "scarifying-mix-grass-seed-fertiliser-soil-improver"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056792900",
+    "translatableContent": [
+      {
+        "digest": "43a622ebddf0a5bf255091df233df83e287ae90996f58cf89986fa8e27e72bc1",
+        "key": "title",
+        "locale": "en",
+        "value": "Iron Sulphate Fertiliser"
+      },
+      {
+        "digest": "be5d6ec05116b6e51ff54a2b4ce0dd261d4da781cf6e91136a6d09dc3602b895",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Iron sulphate fertiliser for a dense, lush green lawn without moss. Also suitable for providing other garden plants with iron. The high iron content contributes to better competitiveness of the lawn against unwanted moss and weeds. Iron sulphate plays a crucial role in the photosynthesis of (grass) plants. The fertiliser ensures that plants absorb sunlight effectively, increasing their resilience and preventing leaf diseases from occurring easily.</p>"
+      },
+      {
+        "digest": "5ebe256c17d2d0d4f06c42bce8f2b2153c1a0399746b701fd24ec79f3272a5b5",
+        "key": "handle",
+        "locale": "en",
+        "value": "iron-sulphate-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056858436",
+    "translatableContent": [
+      {
+        "digest": "9cc7ff01b91ec00df1745857b65503f8e2bd181692b8d32cdcddc06718876032",
+        "key": "title",
+        "locale": "en",
+        "value": "Flower Seed Mixes"
+      },
+      {
+        "digest": "e94b99626f67c7586ee2a30ddb724778353e74f0a55f6beb2c00f3f48d75fb79",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Flower mixes offer the ideal solution to transform your garden or public space into an oasis of beauty. With our widely selected variety of flower seeds, we guarantee a breathtaking display of colours and an unforgettable fragrance. Our flower blends are meticulously curated and only include the finest and native flower species.</p>\n<p>These flower mixes contribute to increased biodiversity and support the survival of various insect and animal species. Moreover, they enhance soil quality by delivering organic matter and nutrients to the ground. Organifer flower mixes are easy to maintain, providing a splendid floral display with minimal effort. We assure exclusively environmentally-friendly and natural products, allowing you to relish the natural beauty without any concerns.</p>"
+      },
+      {
+        "digest": "a8f24b43b42c1e053a40a06f5c2f07f12a3bbfef0713e86db7dec00a07044f0e",
+        "key": "handle",
+        "locale": "en",
+        "value": "flower-seed-mixes"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056923972",
+    "translatableContent": [
+      {
+        "digest": "4fd341620b169f2511776c20349e200d577ff3bccb1553e659dc31eaf264aeaf",
+        "key": "title",
+        "locale": "en",
+        "value": "Pond Balls with Plant Nutrition"
+      },
+      {
+        "digest": "d44d6a078cdcfdf0f94adb4d11a307646ad8c1b6bbe1394515940a29363a8334",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Pond plants play a crucial role in your pond, not only as decorative elements, but also to keep the water clear and clean. Therefore, healthy growth of your pond plants is essential to prevent the growth of algae and protect aquatic animals.</p>\n<p>To keep your plants healthy, Organifer EM Nutrition Balls offer the perfect solution. These balls not only contain macro and micro elements for the right nutrients, but also ensure a controlled release to avoid over- or underfeeding. In addition, the nutrition balls not only stimulate the growth of your plants, but also their resistance to diseases and pests.</p>\n<p>The EM Nutrition Balls are easy to use and suitable for all types of pond plants. You can simply place them in a basket with the plants, stick them in the substrate of a filter, or throw them amongst a group of water plants in the pond. They immediately sink to the bottom and slowly release nutrients so your plants stay healthy and nourished throughout the year.</p>"
+      },
+      {
+        "digest": "e8c518f4bfa4a1b733b7ae2e61615d5a8c91dd5dee95bfae43be740aa563a261",
+        "key": "handle",
+        "locale": "en",
+        "value": "pond-balls-with-plant-nutrition"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657056956740",
+    "translatableContent": [
+      {
+        "digest": "35c4dd61572caeda6f66e1a67e11dbee547691449241f5b1005c5dc44d7d7e28",
+        "key": "title",
+        "locale": "en",
+        "value": "Diatomaceous Earth Powder"
+      },
+      {
+        "digest": "8fcb228825c152cf4336790568d4ce35aa71367391efb42dc0c2e7537004324a",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>It's widely recognised that natural diatomaceous earth is employed as a safe and effective method to combat various types of pests. This includes ants, silverfish, wasps, bedbugs, firebrats, fleas, lice, mites, cockroaches, woodlice, red mites, bird mites, aphids, flour moth larvae, fungus gnats, thrips, and other harmful insects. Organifer Diatomaceous Earth is versatile, entirely natural, odourless, and suitable for both indoor and outdoor use.</p>\n<p>Diatomaceous earth operates through a mechanical process, where microscopic particles pierce the protective wax layer of insects, dehydrating and subsequently killing them. However, it's crucial to note that diatomaceous earth is non-selective and can kill all insects that come into contact with it, including beneficial ones. Therefore, it's essential to apply the powder meticulously and strategically to avoid unintended harm. It remains effective as long as it's dry and undisturbed. Diatomaceous earth is harmless to humans and animals, making it a frequently chosen alternative to chemical pesticides.</p>"
+      },
+      {
+        "digest": "ed6ee062faa8c0e7aa20a872c309f34c8bc567777fa58bf7dfb0d195d1a5156e",
+        "key": "handle",
+        "locale": "en",
+        "value": "diatomaceous-earth-powder"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057022276",
+    "translatableContent": [
+      {
+        "digest": "80053d0b829749817dcd0357be6b561159a84aefacda8a2ae4ee4d4678a63e38",
+        "key": "title",
+        "locale": "en",
+        "value": "Vegetable Garden Seeds"
+      },
+      {
+        "digest": "3bd32a79add15b7f7da1d1f6944d34bb392e6a08d15ca6f2e4ee99cf9a74cef7",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Would you like to enjoy fresh and healthy produce, straight from your own garden?</p>\n<p>Our Vegetable Seed Kits contain a meticulously curated collection of essential and culinary varieties of vegetables, fruits, and herbs that are suitable for any kitchen garden. Each seed variety is carefully chosen for its ease of growth and suitability for different seasons, ensuring a bountiful harvest. The seeds are packaged in convenient packets, making it simple to store and organise your collection.</p>\n<p>In addition to the seeds, our seed kits also feature comprehensive descriptions on each packet. You'll find helpful tips on soil preparation, harvesting, and storage, among other things. This information makes it easy for both novice and experienced gardeners to make the most of their kitchen garden.</p>\n<p>We place a great deal of emphasis on the health and safety of our customers and the environment. That's why our seeds are free from chemical treatment and exclusively comprise varieties registered in the United Kingdom and non-genetically modified (Non-GMO) strains. You can therefore rest assured that you'll receive top-quality, healthy, and secure seeds.</p>"
+      },
+      {
+        "digest": "6e6eb59e49af2ff583000dfa6556bae2a4a23637a934321e738f48fb70abe374",
+        "key": "handle",
+        "locale": "en",
+        "value": "vegetable-garden-seeds"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057055044",
+    "translatableContent": [
+      {
+        "digest": "43052fe70930f0263dd4b37c64ed40fb5d5525012196550bd062abfae577af5f",
+        "key": "title",
+        "locale": "en",
+        "value": "Insect Frass Fertiliser"
+      },
+      {
+        "digest": "0ee652e720c1b4aaa6378973a059846457d5a5308abfed23a00b4f2893e1d90a",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Frassor Insect Frass is an organic fertiliser for all plants – lawn, vegetable garden, ornamental garden, and professional cultivation. Frassor fertiliser pellets are produced from 100% pure frass (insect excrement) obtained from larvae of the black soldier fly. A Dutch quality product, it is dried and hygienised through heating and then compressed into a unique pellet.<br></p><h2>Source of essential nutrients</h2><br>These Frassor fertiliser pellets have an NPK of 3-3-3 and a high chitin content. Additionally, the product is rich in minerals, trace elements, and organic matter. This universal fertiliser contains all the nutrients required for both the lawn and plants. Being 100% organic, the nutrients are released in a controlled manner and do not leach out. Feeding with Frassor improves the yields and quality of growth, flowering, and the resilience of plants and soil.<br><h2></h2><br><h2>Frass</h2><br>Frass is the excrement of herbivorous insects. Frassor insect frass in this product comes from the larvae of the black soldier fly. The insects are fed with low-value, plant-based residual streams, which are transformed into high-quality proteins and fats. Frassor enriches and processes the frass into high-quality natural fertilisers.<br><h2></h2><br><h2>Nourishes the soil life</h2><br>A healthy soil life begins with insects. These efficient creatures maintain an ecological balance in nature. The residues left by the insects, such as excrements and skin sheds, are rich in chitin and used as raw material for Frassor. This organic fertiliser ensures that soil water and nutrients are retained, making them available in the soil for a longer period. The result is a healthier soil with sufficient nutrients available even during drier periods. Chitin serves as a food source for beneficial soil organisms and supports plant and soil resilience.<br><h2>Chitin – Stimulates antagonistic activity, resulting in increased plant and soil resilience</h2><br>Frassor is highly abundant in chitin. Chitin serves as a superfood for microorganisms that break it down. During this process, enzymes are released (chitinases) that trigger the plant to activate its natural defense mechanisms. As a result, the crop becomes less attractive to diseases and pests. It's no wonder that Frassor is successfully applied in the horticulture sector.<br><h2></h2><br><h2>The best for the environment</h2><br>Frassor has the lowest CO2 footprint among all fertilisers! The production of artificial fertilisers consumes a lot of energy, leading to significant CO2 emissions. Additionally, artificial fertilisers have a negative impact on all life in the soil and leach out quickly. Compared to other organic fertilisers like cow, chicken, and pig manure, Frassor insect frass has a considerably lower CO2 footprint. It also outperforms others in terms of other environmental aspects, such as land use and water consumption."
+      },
+      {
+        "digest": "e11b0b7d00d765e54b00e0df32c2f0c6420a91b82288cd61de627136e6e99d6a",
+        "key": "handle",
+        "locale": "en",
+        "value": "insect-frass-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057087812",
+    "translatableContent": [
+      {
+        "digest": "ea93d6a262ecb87a9fa4d09edbd7654c046597936a8e235fc3949eb01775ff99",
+        "key": "title",
+        "locale": "en",
+        "value": "Tools"
+      },
+      {
+        "digest": "72e34932e936e21ba02818e75d5e0283cc3381ab1451efa959666f6f4e1c617c",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Professional pressure sprayers, misters, and spreaders for the quick, efficient, and precise application of fertilisers, plant boosters, and soil improvers.</p>"
+      },
+      {
+        "digest": "286b3bb314f678ccfaaebce0143473dae27d4371320c9b56ed6cf8fce6a0abaa",
+        "key": "handle",
+        "locale": "en",
+        "value": "pressure-sprayers-ferftiliser-spreader"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057186116",
+    "translatableContent": [
+      {
+        "digest": "7c0719548a93c15a01e7ece071f6ba56f43010d8732ef6a8e90555aa8b1146e2",
+        "key": "title",
+        "locale": "en",
+        "value": "Worm Fertilizer Vermicompost"
+      },
+      {
+        "digest": "9883ef2c8844a62207dff221d4a5ec980c7d8717056319382d16e7063b55a880",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Vermicompost, also known as worm castings, is a powerful and natural soil improver that enriches the soil with essential micro-organisms, including bacteria and fungi. These microorganisms help break down organic matter and stimulate plant growth. In addition, the unique composition of worm manure ensures optimal absorption of nutrients by plants, making them stronger and healthier. The improved soil structure provided by worm castings allows plant roots to grow deeper and wider, leading to better absorption of water and nutrients. Vermicompost is also rich in enzymes, with approximately 2 billion enzymes per gram, which further improves nutrient uptake by plants. In addition, it promotes the natural resistance of plants against diseases and fungi. In addition, the use of worm castings ensures faster germination of seeds, makes transplanting smoother and speeds up harvest. In short, worm castings are an essential soil improver for anyone who strives for a healthy, vibrant and sustainable garden.</p>"
+      },
+      {
+        "digest": "b7f54fba0d841871e8ae80622f40b7cc68f4265ee10d45aea1c086ff2c541c7d",
+        "key": "handle",
+        "locale": "en",
+        "value": "worm-fertilizer-vermicompost"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057251652",
+    "translatableContent": [
+      {
+        "digest": "7f134b7cdd0f27ca55335220700d0422419d3c4356559712e74faa6e6b61bac9",
+        "key": "title",
+        "locale": "en",
+        "value": "Lawn Topdressing Mix"
+      },
+      {
+        "digest": "81373bf85001dd2e6d79ef6186f413b29d7e6707dd906e039c14f35c8cc80e73",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>This Lawn Topdressing Mix with living fungi and bacteria (including mycorrhizal fungi and Bacillus species) stimulates and activates soil life. The ultimate topdressing is based on a mixture of worm castings and dried cow manure, enriched with minerals and trace elements from lava meal.</p>\n<p>A fertile soil is alive!<br>Organifer nourishes the soil and stimulates positive soil life. This Lawn Topdressing Mix restores the soil and prevents problems. Soil life provides buffering of nutrients, making them available when the grass needs them. By activating and introducing active soil life, not only the grass is fed, but also the soil.</p>\n<p>Grass lives in symbiosis with fungi and bacteria<br>With this Lawn Topdressing Mix, living Mychorizza fungi and Rhizobacteria are introduced and activated, among others. Positive soil life such as worms and fungi form tunnels in the ground, allowing air, organic material, and other nutrients to be distributed through the soil. Dead plant material is processed into nutritious raw material by composters. This Lawn Topdressing Mix is successfully used in practice to stimulate healthy soil life. Especially in the area around plant roots, the so-called rhizosphere, millions of fungi and bacteria live, exchanging nutrients with each other and plants, making each other's lives better.</p>\n<p>Positive micro-life serves the plant, which in turn offers sugars. A healthy soil life contains thousands of different bacteria, fungi, and enzymes that cooperate in a certain way for mutual benefit. Certain bacteria neutralize dangerous substances such as heavy metals. The added Azotobacter bacterium extracts nitrogen from the air and exchanges it for sugars with the plant. Other microorganisms break down dead plant material and convert it into absorbable nutrients. Some attack pathogens, while important fungi help to extract nutrients deeper from the soil. Added Bacillus bacteria promote root growth and increase resistance to pathogens. In short, the soil is alive! A healthy ecosystem is crucial. Lawn Topdressing Mix brings the soil into balance, supports positive soil life, and increases plant and soil resistance. In a healthy soil, healthy plants grow, leaving no room for diseases and pests.</p>\n<p>Lava meal is rich in essential minerals and trace elements.<br>Many soils have a shortage of minerals and trace elements, causing processes in the soil and plants not to run optimally. This Lawn Topdressing Mix is enriched with high-quality Organifer lava meal, which replenishes essential minerals and trace elements. This naturally makes the soil more fertile.</p>\n<p>Worm castings<br>Organifer worm castings are considered the best of the best. It is a natural improver based on composted plant residues, providing an optimal balance in the soil so the plant can grow and flourish. Worm castings contain everything a plant really needs: a very high organic content (humus) and a multitude of trace elements, enzymes, minerals, bacteria, and fungi. Humus-rich soil holds nutrients better. Combined with worm castings, bacteria and fungi can thrive and the soil structure will improve considerably.</p>\n<p>Nutrition for healthy and vital grass<br>By mixing in dried cow manure, not only is the soil improved, but also immediately available nutrition is provided. This organic fertilizer has a long-lasting effect. The fertilizer nourishes the soil and ensures a rich, healthy soil. This promotes balanced growth and gives the grass a good structure. An organic fertilizer is an energy source for bacteria and is converted into humus. Humus provides a good soil structure and promotes natural processes. The Lawn Topdressing Mix ensures active soil life and optimal soil structure, resulting in a healthy and vital lawn.</p>"
+      },
+      {
+        "digest": "f6c23ff38a6345c0ca856bafee18b9dc2483d37afe103fe46f56762fcc47029e",
+        "key": "handle",
+        "locale": "en",
+        "value": "lawn-topdressing-mix"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057284420",
+    "translatableContent": [
+      {
+        "digest": "4ce6ec12eb3f832aec6ca7df81fbdb86bca087db44e2e00a380f5378e5fe5d66",
+        "key": "title",
+        "locale": "en",
+        "value": "Micro clover"
+      },
+      {
+        "digest": "9c3b50858a6d20ec9af7ec4701754942b7643acb7a4ae125b0e27a8c85a7306d",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Certified as the finest clover on the market, Organifer Microclover is a durable and small-leaved white clover variety that can be effortlessly integrated into grass seed mixtures for a seamless and aesthetically valuable lawn. This remarkable plant naturally enriches the soil by fixing nitrogen from the air, reducing the need for fertilizer and providing a lush, green lawn all year round, even during dry spells.</p>"
+      },
+      {
+        "digest": "d2ee0dd89544cfaf6de6f8acbe0b025febe5b2aa6749019618efb4edb25dba21",
+        "key": "handle",
+        "locale": "en",
+        "value": "micro-clover"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057317188",
+    "translatableContent": [
+      {
+        "digest": "56ca56f98855bc6bcbaebeb0fe959855502a5877887c358481b3ea815eb48cd3",
+        "key": "title",
+        "locale": "en",
+        "value": "Yucca Wetting Agent"
+      },
+      {
+        "digest": "d29515ae53ac397b2b6fe7f4901f4cae24a99cebcae5b0c5a2e908e6e5f6564a",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Yucca Wetting Agent optimizes the moisture balance in the soil and improves growth conditions for plants, even in dry and challenging environments. Yucca schidigera (Spanish Dagger) contains natural wetting agents that help plants retain moisture and protect against stress thanks to a high content of steroidal saponins (min. 10%). This makes it ideal for areas with limited water availability, improving moisture retention in the soil and promoting healthier, more productive plants. Yucca Wetting Agent enhances the growth of beneficial soil bacteria that decompose organic material and release nutrients for plants. It increases the efficiency of crop protection products and fertilizers through better absorption, thereby reducing the need for these products. The saponins lower the surface tension of water, ensuring better moisture regulation, rooting, and leaf coverage, which results in stronger roots and healthier plants. Yucca Wetting Agent is suitable for golf courses, sports fields, lawns, borders, ornamental gardens, agriculture, and vegetable gardens. The product is completely natural, safe for plants, animals, and humans, and can be used throughout the year. Choose Yucca Wetting Agent from Organifer for optimal results, even during drier periods.</p>"
+      },
+      {
+        "digest": "ff7317e6e7123436c19db5bfd50cef600ac024e0105ad56f129645623c212997",
+        "key": "handle",
+        "locale": "en",
+        "value": "yucca-wetting-agent-wetting-agent"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057349956",
+    "translatableContent": [
+      {
+        "digest": "9f601f389ad05211db655a6962f099639a42f57b463f6b42c7d51f7b31594397",
+        "key": "title",
+        "locale": "en",
+        "value": "Pro Turf &amp; Lawn Fertiliser"
+      },
+      {
+        "digest": "be9a08663909943c655db35481d3a4b9a89a620953f62e9bb1018f5e4f580eff",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Pro Turf &amp; Lawn Fertilizer is specially designed for large, demanding lawns, sports fields, and golf courses. This mineral 20+5+8 (+4+9) fertilizer provides long-lasting and efficient nutrition through the gradual release of nitrogen. This prevents sudden growth spurts and reduces water loss and thatching. It contains ammonium nitrogen, magnesium, and iron, which promote a strong green color and prevent moss formation. The product is a dust-free, fine granular granulate (1-3 mm) that dissolves with minimal precipitation and can be applied manually or with a mechanical spreader.</p>"
+      },
+      {
+        "digest": "4cb1ec0fdb0fe44096e226a8b11401c4075d870321b686e5aee056d2ce591001",
+        "key": "handle",
+        "locale": "en",
+        "value": "pro-turf-lawn-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057382724",
+    "translatableContent": [
+      {
+        "digest": "b6e7ebb9c65b842f82629db9283032a50acd22928e376df4ae4501f65807062b",
+        "key": "title",
+        "locale": "en",
+        "value": "Cover Crop"
+      },
+      {
+        "digest": "0c26058e3940d16555e13ce9b41294a0d052501e53f5adefead7d4ab5c667c5b",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Our versatile green manure mixes are designed to support soil life and increase the population of beneficial microorganisms. With a diverse selection of plant families, these mixes help suppress weed growth, reduce soil-borne diseases, and promote a healthy soil structure. Ideal as cover crops, they improve organic matter content, optimize water infiltration, and provide protection against soil erosion. By fostering biodiversity, they contribute to a varied ecosystem and enhance soil fertility, leading to higher and more resilient crop yields. Suitable for use on all soil types.</p>"
+      },
+      {
+        "digest": "68dd9a09cf714151400d11aa167fb6fe02813bdfd3cfebfee41b1e0843596e8c",
+        "key": "handle",
+        "locale": "en",
+        "value": "cover-crop"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057415492",
+    "translatableContent": [
+      {
+        "digest": "eab1dcbb337f9ee08154358dca47f18fc23aca1a8ac8ede2c313b40bc2be343e",
+        "key": "title",
+        "locale": "en",
+        "value": "Flower bulbs"
+      },
+      {
+        "digest": "66d398694b3835426be865ae38a88c722076ddbb75621a64c8e8d6b0b9c1c872",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>The flower bulbs are grown and meticulously selected in the Netherlands for the highest quality. These bulbs, which are also used in prestigious gardens like 'de Keukenhof,' are among the largest and most potent available. Tulip bulbs in vibrant varieties, elegant daffodil bulbs, striking Muscari Armeniacum, and the special Allium Purple Sensation bulbs ensure a rich and prolonged bloom in the garden. Crocus bulbs also provide an early and colorful spring bloom. With these quality bulbs, the garden transforms into a colorful and blooming paradise each season.</p>"
+      },
+      {
+        "digest": "9b77f02956155cf9fc2ddad86381452aa2fb4df0a6c48ef8c33e9aee3530bf95",
+        "key": "handle",
+        "locale": "en",
+        "value": "flower-bulbs"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057481028",
+    "translatableContent": [
+      {
+        "digest": "396c3cb18f811a18a0859bd18bf8094c9dedcbbe92651bbd3aa7a6e0e6e3aee8",
+        "key": "title",
+        "locale": "en",
+        "value": "Feed"
+      },
+      {
+        "digest": "30df05eb8cceaccebd8f7f447b95f8e21386579691e0c37b714ecf515e682686",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p><br>Care for the garden birds, squirrels, and hedgehogs in your garden with our specially selected feed. Our bird mix provides that little extra and, thanks to the non-grow formula, prevents unwanted seed growth in your garden. For squirrels, we offer nutritious, energy-rich feed, and for hedgehogs, a balanced formula tailored precisely to their needs.</p>\n<p>All our products are 100% environmentally friendly and free from harmful additives. This way, you can easily and responsibly support your garden animals, ensuring liveliness and balance in your garden.</p>"
+      },
+      {
+        "digest": "c8bc2586cdd87cd6f970fc4262c4bbc49165811788825fbc1ba3366bfde45413",
+        "key": "handle",
+        "locale": "en",
+        "value": "feed"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057513796",
+    "translatableContent": [
+      {
+        "digest": "cb4237f4b27e5a6b842189bd28c0c617d680eb6018fdb6170b97da989ccc88bd",
+        "key": "title",
+        "locale": "en",
+        "value": "Garden / Border"
+      },
+      {
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "key": "body_html",
+        "locale": "en",
+        "value": ""
+      },
+      {
+        "digest": "8a6d7ce08f0d415d4ceb2ee4cebda8a02b4ce9c8390f00d824d909a8ed8d3c8e",
+        "key": "handle",
+        "locale": "en",
+        "value": "garden-border"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057546564",
+    "translatableContent": [
+      {
+        "digest": "4999c6c6c7badf456f5b0053b09a2076bdb2391a09ab10c9064a680f8f9a0b30",
+        "key": "title",
+        "locale": "en",
+        "value": "Subscription"
+      },
+      {
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "key": "body_html",
+        "locale": "en",
+        "value": ""
+      },
+      {
+        "digest": "a8fa7fd60893411a49907b5545ccf9c47ed8073cc38e2ac3b79c4f6156cd7755",
+        "key": "handle",
+        "locale": "en",
+        "value": "subscription"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057612100",
+    "translatableContent": [
+      {
+        "digest": "535b8d7eaa5e6f8cb79a99f4e7bdbbcc68eadf6b27bbf26d1e58a8ff0e83b442",
+        "key": "title",
+        "locale": "en",
+        "value": "Seed Potatoes, Onion &amp; Shallot Sets"
+      },
+      {
+        "digest": "bc8abad8384d706b9f9d22db56226fb0ac1788dbff19430e832fbb4ecd20b2a9",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Welcome to our selection of professional seed potatoes and planting materials. The right starting material is essential for good cultivation and optimal yield. Our seed potatoes and plant onions have been specially developed for professional cultivation and meet the highest quality standards. We also offer these in smaller packages, making the best starting material accessible to smaller growers.</p>\n<p>All our seed potatoes, including popular varieties such as Bintje, Frieslander, and Annabelle, as well as our planting materials, are NAK-certified in the Netherlands. This guarantees that you can rely on the highest quality for your crop yields. Discover our different varieties that are adapted to various climates and soil types.</p>\n<p>For the organic gardener, we have an extensive range of organic seed potatoes, each with SKAL certification. This range offers everything from organic seed potatoes to organic plant shallots, perfect for sustainable cultivation.</p>"
+      },
+      {
+        "digest": "2b86fc7742d3082ebc16c1b95a8149ded6845745cd8ab782efcbad2e118d04cb",
+        "key": "handle",
+        "locale": "en",
+        "value": "seed-potatoes-onion-shallot-sets"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657057644868",
+    "translatableContent": [
+      {
+        "digest": "367ef06b8fbf3aaaccd9cff1301628fae45901ccd9661b5a1b256c7cc5314d24",
+        "key": "title",
+        "locale": "en",
+        "value": "Seed"
+      },
+      {
+        "digest": "0405000b89b80814106416002e6468872d25b4472c1734935fa04199797d15df",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer seed mixtures consist of varieties equipped with NAK certification(Dutch General Inspection Service for Agricultural Seeds and Seed Potatoes). This provides certainty and guarantee regarding the composition and quality of the mixture. This quality label is an initiative of Dutch breeders. To achieve the maximum germination result, Organifer imposes high requirements on the germinability and especially on the quality of purity. We guarantee you the best starting material for a perfect result.</p>\n<p>Here are some of our products:<br>- Regenerative lawn seeds<br>- Play lawn seeds<br>- Ornamental lawn seeds<br>- Shade lawn seeds<br>- Pasture grass seeds<br>- Flower seed mixtures<br>- Vegetable seeds</p>\n<p>Every bag of seed from Organifer is carefully chosen for its quality and reliability. Whether you're looking to beautify your lawn or start a vegetable garden, our selection of seeds offers a wide variety of choices for every gardener. And because they're certified by NAK, you can trust in the purity and germination rate of every seed. Begin your gardening journey with Organifer seeds and watch as your plants flourish and your harvests thrive.</p>"
+      },
+      {
+        "digest": "19b25856e1c150ca834cffc8b59b23adbd0ec0389e58eb22b3b64768098d002b",
+        "key": "handle",
+        "locale": "en",
+        "value": "seed"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058136388",
+    "translatableContent": [
+      {
+        "digest": "9c31c6b5b470d5f8cd9ce1048dfdbe0ceb2d7b4d8dbedef6bbf0e03feab6f262",
+        "key": "title",
+        "locale": "en",
+        "value": "Lawn Fertiliser"
+      },
+      {
+        "digest": "53410bd79e6e82a995941c96a98abce8cfc2787e0945657df7f1186f91c5ad92",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Professional lawn fertilisers are developed for creating and maintaining a deep green, healthy turf without moss and weeds.</p>\n<p>Lawn Fertiliser All-In-One is a high-quality organic-mineral fertiliser suitable for the fertilisation of any type of grass and soil. Due to the presence of extra magnesium, every turf turns a vibrant green. Suitable for new installations and maintenance fertilisations. The unique combination of both fast-acting and slow-release components enables a quick growth start along with 100 days of complete nutrition. Lawn Fertiliser All-In-One positively stimulates soil life and increases natural soil fertility with each application. The result is a healthy, dense turf with no room for moss and weeds.</p>\n<p>Iron sulphate fertiliser is a real moss remover and provides a dense, lush green lawn without moss. Iron sulphate plays a crucial role in the photosynthesis of (grass) plants. The fertiliser ensures that plants absorb sunlight effectively, increasing their resilience and preventing leaf diseases from occurring easily.</p>\n<p>Lawn Renovation is the perfect mix to transform weak, thin grass into a full, strong, and green lawn. The professional mix for lawn repair and regeneration provides a healthy and dense green turf within one month after scarifying the lawn. Results and convenience come from the combination of high-quality grass seeds, fertilisers, and a soil improver. All mixed in the optimal ratio in a sturdy bag, this mix guarantees success in one go. It's no wonder that Organifer Lawn Renovation has been successfully used by gardeners and demanding consumers for years. It prevents weeds, moss, and bare spots; with Organifer Lawn Renovation, you're choosing a healthy, dense, dark green turf.</p>\n<p>Autumn Fertiliser All-in-One is very rich in potassium and provides extra protection against the cold winter for lawns, grass, and plants. The fertiliser increases resistance to the direct effects of frost. The effectiveness of autumn fertiliser is often underestimated. By ensuring that grass enters the winter strong and hardened, problems in the spring are prevented.</p>"
+      },
+      {
+        "digest": "3003b115a62799f48a42a38cbf9ae09e39ca1283bc7db5c9db57b3d157ad1918",
+        "key": "handle",
+        "locale": "en",
+        "value": "lawn-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058169156",
+    "translatableContent": [
+      {
+        "digest": "1db836c215e608cebeec5403af0a0ac7648ae1d05480d98120e0b13d8ecee610",
+        "key": "title",
+        "locale": "en",
+        "value": "Horn Shavings fertiliser"
+      },
+      {
+        "digest": "44927e4f90bbc775dc4c1a6b7a95a501e233fe2bc3d905d51c9b11a4caedd6a4",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Horn fertilizers, such as horn shavings and horn meal, are 100% natural sources of nitrogen—ideal for those who consciously choose organic and sustainable garden fertilization. These organic fertilizers are made from ground horn, an animal by-product that is rich in nitrogen (approximately 14% N), fully organically bound, and slow-acting. As a result, nutrients are released gradually over a period of 6 to 12 weeks, promoting steady plant growth without the risk of burning or leaching.</p>\n<p>Horn fertilizer is especially suitable for nitrogen-loving crops such as cabbages, leeks, potatoes, celery, fruit trees, and berries, but also works well for ornamental plants, lawns, borders, and compost. The coarse or finer texture of horn shavings and horn meal stimulates soil life, enhances humus formation, and contributes to a light, healthy soil structure. Thanks to its slow release, it serves as an ideal base fertilizer in organic and regenerative growing systems.</p>\n<p>These fertilizers are odorless, safe to use, and entirely free of artificial fertilizers, synthetic additives, or compost residues, making them suitable for both professional growers and demanding hobby gardeners. Choose horn fertilizer as a sustainable solution for long-lasting nitrogen supply and active soil improvement.</p>"
+      },
+      {
+        "digest": "621e8894c02f022925e82e73b9fff0e5f1f063fd40073d94903ab27b35a54daf",
+        "key": "handle",
+        "locale": "en",
+        "value": "horn-shavings-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058201924",
+    "translatableContent": [
+      {
+        "digest": "fddd043377a89957dcfd143e726f82fc6bcfcb22a93d2a01b2792959b64ba386",
+        "key": "title",
+        "locale": "en",
+        "value": "Hedges, Yew and Conifers"
+      },
+      {
+        "digest": "c7341a3fe31cbcad6af9b0d45b51a45451bdfca77cd20a16616cf2343e03a776",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>The All-in-One fertiliser for hedges, yew and conifers has been specially developed to keep your evergreen plants healthy, full and vigorous. The balanced composition with NPK 5+4+6 and magnesium (+4) stimulates strong shoot development, deep root growth and an intense green colour in leaves and needles.</p>\n<p>The fertiliser works both quickly and over the long term thanks to its combination of immediately available and gradually released nutrients. In addition, the high organic matter content improves soil life and enhances soil structure. Ideal for both new plantings and the maintenance of existing vegetation. For healthy, compact and resilient hedges and conifers, season after season.</p>"
+      },
+      {
+        "digest": "07720a9177ce6f1d2bba9e3b02468c53c261c93a978c9f640712d32908326b26",
+        "key": "handle",
+        "locale": "en",
+        "value": "hedges-yew-and-conifers"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058234692",
+    "translatableContent": [
+      {
+        "digest": "5d7e0393abdc411f8412f03c1a2d404db9e1618ef4018b951d1a39f03533837f",
+        "key": "title",
+        "locale": "en",
+        "value": "Sheep Wool Fertilizer"
+      },
+      {
+        "digest": "7644636dcef55c88634d6dd6c032987285c40fffb644c62b1318d1e55c966746",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Sheep Wool Pellets Organic Fertilizer is a 100% natural fertilizer made from pure, freshly shorn sheep wool. With an exceptionally high nitrogen content (10.5%) and a natural slow-release effect lasting 8 to 10 months, this fertilizer is ideal for vigorous crops such as cabbages, lettuce, leeks, tomatoes, potatoes, fruit trees, and flowering ornamental plants.</p>\n<p>The pellets enrich the soil with organically bound nitrogen, potassium, sulfur, and magnesium, and actively contribute to humus formation, soil aeration, and a healthy soil life. Thanks to their unique fibrous structure, they absorb up to three times their own weight in water, ensuring stable moisture retention and protection against drought.</p>\n<p>Completely free from chemical fertilizers, compost residues, pesticides, and synthetic additives. Suitable for organic farming (EU Bio-compliant &amp; FiBL-registered). Perfect for vegetable gardens, ornamental gardens, orchards, professional cultivation, and potted plants.</p>"
+      },
+      {
+        "digest": "169d2440ee6574600aa98563a85bfee7971158dfce9bddad4cb21d3d833f0c0b",
+        "key": "handle",
+        "locale": "en",
+        "value": "sheep-wool-fertilizer"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058267460",
+    "translatableContent": [
+      {
+        "digest": "74c68b304f86a1bbcac451615db6811280cdd35fc745f48192c68d75a2b5de80",
+        "key": "title",
+        "locale": "en",
+        "value": "Roses &amp; Flowers"
+      },
+      {
+        "digest": "26e879030b3c0f840ab1fbda2cebd0d9b1a3689840cfd6b646c57271496f1b40",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>The All-in-One fertiliser for roses and flowering plants is specially formulated to promote vigorous growth and abundant blooming. With a balanced NPK 9+4+8 composition, enriched with magnesium (+2), this fertiliser supports every stage of growth – from sturdy shoots to intensely coloured flowers.</p>\n<p>Thanks to both fast-acting and slow-release nutrients, your plants benefit from a continuous supply of essential elements. The added organic matter improves soil structure and enhances the uptake of water and nutrients. Ideal for borders, flower beds, ornamental gardens, and potted plants – for strong plants, more blooms, and a truly eye-catching result.</p>"
+      },
+      {
+        "digest": "69c8d65e92d5c837f14ed9967d826991f411deeb1283c531eeb026a0a3c654fa",
+        "key": "handle",
+        "locale": "en",
+        "value": "roses-flowers"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058300228",
+    "translatableContent": [
+      {
+        "digest": "869e7a1761f9fe7899a465ff2f1afc23ad5abb5b169e755146acc8b0abad085e",
+        "key": "title",
+        "locale": "en",
+        "value": "Compost accelerator"
+      },
+      {
+        "digest": "3da4ac530b467e3225b5f08e789e574f1224c6fd192a4ef5ed536113048bad7a",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>The Organifer Compost Accelerator is the ideal solution for anyone looking to produce compost more quickly from leaves, garden waste, and kitchen scraps. Thanks to its powerful blend of organic substances, magnesium, and guano, microorganisms are activated, accelerating and improving the efficiency of the composting process.</p>\n<p>This biologically active compost accelerator promotes humus formation, buffers pH levels, and boosts soil life. Even thick leaves and hard-to-decompose materials are transformed into valuable, odourless compost—rich in nutrients. Suitable for compost heaps, leaf compost, and direct application in the garden for healthier soil and stronger plants.</p>"
+      },
+      {
+        "digest": "08fda025f36c994cb4f8456f76e758c3a25388cb8cab1cd4f0d213bc03d4923f",
+        "key": "handle",
+        "locale": "en",
+        "value": "compost-accelerator"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058332996",
+    "translatableContent": [
+      {
+        "digest": "151b4c239fb6ac6cd2c4e829933cb48b2eff7c8a03a6d0151ca5055750f34814",
+        "key": "title",
+        "locale": "en",
+        "value": "Fruit, Vegetables and Herbs"
+      },
+      {
+        "digest": "98400f768693280e07e154d90068247f9af144ce519ebd01128eab31592944ec",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>This all-in-one fertiliser is the ideal solution for both professional cultivation and home gardening. Suitable for a wide range of crops such as vegetables, fruit, tomatoes, and herbs. The balanced composition provides plants with all the essential nutrients needed for optimal growth, resulting in stronger plants, higher yields, and more intense flavour.</p>\n<p>Thanks to the carefully formulated blend of organic and mineral components, this fertiliser offers a powerful, natural source of nutrition that improves soil quality and supports the natural balance in the garden. This creates a healthy, living soil, perfect for growing strong and productive crops. The fertiliser supports your plants through every growth stage – from root development to flowering and fruiting.</p>\n<p>This fertiliser encourages uniform growth, promotes abundant flowering, and supports fruit formation. The result is a richer harvest of vegetables, fruit, and herbs that not only produce more, but also taste better. Healthy plants are also more resilient to diseases and stress factors such as drought or extreme weather, ensuring longer shelf life and a more flavourful final result.</p>"
+      },
+      {
+        "digest": "70e4fd8db3544624ae920a9ab12d5a3657ac7b6bcfde0c1b0d1f6a1fca5de365",
+        "key": "handle",
+        "locale": "en",
+        "value": "fruit-vegetables-and-herbs"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058398532",
+    "translatableContent": [
+      {
+        "digest": "5faf31e9ed142a1bb9e48af45e74db0722e5d1637f59b5d6e3d5be00f5b34d91",
+        "key": "title",
+        "locale": "en",
+        "value": "Rhododendron, Hydrangea, Azalea"
+      },
+      {
+        "digest": "a5a0bdea9a16b6960906316a21fb75cefcab0a10ec7c27770d9f9c4a27a97fa2",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>This All-in-One fertiliser is carefully formulated for acid-loving plants such as rhododendrons, hydrangeas, azaleas, camellias, and heathers. The balanced composition with NPK 8+4+5(+2) and added magnesium promotes strong root development, healthy foliage, and prolonged, abundant flowering.</p>\n<p>Thanks to the combination of fast-acting and slow-release nutrients, your plants receive optimal support throughout the entire season. The added organic matter enhances soil life, improves water retention, and stabilises the pH of acidic soils. Ideal for use in borders, pots, or containers – ensuring healthy, resilient plants with vibrant colours and vigorous growth.</p>"
+      },
+      {
+        "digest": "27e73bed0f0572b3e9d7486abb1129262f15e6a39e4ca46f62fa237f1db80da0",
+        "key": "handle",
+        "locale": "en",
+        "value": "rhododendron-hydrangea-azalea"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058431300",
+    "translatableContent": [
+      {
+        "digest": "244bd2a8359dbfd87c1dfd5d64215db61629218d7c3c411e3aeaf0cadab4319b",
+        "key": "title",
+        "locale": "en",
+        "value": "Patentkali Potassium Magnesium"
+      },
+      {
+        "digest": "04b931df57fcca10050f584bf836ab7799237456f62ddaccc49f8f050f7627ec",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Patentkali Kalimagnesia is a high-quality potassium-magnesium fertiliser with a low chloride content, specially developed for chloride-sensitive crops. Thanks to the rapid availability of potassium, magnesium, and sulphur, this fertiliser supports improved root development, increased drought tolerance, and enhanced sugar storage. Suitable for vegetables, fruit, potatoes, and specialised crops. It promotes winter hardiness, strengthens cell structures, and is ideal for intensive cultivation systems.</p>"
+      },
+      {
+        "digest": "864e0ce3efb8f1bf02365c55d1dea7dc47bf790e129246a3d672a4d03b5ca4d9",
+        "key": "handle",
+        "locale": "en",
+        "value": "patentkali-potassium-magnesium"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058464068",
+    "translatableContent": [
+      {
+        "digest": "4e060d886c6187f385a0c846812071773b7e62f605d78db1050158d1ecd4b5b1",
+        "key": "title",
+        "locale": "en",
+        "value": "Biochar Plant-Based Charcoal"
+      },
+      {
+        "digest": "e9cd63cf629b9545257657fabdfa291f148329747775c288a22acd0e6ba769a4",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Biochar is a premium organic soil improver made from 100% cocoa shells through sustainable pyrolysis. This by-product of the cocoa industry is reused in a circular process, helping to reduce waste and promote healthier agriculture. Thanks to its open, porous structure, Biochar provides a vast surface area for water and nutrient storage, resulting in a more stable soil environment and stronger plant growth—even during drought.</p>\n<p>Biochar enhances soil fertility by retaining minerals, improves water retention, and makes the soil more resilient to extreme weather conditions. It also buffers pH levels and supports healthy soil life. With its natural composition free from artificial fertilizers or additives, Organifer Biochar is safe for use in both home gardens and large-scale agriculture.</p>"
+      },
+      {
+        "digest": "1658f205612f1428cea165b10176a5bb2bb8656aaf89d55f4f850e5a26837546",
+        "key": "handle",
+        "locale": "en",
+        "value": "biochar-plant-based-charcoal"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058496836",
+    "translatableContent": [
+      {
+        "digest": "77e30a0c5a999d83e71a6082d81fa8b0d37e15e5ad4c02d69e3d9afae6016be8",
+        "key": "title",
+        "locale": "en",
+        "value": "Ammonium Sulphate Fertilizer"
+      },
+      {
+        "digest": "c65763c5fe76babfcca7c069003da6b83e3575e845ba8732e328031894462c50",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Ammonium Sulfate Fertilizer is a powerful mineral fertilizer containing 21% ammonium nitrogen and 60% sulfur. This fast-acting formula promotes immediate leaf growth, protein formation, and crop vitality. Due to its natural acidifying effect, it lowers the pH of calcareous soils, improving the availability of trace elements such as iron, manganese, and zinc. Ideal for nitrogen- and sulfur-demanding crops such as potatoes, cabbages, onions, leeks, strawberries, and grapes. Thanks to its fine, easy-to-spread granules, this fertilizer is simple to apply for both gardening enthusiasts and professional growers.</p>"
+      },
+      {
+        "digest": "bdbe4a01cb2a994b29ef671ffa007e7d433fcec5a41f330d231ccbd704ee21c5",
+        "key": "handle",
+        "locale": "en",
+        "value": "ammonium-sulphate-fertilizer"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058627908",
+    "translatableContent": [
+      {
+        "digest": "603a4c79913ece533f28b2021a99d9fe3a43c9cf9aea66af0632b44213673f53",
+        "key": "title",
+        "locale": "en",
+        "value": "Drought-Resistant Grass Seed"
+      },
+      {
+        "digest": "1cc93c67f5b8b45ab539442c0f3f69f56913b824f928c8ec341c40605f6e6543",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Drought-resistant grass seed ensures a strong, resilient lawn that remains green and healthy even during hot summers and prolonged dry periods. Thanks to the deep-rooting grass varieties, the lawn draws water and nutrients from deeper soil layers, making it less dependent on irrigation. This results in a low-maintenance lawn that recovers quickly after use and withstands heavy wear.</p>\n<p>With this heat- and drought-tolerant grass seed, you can create a sustainable lawn that stays dense, robust and colourfast season after season. Ideal for private gardens, play lawns and sports fields where performance and a deep green appearance are essential, even under extreme weather conditions.</p>"
+      },
+      {
+        "digest": "f8a5cf3c5bc022d82231f5552fecb7ca9b5debb23954b5a52e12740de4dd1478",
+        "key": "handle",
+        "locale": "en",
+        "value": "drought-resistant-grass-seed"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058660676",
+    "translatableContent": [
+      {
+        "digest": "ab6fdc5ef82083ffd064da41493fa0725019b2da7beec0cdc2c1d1a01ea99b4b",
+        "key": "title",
+        "locale": "en",
+        "value": "Paddock Grass Seed"
+      },
+      {
+        "digest": "c0ff5bb6abdcdbca2eee16f6d00e492b051ddcecb51dde77b112269f4865083d",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Paddock Grass Seed has been specially developed for durable and resilient horse pastures. The fast-germinating mix forms a dense, springy turf that can withstand heavy grazing, galloping, and pawing. Thanks to its low growing points, the grass recovers quickly, leaving no room for bare spots or weeds.</p>\n<p>This palatable grass seed mix produces nutritious and healthy grass that is ideal for daily grazing and safe for horses. With Paddock Grass Seed, you create a strong, green pasture that ensures a consistent grass supply and supports the health and well-being of your horses.</p>"
+      },
+      {
+        "digest": "7c228b4955582202a2509976f8b8991006659bec22af189344b427973e970697",
+        "key": "handle",
+        "locale": "en",
+        "value": "paddock-grass-seed"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058693444",
+    "translatableContent": [
+      {
+        "digest": "8f0d2d985a07132b7f1c35d63f1079225dfd65ca41c47d148d4348658db47af6",
+        "key": "title",
+        "locale": "en",
+        "value": "Hay &amp; Silage Grass Seed"
+      },
+      {
+        "digest": "24d93b1b070fd5643b6c0557281df67d71d35e8c10c9d903a0b14647271f9c22",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Hay is a premium grass seed mixture, specially developed for mowing and the production of hay and silage. It delivers up to 30% more yield per hectare than standard hay mixes and forms a durable sward that remains productive for years.</p>\n<p>Thanks to its balanced composition – including timothy, meadow fescue, and cocksfoot – it produces fibre-rich and aromatic hay with a low fructan content. This makes the roughage safe for horses and reduces the risk of laminitis and obesity. Horses readily consume the hay in full, while its consistent nutritional value supports healthy digestion.</p>\n<p>Organifer Hay stands out for its high feed value, quick drying after mowing, and long-term stability. The result is premium roughage from your own land: palatable, safe, and productive – season after season.</p>"
+      },
+      {
+        "digest": "17d78dd68b0a363ffbf992467f7f3695fd1b1efaaec92644792b2b3597ce1798",
+        "key": "handle",
+        "locale": "en",
+        "value": "hay-silage-grass-seed"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058726212",
+    "translatableContent": [
+      {
+        "digest": "6bc2a0ccd52496605e0d8c7b946b59a060a130cc463c7e973b27454b392d635f",
+        "key": "title",
+        "locale": "en",
+        "value": "Maaibare bloemen"
+      },
+      {
+        "digest": "4b4d51f3781b8d55c9762c42aaef810cd29eace36741cf71e7883c4184271a04",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Maaibare bloemenzaad creëert een kleurrijke bloemenweide die niet alleen prachtig oogt, maar ook een waardevolle bron is voor bestuivende insecten zoals bijen, vlinders en hommels. De zorgvuldig geselecteerde soorten bloeien zelfs in kort gemaaide gazons, waardoor je tuin of erf zowel functioneel als ecologisch waardevol blijft.</p>\n\n<p>Met maaibare bloemen zaai je een mix die ideaal is voor tuinen, gazons en openbare groenvoorzieningen. De bloemen trekken nuttige insecten aan, verbeteren de biodiversiteit en geven je buitenruimte een natuurlijke uitstraling. Perfect voor wie een levendig, onderhoudsvriendelijk en insectvriendelijk gazon wil creëren.</p>"
+      },
+      {
+        "digest": "f57a031b44309a1ec95e4790c0726e1eed77cbdf27c44ef0e8fcbb5c6087d007",
+        "key": "handle",
+        "locale": "en",
+        "value": "maaibare-bloemen"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657058955588",
+    "translatableContent": [
+      {
+        "digest": "c26f3e9baae05a696ade03667ddbee51132669c376b379d3431ed1a548ff1d7d",
+        "key": "title",
+        "locale": "en",
+        "value": "Sedum and Green Roof Fertiliser"
+      },
+      {
+        "digest": "34ce8f46c2c721597de4d0f629e31ad729e4fcab2ad38bc86eaefd2f5e642c7c",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Sedum &amp; Green Roof Fertiliser is a specialised organo-mineral fertiliser designed to optimise the growth, density and vitality of sedum and green roofs. This category includes products developed to keep roofs lush, strong and healthy over the long term, while respecting the ecological balance of the roof ecosystem. The fertiliser promotes steady and lasting growth, encouraging a dense, full and vibrant sedum carpet.</p>\n<p>The balanced NPK composition is specially formulated for sedum and other succulents. Thanks to its extra potassium content, the fertiliser enhances resistance to drought, heat and extreme weather conditions. It prevents bare patches and moss formation through stable, controlled nutrient release. In addition, it strengthens root systems, improving both the durability and stability of the roof substrate.</p>\n<p>A healthy vegetation layer supports biodiversity by attracting bees, butterflies and other beneficial insects. The environmentally friendly formula is fully biodegradable and offers long-lasting results through gradual nutrient release. The product is easy to apply and suitable for both extensive and intensive green roofs.</p>"
+      },
+      {
+        "digest": "96726680410645d635f88a70a2406c8785061d26ed52ae60f8851eccd03033d9",
+        "key": "handle",
+        "locale": "en",
+        "value": "sedum-and-green-roof-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657059053892",
+    "translatableContent": [
+      {
+        "digest": "e6816305da0e5b31d508c88099d6df9933e9a7ac9879c1be8bc087aab248acfa",
+        "key": "title",
+        "locale": "en",
+        "value": "Flower Fertiliser"
+      },
+      {
+        "digest": "0734553d3038e67f9f06545417710bd9a7c2c1c61273aa54604582164f802433",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Flower Fertiliser is specially developed to optimally support flowering plants throughout the entire season. The balanced composition promotes strong root development, enabling plants to absorb nutrients more effectively and form new flower buds. This results in richer, fuller and longer-lasting blooms. In addition, the flower fertiliser strengthens natural resistance, making plants less sensitive to stress, drought and fungal pressure. Suitable for annual and perennial varieties, for garden borders, pots, balconies and ornamental gardens. It is the ideal choice for anyone who wants to achieve maximum colour intensity and abundant flowering.</p>"
+      },
+      {
+        "digest": "dbe8de05dfcc9a29514582055a111ec6bfa9b5145bc7ecd05ac20a9f82add6be",
+        "key": "handle",
+        "locale": "en",
+        "value": "flower-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657059119428",
+    "translatableContent": [
+      {
+        "digest": "a2a2e072490dc6f26be7fa8f2185edda8eb1ddd2b5473b1a0372fa63a406eed7",
+        "key": "title",
+        "locale": "en",
+        "value": "Houseplant fertilizer"
+      },
+      {
+        "digest": "2a04697507be886a51c640ef34cd71dd3779ba56e36e11c558275533a5eb2faa",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Houseplant Fertiliser is carefully formulated for the needs of green and flowering indoor plants. Indoor plants have limited access to natural nutrients, making targeted fertilisation essential. This fertiliser promotes strong roots, glossy leaves and steady, healthy growth. The gentle formula prevents over-fertilisation and is perfectly suited for sensitive varieties such as Calathea, Alocasia, Monstera and Ficus. In addition, the nutrients improve resistance to common indoor issues such as dry air, limited light and root stress. Ideal for both beginning and experienced plant enthusiasts who want to see their indoor jungle thrive.</p>"
+      },
+      {
+        "digest": "bde7cf21f5a7ea56041b234c0cbf9d14e3b2b8dd4be0cb59ef9d7738c4d60218",
+        "key": "handle",
+        "locale": "en",
+        "value": "houseplant-fertilizer"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657059152196",
+    "translatableContent": [
+      {
+        "digest": "7b802b22a09ab18ccb439cf4e3cf6285105c2559445da8c027bc6fbe23c59fe1",
+        "key": "title",
+        "locale": "en",
+        "value": "Succulent fertilizer"
+      },
+      {
+        "digest": "0380986089a388a87dbb9c15f8b26fd3eff8c8c3df5f68172d2d4766e15a9489",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Succulent Fertiliser is specially designed for the unique nutritional needs of succulents, cacti and desert plants. These species grow slowly and require a light, balanced fertiliser that preserves leaf structure and prevents over-fertilisation. The fertiliser stimulates compact growth, vibrant colours and firm leaves that efficiently store water. In addition, it supports healthy root development, which is essential for plants sensitive to root rot. Perfect for Aloe Vera, Echeveria, Haworthia, Sansevieria, cacti and other drought-tolerant species, both indoors and outdoors.</p>"
+      },
+      {
+        "digest": "e238909a17f7c9039b158bbf12e51e20ebadff414d88ca6cf4047419bb4b24d8",
+        "key": "handle",
+        "locale": "en",
+        "value": "succulent-fertilizer"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657059184964",
+    "translatableContent": [
+      {
+        "digest": "ce5b2897c710fc3c9b5cb29ecd48490117355093f719dee017f4f3f6131d8b43",
+        "key": "title",
+        "locale": "en",
+        "value": "Frass Lawn fertilizer"
+      },
+      {
+        "digest": "5167ff128f3a5ad5b1ada897c223592b26e5d42a2c3ddb83a5bb26aceb9b8398",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Frassor fertilisers offer professional, result-oriented plant nutrition for gardeners who strive for healthy soil, strong growth and visible results throughout the entire year. In this category, you will find a complete range of Frassor fertilisers, including autumn fertiliser, lawn fertiliser, border fertiliser and universal fertiliser, developed to optimally support plants, grass and soil in every season. Frassor fertilisers focus on balanced nutrition and long-term soil health, making them suitable for both experienced gardeners and those looking for reliable, user-friendly fertiliser solutions.</p>\n<p>Frassor autumn fertiliser is specially formulated to prepare plants and lawns for the colder months. Thanks to a lower nitrogen content and an increased potassium level, this fertiliser supports strong root development, improves plant resistance and helps lawns and borders harden properly before winter. This results in improved winter hardiness and a healthier, faster start in spring. Frassor lawn fertiliser promotes even grass growth, deeper rooting and a dense turf. The fertiliser helps the lawn recover after foot traffic and mowing, enhances colour and supports long-lasting strength throughout the growing season.</p>\n<p>For flowering plants, perennials, shrubs and roses, Frassor border fertiliser provides targeted nutrition that supports controlled growth, sturdy stems and abundant flowering without excessive leaf development. The carefully balanced composition helps borders maintain a uniform, healthy appearance and strong visual impact. Frassor universal fertiliser offers a versatile solution for a wide range of applications, including lawns, borders, vegetable gardens and ornamental plants. This fertiliser is ideal for gardeners who choose one reliable fertiliser with consistent results across different areas of the garden.</p>"
+      },
+      {
+        "digest": "41b95843a8ba7b1a41d65e262f3408f6b174183cdc7602ced68eccb8712ad2c1",
+        "key": "handle",
+        "locale": "en",
+        "value": "frass-lawn-fertilizer"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657059250500",
+    "translatableContent": [
+      {
+        "digest": "01e59ca9b2fbbcde9813d072413f7a1c145cbfaddcf8a3477f859683f3350ae5",
+        "key": "title",
+        "locale": "en",
+        "value": "Vegetable Fertiliser"
+      },
+      {
+        "digest": "c302b018c4349c225bf8b467a31b0b4fbb47a10a87ad0baa4171c27f571643aa",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Vegetable Fertiliser is formulated to provide vegetable garden plants with the nutrients they need for vigorous growth and a rich harvest. It stimulates the development of healthy leaves, strong roots and firm fruits. Thanks to the balanced ratio of nitrogen, phosphorus and potassium, vegetable plants are supported throughout all growth stages, from seedling to harvest. This fertiliser is ideal for tomatoes, cucumbers, peppers, courgettes, cabbages, leafy greens and root crops. In addition, vegetable fertiliser improves soil structure and microbial soil life, contributing to sustainable and productive garden beds.</p>"
+      },
+      {
+        "digest": "d1ff14ede3249fc9bb6901d4a16b07bc4db11fc7fe998e977d3efbee2fd23dd6",
+        "key": "handle",
+        "locale": "en",
+        "value": "vegetable-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657059381572",
+    "translatableContent": [
+      {
+        "digest": "4eba960a3b0d546cb77dd871930c163dc8f547b7d0a4590f2a642fcedfbabc92",
+        "key": "title",
+        "locale": "en",
+        "value": "Grass Fertilizer"
+      },
+      {
+        "digest": "356a8bbd5d21d4c0131047f5f3ef14b056af67b8ac1e4f3e3fc0b20693417b17",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Lawn Fertiliser is designed to create and maintain a strong, green and even lawn. It supports dense root growth, making grass more resistant to foot traffic, drought and temperature fluctuations. The fertiliser promotes a deep green colour, reduces bare spots and helps suppress moss and weed growth. Ideal for ornamental lawns, play lawns, sports fields and grass areas that experience intensive use. Thanks to its balanced composition, the lawn remains well-nourished and vibrant for a long period, even under challenging growing conditions.</p>"
+      },
+      {
+        "digest": "c3fcdb677b34db2ba6b7d6aec83613ae035f41bc009f6530492018d958fbd0d8",
+        "key": "handle",
+        "locale": "en",
+        "value": "grass-fertilizer"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657059414340",
+    "translatableContent": [
+      {
+        "digest": "cf637327330bc0ca0dc79fdee1780be6a6d8b16281e5d8364b28094025206e88",
+        "key": "title",
+        "locale": "en",
+        "value": "Herb fertilizer"
+      },
+      {
+        "digest": "b436924e375a470b08c531a23a0e10dacf01d8ec2eb231ed5820565ded7c4ddd",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Herb Fertiliser provides aromatic herbs with mild, natural nutrients that enhance flavour, fragrance and leaf quality. Many herbs grow in relatively poor soil and require a balanced fertiliser that stimulates compact growth and rich aroma development without forcing the plants. This fertiliser is perfectly suited for basil, mint, oregano, thyme, sage, parsley and other Mediterranean or leaf-producing herbs. The nutrients support strong root development and a healthy plant structure, helping herbs stay fresh and productive for a longer period.</p>"
+      },
+      {
+        "digest": "b07a86e04fbbbb264a818b3f1bb314ab06badb8024d766fd2ad6bac3318a0e2b",
+        "key": "handle",
+        "locale": "en",
+        "value": "herb-fertilizer"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657059479876",
+    "translatableContent": [
+      {
+        "digest": "9d5fdac7c64a1da37f0a41557f76f48b1892bae65de650de900779643fb5e865",
+        "key": "title",
+        "locale": "en",
+        "value": "Fruit Fertiliser"
+      },
+      {
+        "digest": "e8141ea8395084b5a5398cb1628a777ec064182ed297bd5cf4d16c27cc7deb3c",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Fruit Fertiliser provides the essential nutrients that fruit trees, berry bushes and soft fruit plants need for flower formation, fruit set and flavour development. The fertiliser supports a strong root system, healthy leaf growth and the production of juicy, aromatic fruit. Suitable for strawberries, raspberries, blackberries, blueberries, grapes, apple and pear trees and citrus varieties. Fruit fertiliser increases natural resistance to diseases and stress factors, helping plants remain stable and more productive throughout the entire season.</p>"
+      },
+      {
+        "digest": "3a4868150925044c6a61a6058fa672424c3897da1b79aca426ae1192e06f1d7e",
+        "key": "handle",
+        "locale": "en",
+        "value": "fruit-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657059578180",
+    "translatableContent": [
+      {
+        "digest": "c14d4541212a270b095767a506af68d35c6514c0b62c39ee0f02216f46a53f52",
+        "key": "title",
+        "locale": "en",
+        "value": "Tree Fertiliser"
+      },
+      {
+        "digest": "52967674c0f9d5e04bb415687cbf3cc009377408cef1ab8c40835b4579829702",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Tree Fertiliser is specially formulated to support both young and mature trees in achieving healthy growth. The nutrients penetrate deeply into the soil, stimulating strong root expansion, which is essential for stability, water absorption and long-term vitality. In addition, it promotes the development of sturdy branches, healthy foliage and a robust tree structure. Suitable for ornamental trees, avenue trees, fruit trees and Mediterranean species such as olive trees. Tree fertiliser helps trees recover from pruning, stress, drought and poor soil conditions, contributing to a healthy and resilient growing season.</p>"
+      },
+      {
+        "digest": "4629f19e7b0a2035f133419e1693cd428764779781d431aed17c7d69ae9f01cc",
+        "key": "handle",
+        "locale": "en",
+        "value": "tree-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657059643716",
+    "translatableContent": [
+      {
+        "digest": "91a9cf039d1ca1a3a655655740035f2d8039ba2a13cfb1e33958b0f60b741d23",
+        "key": "title",
+        "locale": "en",
+        "value": "Frass Concentrates"
+      },
+      {
+        "digest": "7ad7caac2e4107f7809c2ac7e57cdc1ca33e1c895de163b3a27b8834e9609262",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Frassor liquid concentrates are bio-stimulant solutions designed to support plant vitality, resilience, and balanced development across all growing conditions. This range includes Frassor Leaf Vital, Leaf Resilience, Grass Vital, Grass Resilience, Soil Vital, Soil Resilience, Root Balance, and Plant Resilience. Each product is developed to work with the plant’s natural processes rather than forcing growth, making Frassor an ideal choice for sustainable and professional plant care. All Frassor products are liquid bio-stimulant concentrates made from herbal and vegetable extracts, carefully selected to support key plant functions. By stimulating natural physiological processes, these bio-stimulants help plants cope better with environmental stress, support nutrient efficiency, and promote healthier growth without acting as fertilisers or chemical control products. The liquid concentrate form ensures fast uptake, easy dilution, and flexible application for gardens, lawns, ornamental plants, and edible crops. As bio-stimulants, Frassor liquid concentrates are suitable for use in sustainable gardening and professional plant care programs. They integrate easily into existing fertilisation schedules and can be applied throughout the growing season according to recommendations. Frassor bio-stimulant liquid concentrates are an effective solution for growers and gardeners looking to improve plant vitality, resilience, and long-term performance in a natural and responsible way.</p>"
+      },
+      {
+        "digest": "01a583371ff7cfef41040c8d29a43fccbd10b7fb2afdcf5d8cf35d66f4e595f2",
+        "key": "handle",
+        "locale": "en",
+        "value": "frass-concentrates"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657060331844",
+    "translatableContent": [
+      {
+        "digest": "03d0cfe8212536e3535cabf0d6b341a6d3a497531b3685b4978ab5ac6e939033",
+        "key": "title",
+        "locale": "en",
+        "value": "Insect Frass from Black Soldier Flies"
+      },
+      {
+        "digest": "f8bef8d31d280b1bbc996f537433e1e92be1dfd129df1e75d0ad79f0664a2e7c",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Insect Frass Fertilizer Pellets are made from 100% pure insect droppings sourced from larvae of the Black Soldier Flies. It is a high-quality product manufactured in the Netherlands, dried and sanitized through heating, and then compressed into unique micro-pellets.</p>\n<p>Organifer Frass is highly abundant in chitin. Chitin is a superfood for microorganisms that break it down. During this process, enzymes (chitinases) are released, prompting the plant to activate its natural defense mechanisms. This makes the plant less susceptible to diseases and pests. It is no wonder that Organifer insect fertilizer is successfully used in the horticulture industry.</p>"
+      },
+      {
+        "digest": "9ad0fa6d6764987be20813b60da5f1ae2c03778838112161b60b7f83ecb13f13",
+        "key": "handle",
+        "locale": "en",
+        "value": "insect-frass-from-black-soldier-flies"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657060495684",
+    "translatableContent": [
+      {
+        "digest": "7013eaa1c28c9cd35c593c7834eed613e28fafc8c7f2d0906a913f82d60fa075",
+        "key": "title",
+        "locale": "en",
+        "value": "Abonnement"
+      },
+      {
+        "digest": "9d68d1ffa2a015fd32732875cf86408567b4b4d726a0ddb00ed97d4e1e37e7f3",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Met de bemesting abonnementen van Organifer ontvang je exact de juiste hoeveelheid van je meststof op het juist moment voor een perfect resultaat.</p>\n\n<p>Daarnaast voorzien we je gratis van advies en een duidelijk instructie. Het enige dat jij hoeft te doen is de geleverde korrels uit te strooien zodra je deze van ons via de pakketdienst ontvangt!\n<br>Het Organifer abonnement is elk moment te wijzigen of stop te zetten, we hebben geen opzegtermijnen.</p>"
+      },
+      {
+        "digest": "341f45098c153ef8289e8bf34d605525f4a6565dad8a321ddffd5dc89d1f82ff",
+        "key": "handle",
+        "locale": "en",
+        "value": "bemesting-abonnement"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657060528452",
+    "translatableContent": [
+      {
+        "digest": "60110f2012805c6eb5b20d23f069f65ff7bc3c4604d41f40b798c6325211c8cf",
+        "key": "title",
+        "locale": "en",
+        "value": "Fertiliser Tablets All-In-One"
+      },
+      {
+        "digest": "8564eb1dc247b0b894c16257a975f48378592968cd0bf0adc9ea556602d53446",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>These All-In-One fertiliser tablets with rhizobacteria have been specifically developed to optimally nourish plants throughout the year. The slow-release technology, which releases macro and micro elements in a controlled manner, structures your plant and ensures a nutrient balance that prevents over- or under-dosing. Thus, the plant receives exactly what it needs for healthy growth and bloom.</p>\n<p>With our Organifer All-In-One tablets, you no longer have to worry about caring for your plants. These tablets contain both macro and micro elements, which are essential for healthy plant growth. Their controlled release ensures a balanced supply of nutrients necessary for healthier and more vigorous plants.</p>\n<p>The added rhizobacteria and fulvic acid further improve these results by fixing nitrogen and mobilising elements for the plant. They also increase the chlorophyll content and break down organic substances, benefiting the health and bloom of your plants.</p>\n<p>When used correctly, Organifer All-In-One fertiliser tablets are a simple, economical and cost-effective solution for fertilising new and existing plants. These fertiliser tablets are ideal for pot, tub or hanging plants and contain everything your plants need for healthy growth and blooming throughout the year.</p>"
+      },
+      {
+        "digest": "1a09521b0a56c1519e52a0e600de892126a1824f328feb6de817d25ce4759185",
+        "key": "handle",
+        "locale": "en",
+        "value": "fertiliser-tablets-all-in-one"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657309303108",
+    "translatableContent": [
+      {
+        "digest": "7be72941faf43cfc432ac48dc2032b25d9f210b634e143511d365030e3920cf1",
+        "key": "title",
+        "locale": "en",
+        "value": "Test Collection"
+      },
+      {
+        "digest": "3510aca029e9fee60064fddff3eaf4fbdeda11e5b81797a45459b627e305b705",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Afrikaanse Viooltjes Vloeibare Meststof – 1 Liter</p>"
+      },
+      {
+        "digest": "feb2f3afda3388d4d1c3f9f69906b2613d7b866be7436738cb59759938de33ed",
+        "key": "handle",
+        "locale": "en",
+        "value": "test-collection"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657508303172",
+    "translatableContent": [
+      {
+        "digest": "a0754a4fbbb75a94b6b312d8725b50236dacec28f05e270bfe98e27ec2b880c0",
+        "key": "title",
+        "locale": "en",
+        "value": "Organic fertiliser"
+      },
+      {
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "key": "body_html",
+        "locale": "en",
+        "value": ""
+      },
+      {
+        "digest": "02698fcc1555007771208b043213777961e8f691545296b14bed66ac79eabd65",
+        "key": "handle",
+        "locale": "en",
+        "value": "organic-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657535598916",
+    "translatableContent": [
+      {
+        "digest": "dc66a80851ec39b20ab96a12b6ff0cef0ab99e026a491e90d1f7546cd64cf517",
+        "key": "title",
+        "locale": "en",
+        "value": "Overige"
+      },
+      {
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "key": "body_html",
+        "locale": "en",
+        "value": ""
+      },
+      {
+        "digest": "e1aaf003dfb75bed68fb0e835f2ad7fef5e8e55e322b934dfa6a8efb45a98f34",
+        "key": "handle",
+        "locale": "en",
+        "value": "overige"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657535631684",
+    "translatableContent": [
+      {
+        "digest": "986058c9bbb2b91697ee13edd5fd56fe53802f4fd176c90182cd97463e2cba9a",
+        "key": "title",
+        "locale": "en",
+        "value": "Soil conditioners"
+      },
+      {
+        "digest": "723d7cf1f72e85dddb26d7603d2a9add19b5810305b2b5a81b55799d1e938528",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Due to intensive use, the quality of our soils is constantly under pressure. The decades-long use of artificial fertilisers limited to a few elements has depleted the soil. The mineral fertility decreases, the humus content, structure, and disease resistance of the soil decline. As a result, plants have less resistance, and our food has become poorer in essential minerals and trace elements.</p>\n<p>By only using artificial fertilisers, lime, and organic matter, soils cannot sustainably recover. The use of rock dust as a natural source of minerals to increase soil fertility has been known for a long time but has been neglected due to the focus on modern synthetic fertilisers.</p>\n<p>Since 2009, Organifer has been committed to sustainable soil quality restoration.</p>"
+      },
+      {
+        "digest": "29ba06c21f96fdc69d3a484130acb6bee1ff485ff1ed1ae4b2e5e13a29b96be1",
+        "key": "handle",
+        "locale": "en",
+        "value": "soil-conditioners-improvers"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657535664452",
+    "translatableContent": [
+      {
+        "digest": "e9084538cd6973ff9db345b4f018f8b9389d9efa4cf93ac6aad7785360da8b0c",
+        "key": "title",
+        "locale": "en",
+        "value": "Liquid Fertiliser"
+      },
+      {
+        "digest": "59c90dadcb371653a5041efc13d519e679bb6085bf2b1b531a17d78540bb4f89",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organifer Liquid Fertiliser is used with great success in hydroponics and substrate cultivation, indoors and outdoors, in agriculture, on golf and sports fields, in ornamental and vegetable gardens, as well as for houseplants.</p>"
+      },
+      {
+        "digest": "5bf565149224345392ba04e5eb75700c8b877736e566868f152a0a9e97a4f1ff",
+        "key": "handle",
+        "locale": "en",
+        "value": "liquid-fertiliser"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657535697220",
+    "translatableContent": [
+      {
+        "digest": "2f50164754c3a8664d5dbd0ea8a265d23e8defdc4547dc469dfce4cf2908940c",
+        "key": "title",
+        "locale": "en",
+        "value": "Diseases &amp; Pests"
+      },
+      {
+        "digest": "ba03c29bc08d34463d6ce9baa0ec08e295d66264daef2bdacbf6282c7d646285",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>The eco-friendly and sustainable answer to a wide range of plant and garden issues. Our concentrates are made solely from plant-derived ingredients that are taken up by the soil and plant roots. Once there, they stimulate plant growth, vitality, and natural regenerative abilities, addressing imbalances and external factors that affect plants.</p>\n<p>The understanding that plants can be safeguarded and fortified by considering the natural cycle and symbiotic relationships has long been recognized. Organifer has advanced this principle and harnesses specific herbal extracts to create an efficient solution that can be applied both preventively and curatively.</p>"
+      },
+      {
+        "digest": "0bfb1409a83df73d5bbc64997080149ee67a5fcc065ed215f47d85c91c1100eb",
+        "key": "handle",
+        "locale": "en",
+        "value": "diseases-pests"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657535729988",
+    "translatableContent": [
+      {
+        "digest": "c5df55515a5ff669c0f6e66f66775fe540fd49154b20eb6751aa97fc702d4538",
+        "key": "title",
+        "locale": "en",
+        "value": "Organische Mest"
+      },
+      {
+        "digest": "e6740d54f4b11c2c479519f775c7bc3a2249f8704bd2acdde2abd317f45799c4",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>Organische mest is uitermate geschikt als aanlegmeststof vof basis meststof oor siertuin, border, gazon, bol- en knolgewassen, moestuin, rozen, potplanten en fruitbomen. De korrels verbeteren de bodemstructuur en het vochtvasthoudend vermogen, maken vruchtbaar bodemleven mogelijk en voorzien in een natuurlijke verrijking van de bodem om de grond aanhoudend in evenwicht te houden. Het betreft een allround-meststof die geschikt is voor alle grondsoorten en perfect kan worden gebruikt als aanleg- en basismeststof voor gazon, border, moestuin, weide en boomgaard. Bovendien zijn de korrels inzetbaar als bodemactivator door snelle stimulering van positief bodemleven.</p>"
+      },
+      {
+        "digest": "69fb97fba8218c6efb949be5e1893d27d65c7631ef4a13a2cb16f38b96a1a1ec",
+        "key": "handle",
+        "locale": "en",
+        "value": "organische-mest"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657535762756",
+    "translatableContent": [
+      {
+        "digest": "93baa42f0385b5e74ffb8c707bf9e72f6f0edeb5f7dfde5586c6dd44684ef3cd",
+        "key": "title",
+        "locale": "en",
+        "value": "Fertiliser Tablets"
+      },
+      {
+        "digest": "a67f611a46ce928a98b8d8f805f83f05b44780210474a7e698ed22c1d2e875cb",
+        "key": "body_html",
+        "locale": "en",
+        "value": "<p>These All-In-One fertiliser tablets with Rhizobacteria have been specifically developed to optimally nourish plants all year round. The slow-release technology, which releases macro and micro-elements in doses, structures your plant and ensures a nutrient balance that prevents over or under-dosing. Thus, the plant receives exactly what it needs for healthy growth and blooming.</p>\n<p>With our Organifer All-In-One tablets, you no longer have to worry about caring for your plants. These tablets contain both macro and micro elements essential for healthy plant growth. Their dosed release ensures a balanced supply of nutrients necessary for healthier and more vital plants.</p>\n<p>The added Rhizobacteria and Fulvic further enhance these results by fixing nitrogen and mobilising elements for the plant. They also increase the chlorophyll content and break down organic substances, benefiting the health and blooming of your plants.</p>\n<p>When used properly, Organifer All-In-One fertiliser tablets are a simple, economical and cost-effective solution for fertilising new and existing plants. These fertiliser tablets are ideal for pot, tub, or hanging plants and contain everything your plants need for healthy growth and blooming all year round.</p>"
+      },
+      {
+        "digest": "9870e6ba13bf9765cf3725dd6a836814ac4e8d88e9de5ed1cd9b961cbe9ee1a2",
+        "key": "handle",
+        "locale": "en",
+        "value": "fertiliser-tablets"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657535795524",
+    "translatableContent": [
+      {
+        "digest": "fed930be120de065ade4f3c35a06f692b4c87bcf24e9705dcc2ee87972871401",
+        "key": "title",
+        "locale": "en",
+        "value": "Sports and Play Lawn"
+      },
+      {
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "key": "body_html",
+        "locale": "en",
+        "value": ""
+      },
+      {
+        "digest": "50f7916e2cd183df5431ba9ad5dc37a903770c7feada82f14fd67efa4ca53b45",
+        "key": "handle",
+        "locale": "en",
+        "value": "sports-and-play-lawn"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657535828292",
+    "translatableContent": [
+      {
+        "digest": "85a3ecf44b41a3521dd96793cd27db5da3f7f45df3dd76d50dfb9b815763989a",
+        "key": "title",
+        "locale": "en",
+        "value": "Ornamental Lawn"
+      },
+      {
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "key": "body_html",
+        "locale": "en",
+        "value": ""
+      },
+      {
+        "digest": "6056ba6bb82376ad3fdb2be53f8b19db8ec168cf4b4b280c536c5c0718e23084",
+        "key": "handle",
+        "locale": "en",
+        "value": "ornamental-lawn"
+      }
+    ]
+  },
+  {
+    "resourceId": "gid://shopify/Collection/657535861060",
+    "translatableContent": [
+      {
+        "digest": "b9ef166afeb864c7b7768e59082f28dc7a617d2c6e846f77c6a63d2666688282",
+        "key": "title",
+        "locale": "en",
+        "value": "Tomaten-"
+      },
+      {
+        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "key": "body_html",
+        "locale": "en",
+        "value": ""
+      },
+      {
+        "digest": "4810783292c958d8a54fc66d3f5d1f635f998ac3b1c22772c17e682545e1aa45",
+        "key": "handle",
+        "locale": "en",
+        "value": "tomaten"
+      }
+    ]
+  }
+]

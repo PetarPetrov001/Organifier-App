@@ -33,6 +33,33 @@ export type GetTranslatableArticlesQuery = { translatableResources: { nodes: Arr
       & { translatableContent: Array<Pick<AdminTypes.TranslatableContent, 'digest' | 'key' | 'locale' | 'value'>> }
     )>, pageInfo: Pick<AdminTypes.PageInfo, 'hasNextPage' | 'endCursor'> } };
 
+export type CollectionUpdateMutationVariables = AdminTypes.Exact<{
+  input: AdminTypes.CollectionInput;
+}>;
+
+
+export type CollectionUpdateMutation = { collectionUpdate?: AdminTypes.Maybe<{ collection?: AdminTypes.Maybe<Pick<AdminTypes.Collection, 'id' | 'title' | 'handle' | 'descriptionHtml'>>, userErrors: Array<Pick<AdminTypes.UserError, 'field' | 'message'>> }> };
+
+export type GetTranslatableCollectionsQueryVariables = AdminTypes.Exact<{
+  resourceType: AdminTypes.TranslatableResourceType;
+  first: AdminTypes.Scalars['Int']['input'];
+  after?: AdminTypes.InputMaybe<AdminTypes.Scalars['String']['input']>;
+}>;
+
+
+export type GetTranslatableCollectionsQuery = { translatableResources: { nodes: Array<(
+      Pick<AdminTypes.TranslatableResource, 'resourceId'>
+      & { translatableContent: Array<Pick<AdminTypes.TranslatableContent, 'digest' | 'key' | 'locale' | 'value'>> }
+    )>, pageInfo: Pick<AdminTypes.PageInfo, 'hasNextPage' | 'endCursor'> } };
+
+export type GetOrdersQueryVariables = AdminTypes.Exact<{
+  first: AdminTypes.Scalars['Int']['input'];
+  after?: AdminTypes.InputMaybe<AdminTypes.Scalars['String']['input']>;
+}>;
+
+
+export type GetOrdersQuery = { orders: { nodes: Array<Pick<AdminTypes.Order, 'id' | 'email'>>, pageInfo: Pick<AdminTypes.PageInfo, 'hasNextPage' | 'endCursor'> } };
+
 export type GetTranslatableProductsQueryVariables = AdminTypes.Exact<{
   resourceType: AdminTypes.TranslatableResourceType;
   first: AdminTypes.Scalars['Int']['input'];
@@ -55,12 +82,15 @@ export type TranslationsRegisterMutation = { translationsRegister?: AdminTypes.M
 
 interface GeneratedQueryTypes {
   "#graphql\n  query getTranslatableArticles(\n    $resourceType: TranslatableResourceType!\n    $first: Int!\n    $after: String\n  ) {\n    translatableResources(first: $first, after: $after, resourceType: $resourceType) {\n      nodes {\n        resourceId\n        translatableContent {\n          digest\n          key\n          locale\n          value\n        }\n      }\n      pageInfo {\n        hasNextPage\n        endCursor\n      }\n    }\n  }\n": {return: GetTranslatableArticlesQuery, variables: GetTranslatableArticlesQueryVariables},
+  "#graphql\n  query getTranslatableCollections(\n    $resourceType: TranslatableResourceType!\n    $first: Int!\n    $after: String\n  ) {\n    translatableResources(first: $first, after: $after, resourceType: $resourceType) {\n      nodes {\n        resourceId\n        translatableContent {\n          digest\n          key\n          locale\n          value\n        }\n      }\n      pageInfo {\n        hasNextPage\n        endCursor\n      }\n    }\n  }\n": {return: GetTranslatableCollectionsQuery, variables: GetTranslatableCollectionsQueryVariables},
+  "#graphql\n  query getOrders($first: Int!, $after: String) {\n    orders(first: $first, after: $after) {\n      nodes {\n        id\n        email\n      }\n      pageInfo {\n        hasNextPage\n        endCursor\n      }\n    }\n  }\n": {return: GetOrdersQuery, variables: GetOrdersQueryVariables},
   "#graphql\n  query getTranslatableProducts(\n    $resourceType: TranslatableResourceType!\n    $first: Int!\n    $after: String\n  ) {\n    translatableResources(first: $first, after: $after, resourceType: $resourceType) {\n      nodes {\n        resourceId\n        translatableContent {\n          digest\n          key\n          locale\n          value\n        }\n      }\n      pageInfo {\n        hasNextPage\n        endCursor\n      }\n    }\n  }\n": {return: GetTranslatableProductsQuery, variables: GetTranslatableProductsQueryVariables},
 }
 
 interface GeneratedMutationTypes {
   "#graphql\n      mutation populateProduct($product: ProductCreateInput!) {\n        productCreate(product: $product) {\n          product {\n            id\n            title\n            handle\n            status\n            variants(first: 10) {\n              edges {\n                node {\n                  id\n                  price\n                  barcode\n                  createdAt\n                }\n              }\n            }\n          }\n        }\n      }": {return: PopulateProductMutation, variables: PopulateProductMutationVariables},
   "#graphql\n    mutation shopifyRemixTemplateUpdateVariant($productId: ID!, $variants: [ProductVariantsBulkInput!]!) {\n      productVariantsBulkUpdate(productId: $productId, variants: $variants) {\n        productVariants {\n          id\n          price\n          barcode\n          createdAt\n        }\n      }\n    }": {return: ShopifyRemixTemplateUpdateVariantMutation, variables: ShopifyRemixTemplateUpdateVariantMutationVariables},
+  "#graphql\n  mutation collectionUpdate($input: CollectionInput!) {\n    collectionUpdate(input: $input) {\n      collection {\n        id\n        title\n        handle\n        descriptionHtml\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: CollectionUpdateMutation, variables: CollectionUpdateMutationVariables},
   "#graphql\n  mutation translationsRegister($resourceId: ID!, $translations: [TranslationInput!]!) {\n    translationsRegister(resourceId: $resourceId, translations: $translations) {\n      translations {\n        key\n        locale\n        value\n      }\n      userErrors {\n        code\n        field\n        message\n      }\n    }\n  }\n": {return: TranslationsRegisterMutation, variables: TranslationsRegisterMutationVariables},
 }
 declare module '@shopify/admin-api-client' {

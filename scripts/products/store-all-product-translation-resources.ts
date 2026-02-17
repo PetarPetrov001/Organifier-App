@@ -3,6 +3,7 @@ import { adminQuery, type GraphQLResponse } from "../shopify-admin.js";
 import type { GetTranslatableProductsQuery } from "../../app/types/admin.generated.js";
 import { disconnect } from "../shopify-auth.js";
 import type { TranslatableResource } from "../shared/types.js";
+import { sleep } from "../shared/helpers";
 
 const QUERY = `#graphql
   query getTranslatableProducts(
@@ -30,7 +31,6 @@ const QUERY = `#graphql
 
 const ALLOWED_KEYS = new Set(["title", "body_html"]);
 
-const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 
 console.log("Fetching all PRODUCT translatable resources...");
 
@@ -74,7 +74,7 @@ try {
     after = pageInfo.hasNextPage ? pageInfo.endCursor ?? null : null;
 
     if (after) {
-      await sleep(1000);
+      await sleep(100);
     }
   } while (after);
 

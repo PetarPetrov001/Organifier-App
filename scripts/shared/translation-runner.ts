@@ -25,6 +25,7 @@ export interface TranslationRunnerConfig {
   maxRetries: number;
   label: string;
   csvKeyMap: Array<{ csvColumn: string; shopifyKey: string }>;
+  gidColumn?: string;
 }
 
 const REGISTER_MUTATION = `#graphql
@@ -114,7 +115,7 @@ export async function runTranslations(
   try {
     for (let i = 0; i < rows.length; i++) {
       const row = rows[i];
-      const resourceId = row.GID;
+      const resourceId = row[config.gidColumn ?? "GID"];
       const prefix = `[${i + 1}/${rows.length}] ${resourceId}`;
 
       // 5a. Find resource

@@ -2,7 +2,7 @@
 
 client_id = "23abf99d474f28d199e9e99de8d8f1a8"
 name = "Organifier"
-application_url = "https://example.com"
+application_url = "https://uncleft-babara-parabolic.ngrok-free.dev"
 embedded = true
 
 [build]
@@ -11,17 +11,17 @@ automatically_update_urls_on_dev = true
 [webhooks]
 api_version = "2026-04"
 
-  [[webhooks.subscriptions]]
-  topics = [ "app/uninstalled" ]
-  uri = "/webhooks/app/uninstalled"
+[[webhooks.subscriptions]]
+topics = ["app/uninstalled"]
+uri = "/webhooks/app/uninstalled"
 
-  [[webhooks.subscriptions]]
-  topics = [ "app/scopes_update" ]
-  uri = "/webhooks/app/scopes_update"
+[[webhooks.subscriptions]]
+topics = ["app/scopes_update"]
+uri = "/webhooks/app/scopes_update"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_products, write_products, read_translations, write_translations, read_metaobject_definitions, write_metaobject_definitions, read_metaobjects, write_metaobjects"
+scopes = "read_products, write_products, read_translations, write_translations, read_metaobject_definitions, write_metaobject_definitions, read_metaobjects, write_metaobjects, read_orders, write_orders, read_customers, write_customers, write_online_store_navigation"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = ["https://uncleft-babara-parabolic.ngrok-free.dev/api/auth"]

@@ -1,0 +1,2246 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "resourceId": "gid://shopify/Collection/657054171460",
+      "locale": "cs",
+      "key": "title",
+      "digest": "c52c0459e4a3d2eeb7b61e3ac1a2f63c3e1626714b8b87080534d4bbecca6c8a",
+      "valueHash": "0ef0d6a5c502b622c16648bee4b9d4e8b0e1a80bb02b4f11ffdb2d8a3598fe83",
+      "translatedAt": "2026-02-17T10:06:47.280Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054171460",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "9e0a8e4b51af575e81cd2571baef8d2a19fc6dfc968ab70a826a0cd186383fa4",
+      "valueHash": "04c6f60106f367d70cf0415a749ef605bbd2327ecadfc40b49206639215b8d29",
+      "translatedAt": "2026-02-17T10:06:47.280Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054171460",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "84f66c9198b2b945e6e562048523b9ea8d3c96257999a9c04448498f530f00d7",
+      "valueHash": "b07804664a85cd126f3b5a817083a502fb273a61c6e1e41c966dc72aefab25ad",
+      "translatedAt": "2026-02-17T10:06:47.280Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054204228",
+      "locale": "cs",
+      "key": "title",
+      "digest": "a9106162bf73fee24362593bace93a7742b548ea018f3acf987d4eb49d0abea1",
+      "valueHash": "6744e787fd9863914a8d206732a160f76334fe6a2f874094eb49b84133c770a0",
+      "translatedAt": "2026-02-17T10:06:47.635Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054204228",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "40abe80b61b7d0953e24175f1bb65eefa0c110fc0f7390fa7d64f9f46a9346b0",
+      "valueHash": "d3ad9a171b05c239de5fd85e1fb052f7e73e5134444af2e55878a600d0799928",
+      "translatedAt": "2026-02-17T10:06:47.635Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054204228",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "bff53c7527841fdbff9941d6142297d1d90abedd2f68f42d8cfb9aebe42b26b6",
+      "valueHash": "7943c5d1e0dea0870b305218fabd95d5a76ff6270fa202a82a60d93d9f136fe9",
+      "translatedAt": "2026-02-17T10:06:47.635Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054236996",
+      "locale": "cs",
+      "key": "title",
+      "digest": "39a4ea977ec3d718cd122144142034f91bc4d51282012a5ba99c56695799a941",
+      "valueHash": "eae5a457085f16967bb49926408001b1240cae05c4500bf518d5120898cc5213",
+      "translatedAt": "2026-02-17T10:06:48.116Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054236996",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "59379ada457a86f516c4df68ba7a409e11d1dfe01399d3bf15cdc786c28db7b7",
+      "valueHash": "556cc96071880d33124fccef81c5ec277768140d8fc2c6a71af61b7250638d07",
+      "translatedAt": "2026-02-17T10:06:48.116Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054236996",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "00e51bda6cfb08c73752ab6ec624f136cf1068cc49ff3fd94025499c7b480ac8",
+      "valueHash": "4c84bfa434a1542f0d860c210d38e80954b59d0ee6131fd41144b966ff5a30aa",
+      "translatedAt": "2026-02-17T10:06:48.116Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054302532",
+      "locale": "cs",
+      "key": "title",
+      "digest": "0cd921d3734753978233a5fda18dce72f66399809be6824b5bfa1559cdd17f85",
+      "valueHash": "5ad3b946cd8f9ff10d1c8ac21f62feca1a4a7e4cadb739b10ea497af21d3a2a7",
+      "translatedAt": "2026-02-17T10:06:48.415Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054302532",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "5a7816d367e0978b7ef181d439d44e6946735b45525c37d262c9ba9f4fa7a3c9",
+      "valueHash": "007e6b8bb79912dd4e004bf28ced370b653936c7948bdc8f171489b0b7e26f3a",
+      "translatedAt": "2026-02-17T10:06:48.415Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054302532",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "4c585235f73bf1fe82a9d225b0722d9c1e81f45a049b629bdbadc9511839fe75",
+      "valueHash": "4a7af4988c8d7354294de8be1e956190fd610f94a6be0cddef9b05e9e6cb0a9d",
+      "translatedAt": "2026-02-17T10:06:48.415Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054335300",
+      "locale": "cs",
+      "key": "title",
+      "digest": "0ccea2b33f86cf60e8c43efe6d4ea3e3346eef8d193ae615064fece5beba604d",
+      "valueHash": "7963cc21ec0428d99796c8e401f51a8e01dfc74b7775213bd7a3021c7360512a",
+      "translatedAt": "2026-02-17T10:06:48.672Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054335300",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "eff7d4ee48c0b3f56bbace2eb057178bf8ef13a84e96a0a4b836a9d8a8fdaced",
+      "valueHash": "abd7af3aaaa3677c3054be39eb3b463c151a21bcaaafa8f40aaa8921338c61bb",
+      "translatedAt": "2026-02-17T10:06:48.672Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054335300",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "975db6c8156e660e122db9f7dbf54b37ffbed09ef3ba581b03b371e7ea22ebf5",
+      "valueHash": "daa8ef5d9c8243ffcf02e0cbed72d5e485bfe237c7dbcdc53aa2e31393c8bbb3",
+      "translatedAt": "2026-02-17T10:06:48.672Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054368068",
+      "locale": "cs",
+      "key": "title",
+      "digest": "bd6270a1949ecc8dbe8dd633543d9f1925acb5e8f8de638fdb7ccb8502832377",
+      "valueHash": "627519d7dff92744f2bc5370b597b367f9610ae0d65bcd13f57daa8013eb2348",
+      "translatedAt": "2026-02-17T10:06:48.895Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054368068",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "df3af37a86c33996c5f0bdd73790f87008cfeb08867d57cc91e543ab82fe4df9",
+      "valueHash": "c1ec695118f99687cd9df0ffb1d8872656cdac28784674e372cf30e683734139",
+      "translatedAt": "2026-02-17T10:06:48.895Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054368068",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "ea6e4c926666b5fb4d0644fc40cec658093aa2bb421b497cd8b5cd7bb80a21da",
+      "valueHash": "e1f34597409ddaae6271724c0b790fd17737efc066380102c5fbac2def160dcd",
+      "translatedAt": "2026-02-17T10:06:48.895Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054499140",
+      "locale": "cs",
+      "key": "title",
+      "digest": "fc427230419fba9448a6d553340664f3e47f3e6ecc8663d1f8ff533ce68b8fc5",
+      "valueHash": "00548e45519225558981c86b4a7c1611b1dd0de77d4a257176ff99489a41b7c1",
+      "translatedAt": "2026-02-17T10:06:49.171Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054499140",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "374fdfef21da352f71a9f3578fc96eed4c2d66af3ab68b875d9ea231a6abc125",
+      "valueHash": "5f2fe799f5546cbb7011f8a17826768d8e0442faa10bdef4c44d2155d60cbcbd",
+      "translatedAt": "2026-02-17T10:06:49.171Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054499140",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "5c6432631118a7849404994e39ba971a24bdc29d523b77c9cff5ef0624d3e7d4",
+      "valueHash": "fe05fff354c48b01c756d1e6aff723487c437bfed0d738e49949da7dc6e1f665",
+      "translatedAt": "2026-02-17T10:06:49.171Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054728516",
+      "locale": "cs",
+      "key": "title",
+      "digest": "18102fc49bb2d9b7a5b4411edb841c83818ce52696f577a80a53c57e5ac7cd39",
+      "valueHash": "5f8b1136e95448b7c8a53b048d81a1e1da578d895114f751d78869b55817580d",
+      "translatedAt": "2026-02-17T10:06:49.408Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054728516",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "8039738ba2f76a651d8bcbfdb7c0dca88324043f6e87e4f055e623ec678071f8",
+      "valueHash": "2c2afbf6a925f237eb5397ed3063760cfc44bbe544770835f0826024994cfad5",
+      "translatedAt": "2026-02-17T10:06:49.408Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054728516",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "b74615aff199ba68037abd64d77edfc831bf0c109d272a56e6c4b59aa961509f",
+      "valueHash": "30b2e659bf6a9680c0034846fd7de52773e1c284b7e066bd81f04401af6601e4",
+      "translatedAt": "2026-02-17T10:06:49.408Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054826820",
+      "locale": "cs",
+      "key": "title",
+      "digest": "82258f6cf4e2a3923223a8e852c68285a082c8290da4b474f1ccbf83f3bf78f8",
+      "valueHash": "af1f6d651d6b4ab6e068ae4ccc7891351681917f15a4c07d5b1b2a7f7427c9f7",
+      "translatedAt": "2026-02-17T10:06:49.680Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054826820",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "54b1d22ab1c71022a4009bfb5bfe63b17fd3a5d7a53a0aa1ac93a237d43ace29",
+      "valueHash": "c9b3bbe678dcf3b5fc96fdb8221cbdad2df00bf0fb973312db989e977b1ea62a",
+      "translatedAt": "2026-02-17T10:06:49.680Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054826820",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "fbe714b0a29393569364a75378448f7dccef1e2c9ae47fb78575096c2af709e7",
+      "valueHash": "18ecdaf606767b4f4b44df969abaad4ec1bf5ccd4c0d2d64d573b161549fc806",
+      "translatedAt": "2026-02-17T10:06:49.680Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054892356",
+      "locale": "cs",
+      "key": "title",
+      "digest": "fb4d22e25e013a6ab658672b7cec6854424303b30cee2efa3e5762611e25dc77",
+      "valueHash": "69952298fbd1c68af63e02831169335f1c92a17ef927c0fbe982e460d3330d83",
+      "translatedAt": "2026-02-17T10:06:49.949Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054892356",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "802016409916afc95bf1190a35b12c034f9c7e562bb6c76bfbe8d08d36c62d50",
+      "valueHash": "2318d3f7ed64793cb0de196cf70dec06629304c00e240f841683a173fd6b30d4",
+      "translatedAt": "2026-02-17T10:06:49.949Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054892356",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "7d2d928438c79289f5b458624f0f78da72d46b5994eceb6430d18eb1caf27fd4",
+      "valueHash": "e93fd053421acdd40321f87ade4e3c17fdd1fbaf4cd8ddae453283a84d3d54b1",
+      "translatedAt": "2026-02-17T10:06:49.949Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054925124",
+      "locale": "cs",
+      "key": "title",
+      "digest": "ad81817ae36c381325e0bdc9c11bd27f77d921f330e80ff005b0f5a1433b40b3",
+      "valueHash": "9bb2746bf7942d8ec69328a8b12befca0f9f93afcf0550771ee27f5d8b8a6bc6",
+      "translatedAt": "2026-02-17T10:06:50.251Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054925124",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "75377d870b54125d8dd61efa59742b1dc6b517e1d80e5cad02305ca1fbd81d3a",
+      "valueHash": "6f3ed9c5d30c29e2e4e71820edd9029df9e81d20808b77edc373317a02062a4b",
+      "translatedAt": "2026-02-17T10:06:50.251Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054925124",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "5a334850109bd559f7dcf0b530ba22fb0527c11335da704919a3cc444c6c717c",
+      "valueHash": "81866e6d6b77786aa07b4458f53851d8742ce5e5cf838e6d9a9e95a475d8ed19",
+      "translatedAt": "2026-02-17T10:06:50.251Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054957892",
+      "locale": "cs",
+      "key": "title",
+      "digest": "278b1ce56e8b65d36b36d406945c529f3ffcf54ebe5964348c540192933cb42b",
+      "valueHash": "5c43d1c7d1bfe40d4c36485d01f4559175deba7019240d2c6d84b27d59fda2d4",
+      "translatedAt": "2026-02-17T10:06:50.509Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054957892",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "bff7f69fe80be99fab80bb85434ae325d4a9a71ad992f10d7dc7a6ba6f277cf2",
+      "valueHash": "bdb2e777a174b318928b5c8f8f5d74375dfcce6d88107fd56b37e3b33a9a5313",
+      "translatedAt": "2026-02-17T10:06:50.509Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054957892",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "629ebe07251a62a35d05140fd1fd493385f4f65e6c18d8754af0b4d473ebb9b4",
+      "valueHash": "f0b2abf29f830a3017adfa2617e614769fb30af63e5221ff312db9b02fdf1a73",
+      "translatedAt": "2026-02-17T10:06:50.509Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054990660",
+      "locale": "cs",
+      "key": "title",
+      "digest": "86d8b4ba61f7f3a6c466446f10834ae1c5c8c015a5a363b7f9a403bc88b473ee",
+      "valueHash": "6edd15ad3fca0abe90ff18b8e2db346f0623570991e7e1754a3fb0ce3bb80f36",
+      "translatedAt": "2026-02-17T10:06:50.752Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054990660",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "5f3fbc9899c0efc938f6411060f966300174c741cc193c49da00f6d8d196a765",
+      "valueHash": "f627cbeed170d294a0aa28d16d3242f59f55a1d439f98adf61a315d017cd474a",
+      "translatedAt": "2026-02-17T10:06:50.752Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657054990660",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "fa142078b4d83cebcaea8871bb18a678760e04f9de017d058f15d6b317b0dbe2",
+      "valueHash": "c88ead39695ae9bafbc3645b5cee3ffd78efa32946946814e7325daa9862aaa1",
+      "translatedAt": "2026-02-17T10:06:50.752Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055023428",
+      "locale": "cs",
+      "key": "title",
+      "digest": "de4fe924d8b7b78d819f292d4685ec0c63101ac3db32c7d77e72ea6cdd212aca",
+      "valueHash": "51815e6a4684b195fd7ae0d589e496dd2e02a20fdec292a2f021b885897cc453",
+      "translatedAt": "2026-02-17T10:06:51.020Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055023428",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "3f4e65c5d9f99059ef4bb09cf1ecde14766973a371a6949176767fe2c209fe24",
+      "valueHash": "12fd37a573d3d76605864063d75b02a0cb30eefa486633b5ce96043786f1ebad",
+      "translatedAt": "2026-02-17T10:06:51.020Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055023428",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "9289e61e113d2068aaf58fac704da792f6fe109e076be05c92f5a6f503d8e662",
+      "valueHash": "69f181fab3d09c2c8724f7427271bceb688397b1a702ca62abb4404b8696acf7",
+      "translatedAt": "2026-02-17T10:06:51.020Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055121732",
+      "locale": "cs",
+      "key": "title",
+      "digest": "621c626f3359e0c9920abcd28ae47d2cc5b63eddce02fd3c9bbc8baea7b249f0",
+      "valueHash": "d292ed0126dbd034f51ac2791092d1ec337f7ec3be04309c67a3d9b9666d8f41",
+      "translatedAt": "2026-02-17T10:06:51.315Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055121732",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "a8a6c4d7aa64c8badc9cb46f8fc59bbf84eee96b395fae5cd6e89f082bdabcb4",
+      "valueHash": "0b65aebeca28d953a4728713d0844ff0ff5139642fd679dee1b35d26c1f300df",
+      "translatedAt": "2026-02-17T10:06:51.315Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055121732",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "c07aa43c882e88314b967ce313c0bd376fafe894fd8730824b20e04a2ffb28a0",
+      "valueHash": "a9554f9fd6c727f60666cd8a76ce4f31167bb121263f5bed77aa5f126603bbcb",
+      "translatedAt": "2026-02-17T10:06:51.315Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055154500",
+      "locale": "cs",
+      "key": "title",
+      "digest": "fc15490f93bd45dfaf4127f1d480d9a78c5702fc23ca678b3a55241819054a92",
+      "valueHash": "d63674ca1554a8632bb4ad4249c0e1edf30e17e6697634325ec990e7abe6a414",
+      "translatedAt": "2026-02-17T10:06:51.573Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055154500",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "5837067cedaead09f3ab4eb359a45353a54362decd833b5bffbb67c23e57935b",
+      "valueHash": "17ff3bf6300ff2b0f42f768c239168d32fd4be1ede2a6b58a343a1b3c9d23462",
+      "translatedAt": "2026-02-17T10:06:51.573Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055154500",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "e63821007b687ff03c3a5776a84ca0c7a1468057db4be0ece5efa3253c5216ed",
+      "valueHash": "ccf8d80816d36bf58503f340aaee262c0cd7d29d036617b0a3aa8376ff506eb2",
+      "translatedAt": "2026-02-17T10:06:51.573Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055220036",
+      "locale": "cs",
+      "key": "title",
+      "digest": "ba6bc289df2c66d323637319fe2de41ec8a46e996fb72282f6d56a05cb8bb3b9",
+      "valueHash": "21e7995b5497c820f626fd1b4e46e9ed0a25efcf8ec7650556b0f38ce7ee7295",
+      "translatedAt": "2026-02-17T10:06:51.836Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055220036",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "35ee8d76b7c8465b6b2685f11a5591b72774d0a352b5d52d77ea1ee0bab2bc06",
+      "valueHash": "cf9279e8b3ae4b1f63c3a06e597866eb1d174e9a2fc3dd2b67183c70c4ad8d03",
+      "translatedAt": "2026-02-17T10:06:51.836Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055220036",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "aa4745f597ca68db67d888f24f35c8767aacd2428abb3a1e47253338a3f0ef76",
+      "valueHash": "ef0b5285da57556d8e57a0a4da45e61423f8d385eac2ca4fef8f135b26b6b43e",
+      "translatedAt": "2026-02-17T10:06:51.836Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055252804",
+      "locale": "cs",
+      "key": "title",
+      "digest": "46942c07e250303e8548730f5087c257435be85befc65d437fe98ecb6c257915",
+      "valueHash": "6c4630c87fa25e87dd737ade20b56c37106546df0c73107000f087e3c93225f4",
+      "translatedAt": "2026-02-17T10:06:52.122Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055252804",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "283784c02480a7ffbbe55718230119182ff65744962bb1857e827f0329312494",
+      "valueHash": "2a8c888d4b4e71cc8e92ed70cbf6eaeb05c839f220d734963d1a300923634792",
+      "translatedAt": "2026-02-17T10:06:52.122Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055252804",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "530060efbb8a5a9291e69561545add040b4fe04739c06480b125ed1d26144aea",
+      "valueHash": "ee93c5dd7d1b7ee94c7897b3bae3de3157baf0228ed161bb4884edd617594ace",
+      "translatedAt": "2026-02-17T10:06:52.122Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055318340",
+      "locale": "cs",
+      "key": "title",
+      "digest": "d1d7a1899e17af9b52934da2df7b0a9827b8af07ddc3b32bb394fb052bc4c3e3",
+      "valueHash": "840a672b236e3529c94299ab75e0900a807ebd48e7b5881ac22d462be8b04fbf",
+      "translatedAt": "2026-02-17T10:06:52.363Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055318340",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "c94280a814c72fecf77d7175855e3b64c8a6f5195ce1eca523eda5ac0128a29f",
+      "valueHash": "85ee969d314f43815b6a5221b71e8a0bd20c107c050a34e7ce9984c02e64ccf8",
+      "translatedAt": "2026-02-17T10:06:52.363Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055318340",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "373d28f3caaeb6ab19425aa2c87f3e32fe9d1de223ecc81fd04abe4e9651b35f",
+      "valueHash": "36b4e73b224ee81f0aa9bffa84dd2c52ce0818a12b0fcfe13ff79bb46b53cb06",
+      "translatedAt": "2026-02-17T10:06:52.363Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055678788",
+      "locale": "cs",
+      "key": "title",
+      "digest": "d71f651a2e8dd7051accca996421a486c28db3677cb4346af44d91fc7d12158c",
+      "valueHash": "f01c5432cd4fd8eceebf59eefe5c1d975c7c3c85a5e354222b6c10bfbc0907af",
+      "translatedAt": "2026-02-17T10:06:52.621Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055678788",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "49e946c6357f2b07bff3f8d38a346cde709c3872919c17a0742412b8a504ed72",
+      "valueHash": "6b1a974948379bf58d79ad948b9b6d5cc1def3b0789860f18439aab092686675",
+      "translatedAt": "2026-02-17T10:06:52.621Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055678788",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "b0210084d97a3562628d4aebabd63a06473d766cde150b1afaf75c45bc893e0f",
+      "valueHash": "1c679576ae796de7341b70767436840a9364aa59aaebe6bb57da85ad8bf16631",
+      "translatedAt": "2026-02-17T10:06:52.621Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055711556",
+      "locale": "cs",
+      "key": "title",
+      "digest": "01b9e360867d694fd77f29a2c07fc94e01a2c7d2c8747dfaaf9050d923a3a2fd",
+      "valueHash": "a0ff653b50152e2938be072f6e5431b6b602d5af069d90dfe617e4219baaa21e",
+      "translatedAt": "2026-02-17T10:06:52.901Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055711556",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "808f67c9c2135fe2d9c4547afc3bab74e6c1f9851c009488331db74b55c18921",
+      "valueHash": "ae7ec4ffc52acc156a62a691fa094a42bf825ee66659b5def39a84876f9e074a",
+      "translatedAt": "2026-02-17T10:06:52.901Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055711556",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "640ce2b4d12105d8217628c3e1149587c95b571c74aa9e16b14d076ef706d5a0",
+      "valueHash": "1a2ef4c5d2132f3f6a58099043ed0c0fe41756d8a7eb4900bb4105061176da6f",
+      "translatedAt": "2026-02-17T10:06:52.901Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055744324",
+      "locale": "cs",
+      "key": "title",
+      "digest": "d61702d51255c3688ae5bdc7d13e869ac386e5cb4a36fa8064bbb6b38bd58af1",
+      "valueHash": "ef7c3d02886f7963e00ecc463396e00fe11ae55c63fb26c8510ca32b48d2d736",
+      "translatedAt": "2026-02-17T10:06:53.154Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055744324",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "7fd66751a2046523c3665f484ea828cae7c43ff5bbcc9c01ef1b0fc4908ce0fe",
+      "valueHash": "0489f273ab43e09dc3e5c2f490e35fb1dfbfc924e8a2721380ae97d429765cb1",
+      "translatedAt": "2026-02-17T10:06:53.154Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055744324",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "4b4965e78ebb9184bbce9a2fa5b01ad7f8ac6a67ea9e5c3e2765a255091e05f4",
+      "valueHash": "1c90c1384670545aaebc7240c64ebc87b22612e816512718087f833fb974de4e",
+      "translatedAt": "2026-02-17T10:06:53.154Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055777092",
+      "locale": "cs",
+      "key": "title",
+      "digest": "8131fbcc8b0d7aabb56ca7487d9f928b1a3a90678892934f51adf21c3a2e2ca9",
+      "valueHash": "84b28899a77e2235dcffd00f34040b63738629935b03eb2ab646c8fff3e8667f",
+      "translatedAt": "2026-02-17T10:06:53.410Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055777092",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "13ec72776c33de9743bbbf476df31a32f93983319958530ea80736ec14322b0d",
+      "valueHash": "27a99c10181226c7db79185cfeea5dc70b3e0fc1e663692c890b19f0a46130de",
+      "translatedAt": "2026-02-17T10:06:53.410Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055777092",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "f9d8e1e053673356cf9f62b12987e14b3890bace5f1da9d8b24b859a50c459ca",
+      "valueHash": "6cdf7be4d8aaf92c7ed3a3355930d7bd32db7cdff690c17c53be130243004f65",
+      "translatedAt": "2026-02-17T10:06:53.410Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055809860",
+      "locale": "cs",
+      "key": "title",
+      "digest": "58ab423594a4cc9355a50795f4ebea5666913b4278d7e12e6f87c120e446caa2",
+      "valueHash": "b0c2ecd54cd5b5e383279b7a821ff67f2672f916909a379679e32a3f2b11fbc5",
+      "translatedAt": "2026-02-17T10:06:53.652Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055809860",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "5971120c7994b7a2a2deaa4c23e5749a1ca93a67e72e3b2457593b16852d65f3",
+      "valueHash": "713ae89bb8052982b5d78839173518924fc2a8a806eacadd348b7a81c73f5295",
+      "translatedAt": "2026-02-17T10:06:53.652Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055809860",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "87dc566b52874adf102380f8e7a2f28c63dd25d49f1915aaf6aa48951deff2d6",
+      "valueHash": "12ed57f2b5ab7f27e147b405bf6328096167b34d43553f5750e7b99b068d5f11",
+      "translatedAt": "2026-02-17T10:06:53.652Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055973700",
+      "locale": "cs",
+      "key": "title",
+      "digest": "2be7a69e276b528efd37697f784d50a2f3bd90ad779f8514b4fcdebd242b5734",
+      "valueHash": "8284a0e45b38df5c10356d309c515cb564171e38e371b18ebd219a2cab24075d",
+      "translatedAt": "2026-02-17T10:06:53.907Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055973700",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "8feeaffef259cdef2514ef8585cec24429549bbf89c8cdf0449a98c510853426",
+      "valueHash": "6bc43f46f0e5535f48ae2486171e530007219d4d606f07f581e420485015b3ee",
+      "translatedAt": "2026-02-17T10:06:53.907Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657055973700",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "b2c2586dc95020783f5b662fc954c6276951b6c8c80a136342d51595b3c4888b",
+      "valueHash": "475b4567d21c754b1501dd6953a26500aaf1b2419d17ad66448c318304166d6c",
+      "translatedAt": "2026-02-17T10:06:53.907Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056039236",
+      "locale": "cs",
+      "key": "title",
+      "digest": "a4e9e04708f43d9f52a10e4263169b862235341f80b29e97467aa9e540201730",
+      "valueHash": "718cd68d5b0953c8f2a9cfc625c8d189a1c58b087b0578a147ef4d82cb905b39",
+      "translatedAt": "2026-02-17T10:06:54.158Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056039236",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "88a64e17c196d4d39c64e5b5bfa5af114a1f8ee8bd92fc13f9fa1dfbfc910ea8",
+      "valueHash": "5fccb75c986703576456244a2b6f884c096823385f4ff483afd745f8a5232d8b",
+      "translatedAt": "2026-02-17T10:06:54.158Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056039236",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "c3b15c4cb578561e654b4d81abd123ad85a3ec84db377582dc5b5ed86a60b91e",
+      "valueHash": "decb0c7834e97a2f8701f03ea3a21d4204420989317578d814dcdd34619ee7d1",
+      "translatedAt": "2026-02-17T10:06:54.158Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056072004",
+      "locale": "cs",
+      "key": "title",
+      "digest": "1a78e53c71a17cb66cf64cd10958c634eecd5367dd6f90ed75a280570f978e58",
+      "valueHash": "608e903d6d854217492f2ddff3414c5f03e7a70fe4ded6efdf7f3468b0c5e22e",
+      "translatedAt": "2026-02-17T10:06:54.401Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056072004",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "c49ecee0d38b6e639b37cf8085c9ace8121e66e7ec35fdf4af74fad311cad36b",
+      "valueHash": "db5c293ebe306db422b3f694fdefb70628cb5f9a9814eb494f7eddb439f56039",
+      "translatedAt": "2026-02-17T10:06:54.401Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056072004",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "75c8530084f1ab38e5870e37af76892fef57d4367308e97c070ccc4ca2f0bc68",
+      "valueHash": "7dad67cb01f28d64c7c1cd1d04c45ca958d0f61d1527834a874a8ea54b2dfa45",
+      "translatedAt": "2026-02-17T10:06:54.401Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056170308",
+      "locale": "cs",
+      "key": "title",
+      "digest": "01db231a288b4337f931fb8343edd796a5cc4dec73d4a67a593bf6cde84f2b03",
+      "valueHash": "0e46f17fa849842923562206399ab9adf8c53d0344842cf0f008a4bdc573ca38",
+      "translatedAt": "2026-02-17T10:06:54.647Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056170308",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "79304bd54c0bc093faf7837e404a8dcaac30021ba2416313355ddbebefea4e8a",
+      "valueHash": "09784e68a3eaf3706f296f97d1d000ded5fae155c26e77632a093b0edaf07d4e",
+      "translatedAt": "2026-02-17T10:06:54.647Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056170308",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "138f2dc99c9d92015030ef9f4dc8ef973c9dd67341d3c8dcaa5204bfb5acb30b",
+      "valueHash": "a171148a5c2322f23260032d0611e2149b784fa56ad00eb13c5306122b486366",
+      "translatedAt": "2026-02-17T10:06:54.647Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056268612",
+      "locale": "cs",
+      "key": "title",
+      "digest": "c626264b145155ffdfbc28253e61cc2c01c77084fe65695fa00167d3c34d03dc",
+      "valueHash": "3db330d5b6a439ba4963fda735c2b687f2e2e8f55fa7ea514dd7303746f5b69d",
+      "translatedAt": "2026-02-17T10:06:54.896Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056268612",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "f1fa9a69c615b305fe499fc06bf61b6c4b3176a2622759d5c5f5cbc5b4d136d1",
+      "valueHash": "f157e712b4c05d9f557bcde84772fcd38eee11585d91b969a891b9c65621c089",
+      "translatedAt": "2026-02-17T10:06:54.896Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056268612",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "44e2d761e24f11b6928de297fd326cbe1404adaa65d436d4d8223ea17bb497f4",
+      "valueHash": "496391492682f305677cd909e5fe6a904918ed550aae8b0cc7fedb027198a67a",
+      "translatedAt": "2026-02-17T10:06:54.896Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056334148",
+      "locale": "cs",
+      "key": "title",
+      "digest": "59ad6836d71ec48018c522d218d5a79b65e12d7712c034da544750cea4a505cf",
+      "valueHash": "d4ede43642c5c21cce8580926fe719b1406fe44f505cf77ad752444b878eeef6",
+      "translatedAt": "2026-02-17T10:06:55.153Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056334148",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "7f39abeea46e21acabf93912993b59e9441ff9e492e616b4094527b886cd10e5",
+      "valueHash": "31a059b2bc7f3991aa362628bc91ed40617e4c6491f591096bc3cc4321c82d3a",
+      "translatedAt": "2026-02-17T10:06:55.153Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056334148",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "3a3bd7e5913208852237e711f1d422ec366c151c809a08599539feff4de9bf7f",
+      "valueHash": "aa6195f0637e2a2a24c08d703a369de5c0b8ab3f1d9cb9a676f19fb949d507f9",
+      "translatedAt": "2026-02-17T10:06:55.153Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056563524",
+      "locale": "cs",
+      "key": "title",
+      "digest": "58388aee600a5308aa1e86a32f995a008bf2c6c590320b3d30315ddc2c6da8a2",
+      "valueHash": "5b2335d6709296c3f9046a2655884d3d02c0ad1d056f907cb1b62cae7b5672c6",
+      "translatedAt": "2026-02-17T10:06:55.440Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056563524",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "c5059a44af9a08406cbce0223514a9da86ec1c89e6ece30741ce521227465fe4",
+      "valueHash": "bc8f520df35a7f24f07980bbdc0cc0be0b4e51e4044597411f851163077e0cf1",
+      "translatedAt": "2026-02-17T10:06:55.440Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056563524",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "367518b877c55b6a3e5b44c36b463f0131f8ea471cf583d58a70134da6e284d6",
+      "valueHash": "8df5fc83ca9f11b6a5eb5e8241e29998599094e089f4bc2ae1ec234caf1d3cd5",
+      "translatedAt": "2026-02-17T10:06:55.440Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056596292",
+      "locale": "cs",
+      "key": "title",
+      "digest": "c08276b1b0c2340d1e97d62a2706eaf9eba1dfc1f12fcebc8068ab3152fe1e9d",
+      "valueHash": "a1c64368f31a9fe9d4274351bb1915c44ebb52ca2604b9eaabf26bf43d65aee9",
+      "translatedAt": "2026-02-17T10:06:55.671Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056596292",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "e30c40bbbf6f8e68261a6e9c94802ed57986618b08373843e9a7324d8c73d497",
+      "valueHash": "e639da71e07126f67c60cac02115b6b7bc9c94a84dda5625a270f520dcac5d29",
+      "translatedAt": "2026-02-17T10:06:55.671Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056596292",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "12fd9420b3ee898ecc9bdb0cc3ad6f3226c2c8cf21269425832b18326f755c33",
+      "valueHash": "b483dca2cb96fc4f4d0b15bf00e0ce37586512084ab8561b3fdd49150598fa67",
+      "translatedAt": "2026-02-17T10:06:55.671Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056629060",
+      "locale": "cs",
+      "key": "title",
+      "digest": "8c0afbb23aba9d7fbef7c669d170897ef1d21aa133cba0f861caa98998382cf6",
+      "valueHash": "b868e2a1feb411096d277104e853729ee44d796b92d29ae8e9ad0081f6239a16",
+      "translatedAt": "2026-02-17T10:06:55.975Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056629060",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "b03060ce91aea359a80c4328ca28108473bbbbfc5f9eb857a51578be1098ea79",
+      "valueHash": "01e9529bd1c14f2541a01df7a6bdbac806c8d2064f3e234eda4289b6045fce2a",
+      "translatedAt": "2026-02-17T10:06:55.975Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056629060",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "463aadffefd2c27853a5d2dd957130d988bc7acabc88f092480f3811690ccea1",
+      "valueHash": "7792986d20f2cee3597eb39e1ecf02a4eab953f356f1926a620e190b621d86ae",
+      "translatedAt": "2026-02-17T10:06:55.975Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056661828",
+      "locale": "cs",
+      "key": "title",
+      "digest": "cad0e936fdfac149d9cb1c1b8893d05c14ebd8c3d9160ea1017df04dc08d9cd8",
+      "valueHash": "a8de47c5d8e67be3589df8f12fbccfe77795afd70f7bdae5f72028b0b251e8ca",
+      "translatedAt": "2026-02-17T10:06:56.246Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056661828",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "e5d124a5b60515c062f5aa6cb3036d7a0cc0b14f60eac505353a60e931838963",
+      "valueHash": "e3f7b24d79aa5a7f0e9b2f202595f97df00622871cd926fd4150a9fa188f1de5",
+      "translatedAt": "2026-02-17T10:06:56.246Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056661828",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "3aefa2532a5c830794e30f2ba587f4071bee484edc886648fb0b6aec144fd27a",
+      "valueHash": "5b10943ddc043e390e7a97537cfeefe17c5825f87f2c6326e40305f705d5dd6a",
+      "translatedAt": "2026-02-17T10:06:56.246Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056694596",
+      "locale": "cs",
+      "key": "title",
+      "digest": "e8377dc3b574a312b99b92f969ed42fe47e89099d1bd1deb2f51bb17af2f4768",
+      "valueHash": "b31b8aa298e9452b6ce93f0ef55170742936aa3f9b4cf1d329811b2c0b9638ff",
+      "translatedAt": "2026-02-17T10:06:56.518Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056694596",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "de5209ed6317358baab4b63c5ee3a3c786c20af2050f5b40cefdf5f58514dcb8",
+      "valueHash": "e1cf84953cd442ddd7f8de2288859f1d826693aad07d4495893cf08d12cf9288",
+      "translatedAt": "2026-02-17T10:06:56.518Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056694596",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "a2b7289159c097a0f30e62f8152390a3c8ca7e7a27fb2d10c000808a47a7cd9d",
+      "valueHash": "1cf18cf5a606fd151e91d2d018aebd8eb38728e84fac4515b913d08c0798981f",
+      "translatedAt": "2026-02-17T10:06:56.518Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056727364",
+      "locale": "cs",
+      "key": "title",
+      "digest": "956c8761a86d28b43f619e95d15f917da457a8ad20c3bbd08637b6124ac8882e",
+      "valueHash": "ee1f13aa46d7a4d0bcd6aca4135d4c6b3a876d3ff552d16e407e0949d56c8b1c",
+      "translatedAt": "2026-02-17T10:06:56.768Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056727364",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "f18b08255963fa511b16ad59be7d4a2d0f5aeb430157659bfe0dcca70586f388",
+      "valueHash": "205d2e63b2c6cb5d287cc699b251ca5cba8e8fbac0b36896181aaeb50193055e",
+      "translatedAt": "2026-02-17T10:06:56.768Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056727364",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "2c01811db84147ccc48ea1739e731efebdda625cb3227152fa1c487dc5aee90c",
+      "valueHash": "3591143cd8fa56a0badc435529f94dca97034570aa1302f0320af13e740661e0",
+      "translatedAt": "2026-02-17T10:06:56.768Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056792900",
+      "locale": "cs",
+      "key": "title",
+      "digest": "43a622ebddf0a5bf255091df233df83e287ae90996f58cf89986fa8e27e72bc1",
+      "valueHash": "669ee1b681734805be444a711ca0dcc24284a495252abb52329e5e6fdd836006",
+      "translatedAt": "2026-02-17T10:06:57.010Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056792900",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "be5d6ec05116b6e51ff54a2b4ce0dd261d4da781cf6e91136a6d09dc3602b895",
+      "valueHash": "47fad83b47f2b08775e70792f2391739ee34c86d51e50f2937ee5c07aa9113a7",
+      "translatedAt": "2026-02-17T10:06:57.010Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056792900",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "5ebe256c17d2d0d4f06c42bce8f2b2153c1a0399746b701fd24ec79f3272a5b5",
+      "valueHash": "518a78d22b1e96c209f3af1335f78e09e33fd9c4eacec24763ad232239c3d620",
+      "translatedAt": "2026-02-17T10:06:57.010Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056858436",
+      "locale": "cs",
+      "key": "title",
+      "digest": "9cc7ff01b91ec00df1745857b65503f8e2bd181692b8d32cdcddc06718876032",
+      "valueHash": "20c9613251f08f6c9a0d5f44b5a539da9ded3b17b9ff9b499475f958fd445f8b",
+      "translatedAt": "2026-02-17T10:06:57.271Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056858436",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "e94b99626f67c7586ee2a30ddb724778353e74f0a55f6beb2c00f3f48d75fb79",
+      "valueHash": "0ca067869cdac0cea2c9cbcbd932306e16c594a9899a8b31628922c5b5fb0a83",
+      "translatedAt": "2026-02-17T10:06:57.271Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056858436",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "a8f24b43b42c1e053a40a06f5c2f07f12a3bbfef0713e86db7dec00a07044f0e",
+      "valueHash": "50664037fff93a6071406a043665d996f240d58b92244269127d4140d8f9241a",
+      "translatedAt": "2026-02-17T10:06:57.271Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056923972",
+      "locale": "cs",
+      "key": "title",
+      "digest": "4fd341620b169f2511776c20349e200d577ff3bccb1553e659dc31eaf264aeaf",
+      "valueHash": "2d17d205e0b9cc020df7817135f1bce8cda51fc28c171df2350b0adcbf3ff674",
+      "translatedAt": "2026-02-17T10:06:57.531Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056923972",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "d44d6a078cdcfdf0f94adb4d11a307646ad8c1b6bbe1394515940a29363a8334",
+      "valueHash": "d8bda70a86781e3fa124bb7d975d64e0bbaa93f29254a32d5814f1f39f52dc6d",
+      "translatedAt": "2026-02-17T10:06:57.531Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056923972",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "e8c518f4bfa4a1b733b7ae2e61615d5a8c91dd5dee95bfae43be740aa563a261",
+      "valueHash": "f6c68580c28bb7d52da12f6d8d61096b09aded9bbaddb8b298f666a527961a85",
+      "translatedAt": "2026-02-17T10:06:57.531Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056956740",
+      "locale": "cs",
+      "key": "title",
+      "digest": "35c4dd61572caeda6f66e1a67e11dbee547691449241f5b1005c5dc44d7d7e28",
+      "valueHash": "adcbfc8824121b49dc7032c8e12cab942c60a3ba434e01f3780e377f81439061",
+      "translatedAt": "2026-02-17T10:06:57.769Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056956740",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "8fcb228825c152cf4336790568d4ce35aa71367391efb42dc0c2e7537004324a",
+      "valueHash": "0696ef6f15ee1de448077873d3ddbfbe552fc1371ccf4651138ff3e14f7595a6",
+      "translatedAt": "2026-02-17T10:06:57.769Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657056956740",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "ed6ee062faa8c0e7aa20a872c309f34c8bc567777fa58bf7dfb0d195d1a5156e",
+      "valueHash": "6a60a32e05cdce3d43cf5cbd252024290998047be919ea716d3aa651f7263d2e",
+      "translatedAt": "2026-02-17T10:06:57.769Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057022276",
+      "locale": "cs",
+      "key": "title",
+      "digest": "80053d0b829749817dcd0357be6b561159a84aefacda8a2ae4ee4d4678a63e38",
+      "valueHash": "57293899fb5881c225dd64750afefaea821389d27d4699894afcdc37d8da6972",
+      "translatedAt": "2026-02-17T10:06:58.016Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057022276",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "3bd32a79add15b7f7da1d1f6944d34bb392e6a08d15ca6f2e4ee99cf9a74cef7",
+      "valueHash": "3835c1e3d25da8d6e865d248b593e66ec1fa9c4068e222840f1d28b9e96cdd0a",
+      "translatedAt": "2026-02-17T10:06:58.016Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057022276",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "6e6eb59e49af2ff583000dfa6556bae2a4a23637a934321e738f48fb70abe374",
+      "valueHash": "4a65eed95e328d603493d986f6c76c46c5a2a68b1bbc86d6380b45f0704877f8",
+      "translatedAt": "2026-02-17T10:06:58.016Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057055044",
+      "locale": "cs",
+      "key": "title",
+      "digest": "43052fe70930f0263dd4b37c64ed40fb5d5525012196550bd062abfae577af5f",
+      "valueHash": "02c602da8040bb82b2a5726a5e426208195338275bcbba70b59f13bc21850ae0",
+      "translatedAt": "2026-02-17T10:06:58.303Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057055044",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "0ee652e720c1b4aaa6378973a059846457d5a5308abfed23a00b4f2893e1d90a",
+      "valueHash": "2c2323152da34572af9ab98049ea3ac1f163bef3720ea8321870c54b0f1634ae",
+      "translatedAt": "2026-02-17T10:06:58.303Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057055044",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "e11b0b7d00d765e54b00e0df32c2f0c6420a91b82288cd61de627136e6e99d6a",
+      "valueHash": "094f82bfebf4dbdb284688931711ce5b715c1dadd9d12c8195f5c453e4989db8",
+      "translatedAt": "2026-02-17T10:06:58.303Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057087812",
+      "locale": "cs",
+      "key": "title",
+      "digest": "ea93d6a262ecb87a9fa4d09edbd7654c046597936a8e235fc3949eb01775ff99",
+      "valueHash": "a096f537236521c720d8783fefdb34d579599411d2744a4b281eb2ed9d367692",
+      "translatedAt": "2026-02-17T10:06:58.564Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057087812",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "72e34932e936e21ba02818e75d5e0283cc3381ab1451efa959666f6f4e1c617c",
+      "valueHash": "6a826ae503666ea476c469832423ae39ba098db2766ee7606e1f0cd6d1f9613c",
+      "translatedAt": "2026-02-17T10:06:58.564Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057087812",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "286b3bb314f678ccfaaebce0143473dae27d4371320c9b56ed6cf8fce6a0abaa",
+      "valueHash": "f49a7e8350b21549a68b21c9b56026b45669ca736919d9a32673c6d450b85906",
+      "translatedAt": "2026-02-17T10:06:58.564Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057186116",
+      "locale": "cs",
+      "key": "title",
+      "digest": "7c0719548a93c15a01e7ece071f6ba56f43010d8732ef6a8e90555aa8b1146e2",
+      "valueHash": "d3efbfd0a2025e39e9fc6b6ab03bd0c759bce9a1c4c4d4aebe15e31a6e101b1f",
+      "translatedAt": "2026-02-17T10:06:58.821Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057186116",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "9883ef2c8844a62207dff221d4a5ec980c7d8717056319382d16e7063b55a880",
+      "valueHash": "694e4f734d4e78539b6dba46205dd73082a4dfc5a0d194e317b28f202fc1d509",
+      "translatedAt": "2026-02-17T10:06:58.821Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057186116",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "b7f54fba0d841871e8ae80622f40b7cc68f4265ee10d45aea1c086ff2c541c7d",
+      "valueHash": "c02aceab25395df8a129793d20e31c09b69ae50fa98ca952611cbad7167407fd",
+      "translatedAt": "2026-02-17T10:06:58.821Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057251652",
+      "locale": "cs",
+      "key": "title",
+      "digest": "7f134b7cdd0f27ca55335220700d0422419d3c4356559712e74faa6e6b61bac9",
+      "valueHash": "9c43afe6b9429ff287df2bebb18e3e49cadfca282adef82e3976c9bae8dfcbb8",
+      "translatedAt": "2026-02-17T10:06:59.173Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057251652",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "81373bf85001dd2e6d79ef6186f413b29d7e6707dd906e039c14f35c8cc80e73",
+      "valueHash": "261cfdc4dcdcc29c3ca5a7842a8c432962358690723c2c22a93ccd983b5dbe8e",
+      "translatedAt": "2026-02-17T10:06:59.173Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057251652",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "f6c23ff38a6345c0ca856bafee18b9dc2483d37afe103fe46f56762fcc47029e",
+      "valueHash": "5660e47d0746cb3c6d5f01d8c3e0ea39433a0020d6a8279fa0ba67ee85c7c107",
+      "translatedAt": "2026-02-17T10:06:59.173Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057284420",
+      "locale": "cs",
+      "key": "title",
+      "digest": "4ce6ec12eb3f832aec6ca7df81fbdb86bca087db44e2e00a380f5378e5fe5d66",
+      "valueHash": "6a21aa8204944609c2cde82c7a0bc3a4407dd24d6de22358595fcec1a13785f6",
+      "translatedAt": "2026-02-17T10:06:59.475Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057284420",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "9c3b50858a6d20ec9af7ec4701754942b7643acb7a4ae125b0e27a8c85a7306d",
+      "valueHash": "bc538721d34da73131cf9d08fc4096a0c1631e1f3e8aacbdca10aaed36465934",
+      "translatedAt": "2026-02-17T10:06:59.475Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057284420",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "d2ee0dd89544cfaf6de6f8acbe0b025febe5b2aa6749019618efb4edb25dba21",
+      "valueHash": "89626c92bd13c1474cf3673e3296bffd08af2beb810793714d2e770f1d147d8c",
+      "translatedAt": "2026-02-17T10:06:59.475Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057317188",
+      "locale": "cs",
+      "key": "title",
+      "digest": "56ca56f98855bc6bcbaebeb0fe959855502a5877887c358481b3ea815eb48cd3",
+      "valueHash": "2e80ac9160af56dec551922f640a2c81bddb27e98c40b9a674a3b7458e1fc60e",
+      "translatedAt": "2026-02-17T10:06:59.704Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057317188",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "d29515ae53ac397b2b6fe7f4901f4cae24a99cebcae5b0c5a2e908e6e5f6564a",
+      "valueHash": "b13dbedbf4680c31825deaaa8a5a8706e5904e801529225743592867c6e93ac1",
+      "translatedAt": "2026-02-17T10:06:59.704Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057317188",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "ff7317e6e7123436c19db5bfd50cef600ac024e0105ad56f129645623c212997",
+      "valueHash": "b5880e180d1ad6a6880d7722c6cd587991cbbd7862a99b1e0efd0ed4aaed15fc",
+      "translatedAt": "2026-02-17T10:06:59.704Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057349956",
+      "locale": "cs",
+      "key": "title",
+      "digest": "9f601f389ad05211db655a6962f099639a42f57b463f6b42c7d51f7b31594397",
+      "valueHash": "e4ba8cd9db4a40ab714b6bf80a029652f159c4999f77bd185c8ac6005bf9f046",
+      "translatedAt": "2026-02-17T10:06:59.958Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057349956",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "be9a08663909943c655db35481d3a4b9a89a620953f62e9bb1018f5e4f580eff",
+      "valueHash": "53367c9f428c561332142fa0fe20dde985808a216e4879bc22222cdfc304b239",
+      "translatedAt": "2026-02-17T10:06:59.958Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057349956",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "4cb1ec0fdb0fe44096e226a8b11401c4075d870321b686e5aee056d2ce591001",
+      "valueHash": "b435ee0f4341bdd06af602174a9bad34bf54159a10a4476e99203f8052f5cb1b",
+      "translatedAt": "2026-02-17T10:06:59.958Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057382724",
+      "locale": "cs",
+      "key": "title",
+      "digest": "b6e7ebb9c65b842f82629db9283032a50acd22928e376df4ae4501f65807062b",
+      "valueHash": "5da9935e15be309d0a561e4ea24fc6d8045d69dd6a4ace0959e537b47b964b29",
+      "translatedAt": "2026-02-17T10:07:00.226Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057382724",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "0c26058e3940d16555e13ce9b41294a0d052501e53f5adefead7d4ab5c667c5b",
+      "valueHash": "71fc92c26be34a573dd054b271cf1fc928c182ca27bb6583645c3c60677f95af",
+      "translatedAt": "2026-02-17T10:07:00.226Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057382724",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "68dd9a09cf714151400d11aa167fb6fe02813bdfd3cfebfee41b1e0843596e8c",
+      "valueHash": "6efad762971433c33280fb64c67683a859087383daf97f0fc055c9edb07daed7",
+      "translatedAt": "2026-02-17T10:07:00.226Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057415492",
+      "locale": "cs",
+      "key": "title",
+      "digest": "eab1dcbb337f9ee08154358dca47f18fc23aca1a8ac8ede2c313b40bc2be343e",
+      "valueHash": "3ce8bed9f1b991b41b19eba6c5b42b8ff57a598311d4336b0f9b6d8c83708858",
+      "translatedAt": "2026-02-17T10:07:00.478Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057415492",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "66d398694b3835426be865ae38a88c722076ddbb75621a64c8e8d6b0b9c1c872",
+      "valueHash": "42fca154454781e001ecc158873c1108a6304596665a3ddfedf8e0582726ac53",
+      "translatedAt": "2026-02-17T10:07:00.478Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057415492",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "9b77f02956155cf9fc2ddad86381452aa2fb4df0a6c48ef8c33e9aee3530bf95",
+      "valueHash": "0766df61477c0be27ea01daee3cb9ee89e9355f564dc376baf1b4775a0eb218b",
+      "translatedAt": "2026-02-17T10:07:00.478Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057481028",
+      "locale": "cs",
+      "key": "title",
+      "digest": "396c3cb18f811a18a0859bd18bf8094c9dedcbbe92651bbd3aa7a6e0e6e3aee8",
+      "valueHash": "0a3511a1f766a9e4d0e02b78e9fd4698e103b060af2cbfbe6a2736428e4f905d",
+      "translatedAt": "2026-02-17T10:07:00.717Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057481028",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "30df05eb8cceaccebd8f7f447b95f8e21386579691e0c37b714ecf515e682686",
+      "valueHash": "16c53c7dd807e5882128b81e1ca9e56d88d111533a229dafc95d85dd33fa399b",
+      "translatedAt": "2026-02-17T10:07:00.717Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057481028",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "c8bc2586cdd87cd6f970fc4262c4bbc49165811788825fbc1ba3366bfde45413",
+      "valueHash": "3a086cca762760f2d0a20d2efcdc8392975f8ddd84b1bb1d94cf7b32697fe15e",
+      "translatedAt": "2026-02-17T10:07:00.717Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057612100",
+      "locale": "cs",
+      "key": "title",
+      "digest": "535b8d7eaa5e6f8cb79a99f4e7bdbbcc68eadf6b27bbf26d1e58a8ff0e83b442",
+      "valueHash": "fc18c0f662c73b3b1e17d093ee118172b054522d2a4f762bea9f1e26798c084b",
+      "translatedAt": "2026-02-17T10:07:00.976Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057612100",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "bc8abad8384d706b9f9d22db56226fb0ac1788dbff19430e832fbb4ecd20b2a9",
+      "valueHash": "7d7b46310c47cadc0db77dcbaa4c63c177aed6132464ce11589f66a68029389c",
+      "translatedAt": "2026-02-17T10:07:00.976Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057612100",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "2b86fc7742d3082ebc16c1b95a8149ded6845745cd8ab782efcbad2e118d04cb",
+      "valueHash": "948f2b0593dd0dac6f525b493b4f6e95538f445e7e391e5a1cb6e76a459f835c",
+      "translatedAt": "2026-02-17T10:07:00.976Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057644868",
+      "locale": "cs",
+      "key": "title",
+      "digest": "367ef06b8fbf3aaaccd9cff1301628fae45901ccd9661b5a1b256c7cc5314d24",
+      "valueHash": "e25fba1f86cc76dee6859ee7734fb5f0bf7a853ecc791b1da0ae9a3ac23d1faa",
+      "translatedAt": "2026-02-17T10:07:01.244Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057644868",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "0405000b89b80814106416002e6468872d25b4472c1734935fa04199797d15df",
+      "valueHash": "40c397528bece55a6bb9d35919985c1201d0d377c099f105f1a88f15803d2475",
+      "translatedAt": "2026-02-17T10:07:01.244Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657057644868",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "19b25856e1c150ca834cffc8b59b23adbd0ec0389e58eb22b3b64768098d002b",
+      "valueHash": "d2c025b8cb9ef31c68a26bf5222929e4e4a2b75ea5761c6bd350b93314972371",
+      "translatedAt": "2026-02-17T10:07:01.244Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058136388",
+      "locale": "cs",
+      "key": "title",
+      "digest": "9c31c6b5b470d5f8cd9ce1048dfdbe0ceb2d7b4d8dbedef6bbf0e03feab6f262",
+      "valueHash": "265b27c0b24853f367d1c2796c3d332d172ba5936daf15eb072e6b56666ef2b0",
+      "translatedAt": "2026-02-17T10:07:01.512Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058136388",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "53410bd79e6e82a995941c96a98abce8cfc2787e0945657df7f1186f91c5ad92",
+      "valueHash": "d6cd8d5707bd0c8561702b71dc75a9637fdadef8c4c9f9bf9668cc3c040feb31",
+      "translatedAt": "2026-02-17T10:07:01.512Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058136388",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "3003b115a62799f48a42a38cbf9ae09e39ca1283bc7db5c9db57b3d157ad1918",
+      "valueHash": "2eff1002abe4d6c7ec565956ef105f3234425d9af6d0f4c0816d713753af79af",
+      "translatedAt": "2026-02-17T10:07:01.512Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058169156",
+      "locale": "cs",
+      "key": "title",
+      "digest": "1db836c215e608cebeec5403af0a0ac7648ae1d05480d98120e0b13d8ecee610",
+      "valueHash": "cc23bc60fe51e5349cdfd24d35f41d95e6337dbe85813a49c61ab690cff477cd",
+      "translatedAt": "2026-02-17T10:07:01.789Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058169156",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "44927e4f90bbc775dc4c1a6b7a95a501e233fe2bc3d905d51c9b11a4caedd6a4",
+      "valueHash": "9ad54a49ed5605c234a41bc8a9268f2804a3af1f81302e2a394d7114a8c2d325",
+      "translatedAt": "2026-02-17T10:07:01.789Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058169156",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "621e8894c02f022925e82e73b9fff0e5f1f063fd40073d94903ab27b35a54daf",
+      "valueHash": "fb966b24424777ad3d476565fd11da3f226cc8b05a48f67f680366d400d435bf",
+      "translatedAt": "2026-02-17T10:07:01.789Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058201924",
+      "locale": "cs",
+      "key": "title",
+      "digest": "fddd043377a89957dcfd143e726f82fc6bcfcb22a93d2a01b2792959b64ba386",
+      "valueHash": "2637fb7c33d0681e7d09506b215351c355835144535bcc152f14145ebe5ed00e",
+      "translatedAt": "2026-02-17T10:07:02.081Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058201924",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "c7341a3fe31cbcad6af9b0d45b51a45451bdfca77cd20a16616cf2343e03a776",
+      "valueHash": "a356887e7c8cc872594b48bc4a7adb0f67b7a96c943beaf8f2744cbdd31a12e6",
+      "translatedAt": "2026-02-17T10:07:02.081Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058201924",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "07720a9177ce6f1d2bba9e3b02468c53c261c93a978c9f640712d32908326b26",
+      "valueHash": "1d4422ad491a05e55f8fd6a14e0b953a7a8296898caaa2867de3824b3de1b848",
+      "translatedAt": "2026-02-17T10:07:02.081Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058234692",
+      "locale": "cs",
+      "key": "title",
+      "digest": "5d7e0393abdc411f8412f03c1a2d404db9e1618ef4018b951d1a39f03533837f",
+      "valueHash": "db54f348b86347eee0137fc4d6dba3da6d1b43a49ecb1a6add1aeb4db172f622",
+      "translatedAt": "2026-02-17T10:07:02.360Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058234692",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "7644636dcef55c88634d6dd6c032987285c40fffb644c62b1318d1e55c966746",
+      "valueHash": "aee086ddec71ef3c9f3cc651ab5419d7b4a7c81a85129d0402fbed00058c98cb",
+      "translatedAt": "2026-02-17T10:07:02.360Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058234692",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "169d2440ee6574600aa98563a85bfee7971158dfce9bddad4cb21d3d833f0c0b",
+      "valueHash": "89a3388daca4c071146bb1fb27e7c3739b52f8a43a0f1fa882ec56ded9c164af",
+      "translatedAt": "2026-02-17T10:07:02.360Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058267460",
+      "locale": "cs",
+      "key": "title",
+      "digest": "74c68b304f86a1bbcac451615db6811280cdd35fc745f48192c68d75a2b5de80",
+      "valueHash": "f6b74a36d1cb7e1a0d6b56450e7e20697ab05bcb8660ab3f2ee6d063ade71d50",
+      "translatedAt": "2026-02-17T10:07:02.604Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058267460",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "26e879030b3c0f840ab1fbda2cebd0d9b1a3689840cfd6b646c57271496f1b40",
+      "valueHash": "55e4ec222526e1e2d60ce8d2105a75caba6085c7bbf9c84578fee6eb3de0976e",
+      "translatedAt": "2026-02-17T10:07:02.604Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058267460",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "69c8d65e92d5c837f14ed9967d826991f411deeb1283c531eeb026a0a3c654fa",
+      "valueHash": "c083a1876be1b63a180cbde70c9c3adc9b54c4e084564355ebae6dcfd78b3e75",
+      "translatedAt": "2026-02-17T10:07:02.604Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058300228",
+      "locale": "cs",
+      "key": "title",
+      "digest": "869e7a1761f9fe7899a465ff2f1afc23ad5abb5b169e755146acc8b0abad085e",
+      "valueHash": "d1794918ba63d9d536c9017720a792f0006b34674c5000f3d28d6ea2a36b5b36",
+      "translatedAt": "2026-02-17T10:07:02.971Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058300228",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "3da4ac530b467e3225b5f08e789e574f1224c6fd192a4ef5ed536113048bad7a",
+      "valueHash": "d38a9a41a1580899d25ed5de286f8337b42bb37c88702722815a5fa1b6eed816",
+      "translatedAt": "2026-02-17T10:07:02.971Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058300228",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "08fda025f36c994cb4f8456f76e758c3a25388cb8cab1cd4f0d213bc03d4923f",
+      "valueHash": "61267c2db28d9c54c30a64ee4dec006dc9c509a24f942deca1a5e0ae61f565d7",
+      "translatedAt": "2026-02-17T10:07:02.971Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058332996",
+      "locale": "cs",
+      "key": "title",
+      "digest": "151b4c239fb6ac6cd2c4e829933cb48b2eff7c8a03a6d0151ca5055750f34814",
+      "valueHash": "e6b515fc3e154b52f8af80ed3df00fdd00407c3e8e2af288259cbb1139308fbc",
+      "translatedAt": "2026-02-17T10:07:03.227Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058332996",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "98400f768693280e07e154d90068247f9af144ce519ebd01128eab31592944ec",
+      "valueHash": "404cbc952e29729174bfe96037c1dfe333c6c6960d9b3206b3eb7afe607358ad",
+      "translatedAt": "2026-02-17T10:07:03.227Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058332996",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "70e4fd8db3544624ae920a9ab12d5a3657ac7b6bcfde0c1b0d1f6a1fca5de365",
+      "valueHash": "1148790232a8db26c5d8636474f72c0a74535986e852405fa89b78965dc74893",
+      "translatedAt": "2026-02-17T10:07:03.227Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058398532",
+      "locale": "cs",
+      "key": "title",
+      "digest": "5faf31e9ed142a1bb9e48af45e74db0722e5d1637f59b5d6e3d5be00f5b34d91",
+      "valueHash": "9ffffc10b9c44c73e0758202662c94748eaee23113dbcba736f745292322f701",
+      "translatedAt": "2026-02-17T10:07:03.482Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058398532",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "a5a0bdea9a16b6960906316a21fb75cefcab0a10ec7c27770d9f9c4a27a97fa2",
+      "valueHash": "73f45f09dd68c7d3952800e7bb24b94b7783ac3f165d946cf4262029e624bd42",
+      "translatedAt": "2026-02-17T10:07:03.482Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058398532",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "27e73bed0f0572b3e9d7486abb1129262f15e6a39e4ca46f62fa237f1db80da0",
+      "valueHash": "4f0436b64fe2368a3b9a7775bf4bf4ee477798045867464e7b2c88bbda072c7f",
+      "translatedAt": "2026-02-17T10:07:03.482Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058431300",
+      "locale": "cs",
+      "key": "title",
+      "digest": "244bd2a8359dbfd87c1dfd5d64215db61629218d7c3c411e3aeaf0cadab4319b",
+      "valueHash": "39cb9238b006a1929c70cff7b88e41bdf73b8f4949377dfa9ddf9e5a2a5f084c",
+      "translatedAt": "2026-02-17T10:07:03.708Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058431300",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "04b931df57fcca10050f584bf836ab7799237456f62ddaccc49f8f050f7627ec",
+      "valueHash": "4fdcd4d7c8913ffc675a05a798a1c5aff5427ca9c07fe81366d3b974fdf2322a",
+      "translatedAt": "2026-02-17T10:07:03.708Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058431300",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "864e0ce3efb8f1bf02365c55d1dea7dc47bf790e129246a3d672a4d03b5ca4d9",
+      "valueHash": "2744b8827dc04ed2516842a8068f35a7f35eaec0cc2fc7ceb99cc30bd948ee74",
+      "translatedAt": "2026-02-17T10:07:03.708Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058464068",
+      "locale": "cs",
+      "key": "title",
+      "digest": "4e060d886c6187f385a0c846812071773b7e62f605d78db1050158d1ecd4b5b1",
+      "valueHash": "9196ba99c7252d9c04f0ef360bda324a8afbf2c8ee84d9ad4130994f0298508c",
+      "translatedAt": "2026-02-17T10:07:03.994Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058464068",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "e9cd63cf629b9545257657fabdfa291f148329747775c288a22acd0e6ba769a4",
+      "valueHash": "69593cf6163703010b2a1f605eb3b7b4310f875cf8456295b34c572a97c2cc8f",
+      "translatedAt": "2026-02-17T10:07:03.994Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058464068",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "1658f205612f1428cea165b10176a5bb2bb8656aaf89d55f4f850e5a26837546",
+      "valueHash": "684f159e18a8fa21f59027f999ec0383052a0a06841485d55973bfe5720ea6c8",
+      "translatedAt": "2026-02-17T10:07:03.994Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058496836",
+      "locale": "cs",
+      "key": "title",
+      "digest": "77e30a0c5a999d83e71a6082d81fa8b0d37e15e5ad4c02d69e3d9afae6016be8",
+      "valueHash": "3a3c05401bf94dfcf243d00f1e9ea265fed78eb58d82b97295447a568e2c6217",
+      "translatedAt": "2026-02-17T10:07:04.244Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058496836",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "c65763c5fe76babfcca7c069003da6b83e3575e845ba8732e328031894462c50",
+      "valueHash": "0f97998928ec1811d50375b71b978ea4baf5c03166101cfaef2d08a624fb6c8a",
+      "translatedAt": "2026-02-17T10:07:04.244Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058496836",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "bdbe4a01cb2a994b29ef671ffa007e7d433fcec5a41f330d231ccbd704ee21c5",
+      "valueHash": "baacf1aba156f97d76bc97e62cdaaaea1071f261340ba429d50552603470445b",
+      "translatedAt": "2026-02-17T10:07:04.244Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058627908",
+      "locale": "cs",
+      "key": "title",
+      "digest": "603a4c79913ece533f28b2021a99d9fe3a43c9cf9aea66af0632b44213673f53",
+      "valueHash": "f6338d56abcfb72989318aebaa8e759f48d97c5fdfe304db06514525aa6517e5",
+      "translatedAt": "2026-02-17T10:07:04.492Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058627908",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "1cc93c67f5b8b45ab539442c0f3f69f56913b824f928c8ec341c40605f6e6543",
+      "valueHash": "aa177f945ca5662b398dd7eb5a226ad947adbf774de05ca4d8454539ff70f9a3",
+      "translatedAt": "2026-02-17T10:07:04.492Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058627908",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "f8a5cf3c5bc022d82231f5552fecb7ca9b5debb23954b5a52e12740de4dd1478",
+      "valueHash": "77feaa04b5fe0bbdbeaf17461011acfe2c946aa46d662c3f0ebaa7f3f77d557f",
+      "translatedAt": "2026-02-17T10:07:04.492Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058660676",
+      "locale": "cs",
+      "key": "title",
+      "digest": "ab6fdc5ef82083ffd064da41493fa0725019b2da7beec0cdc2c1d1a01ea99b4b",
+      "valueHash": "87a68991b9b7bd65b2a0a754c1c00acd5fd60f56dbd14371c9211d9bcdf1dbc1",
+      "translatedAt": "2026-02-17T10:07:04.723Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058660676",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "c0ff5bb6abdcdbca2eee16f6d00e492b051ddcecb51dde77b112269f4865083d",
+      "valueHash": "30cbdc9ca5c0e080df37ff70f7ccde6b4f529e941c1eeb71aae07303f2513f34",
+      "translatedAt": "2026-02-17T10:07:04.723Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058660676",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "7c228b4955582202a2509976f8b8991006659bec22af189344b427973e970697",
+      "valueHash": "b6c8135a929fea22602400c909ff20060fd01e418c13849106bc15659e846b1c",
+      "translatedAt": "2026-02-17T10:07:04.723Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058693444",
+      "locale": "cs",
+      "key": "title",
+      "digest": "8f0d2d985a07132b7f1c35d63f1079225dfd65ca41c47d148d4348658db47af6",
+      "valueHash": "b809b0ad29ca1b78ef7e9b5dd64a8c4b5cf9b4581a24e743937567e2d841c0a7",
+      "translatedAt": "2026-02-17T10:07:05.002Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058693444",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "24d93b1b070fd5643b6c0557281df67d71d35e8c10c9d903a0b14647271f9c22",
+      "valueHash": "1d0e0fc14fcbe0df677f602a7ed40e8605b3e63afad2c6ba926f927a9b988ac0",
+      "translatedAt": "2026-02-17T10:07:05.002Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058693444",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "17d78dd68b0a363ffbf992467f7f3695fd1b1efaaec92644792b2b3597ce1798",
+      "valueHash": "d3d26f798b5a2d8a60a1b2c559b6eb7ab2f46f5298d73fb5294d883ee3a9cb24",
+      "translatedAt": "2026-02-17T10:07:05.002Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058955588",
+      "locale": "cs",
+      "key": "title",
+      "digest": "c26f3e9baae05a696ade03667ddbee51132669c376b379d3431ed1a548ff1d7d",
+      "valueHash": "bc2dee3b712000d1f6bf1f9a8900fe4bdb6fdbc64dfd36773e89a6c6915933bc",
+      "translatedAt": "2026-02-17T10:07:05.267Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058955588",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "34ce8f46c2c721597de4d0f629e31ad729e4fcab2ad38bc86eaefd2f5e642c7c",
+      "valueHash": "c4fdb3f6240a501424a93d3c5cacf52a42ecf2fc4bad18a501e0a916b8284636",
+      "translatedAt": "2026-02-17T10:07:05.267Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657058955588",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "96726680410645d635f88a70a2406c8785061d26ed52ae60f8851eccd03033d9",
+      "valueHash": "d870ddfc772b8c144530aebd93015209b587a41dacda181a0ec328095b4cbc03",
+      "translatedAt": "2026-02-17T10:07:05.267Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059053892",
+      "locale": "cs",
+      "key": "title",
+      "digest": "e6816305da0e5b31d508c88099d6df9933e9a7ac9879c1be8bc087aab248acfa",
+      "valueHash": "b1e4e989f47ebf8a54ef664567808a6623b9f7be377802967ed693ec0e7c8f83",
+      "translatedAt": "2026-02-17T10:07:05.553Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059053892",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "0734553d3038e67f9f06545417710bd9a7c2c1c61273aa54604582164f802433",
+      "valueHash": "6d802b306cee894f1053f44bef0f62b538ddbdab1aba9d547752c6c0fec9adc8",
+      "translatedAt": "2026-02-17T10:07:05.553Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059053892",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "dbe8de05dfcc9a29514582055a111ec6bfa9b5145bc7ecd05ac20a9f82add6be",
+      "valueHash": "e2587b2fde0a6b17ba970888cf1d1d83278c06bc2e727d6c7e45082b31281366",
+      "translatedAt": "2026-02-17T10:07:05.553Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059119428",
+      "locale": "cs",
+      "key": "title",
+      "digest": "a2a2e072490dc6f26be7fa8f2185edda8eb1ddd2b5473b1a0372fa63a406eed7",
+      "valueHash": "24675fb960784634417ddf76f688f5eb77b1e3a1345ca3be6b18797d6ccb4f9c",
+      "translatedAt": "2026-02-17T10:07:05.801Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059119428",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "2a04697507be886a51c640ef34cd71dd3779ba56e36e11c558275533a5eb2faa",
+      "valueHash": "d287e1d96cf67d8d15525517e68e17f54030f1ccf8a5a603a9d5f08e94f835d1",
+      "translatedAt": "2026-02-17T10:07:05.801Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059119428",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "bde7cf21f5a7ea56041b234c0cbf9d14e3b2b8dd4be0cb59ef9d7738c4d60218",
+      "valueHash": "7345f3be50131a7ca787392d7234d26bc65c4845e87fd9c8614d1f636ceda995",
+      "translatedAt": "2026-02-17T10:07:05.801Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059152196",
+      "locale": "cs",
+      "key": "title",
+      "digest": "7b802b22a09ab18ccb439cf4e3cf6285105c2559445da8c027bc6fbe23c59fe1",
+      "valueHash": "a81dfa414be773bb65d84af641e528dd0ec565857f2c90f024f74f7e9c28c4d3",
+      "translatedAt": "2026-02-17T10:07:06.086Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059152196",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "0380986089a388a87dbb9c15f8b26fd3eff8c8c3df5f68172d2d4766e15a9489",
+      "valueHash": "29ce88b2ada07b5235e15e4baf0da2ec24eeffd9d217e51235a7a2616113620e",
+      "translatedAt": "2026-02-17T10:07:06.086Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059152196",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "e238909a17f7c9039b158bbf12e51e20ebadff414d88ca6cf4047419bb4b24d8",
+      "valueHash": "99ee125eb9bec0b8a0ec233b6fc378e4a92d79db858aafaaa62b186248a0212f",
+      "translatedAt": "2026-02-17T10:07:06.086Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059250500",
+      "locale": "cs",
+      "key": "title",
+      "digest": "01e59ca9b2fbbcde9813d072413f7a1c145cbfaddcf8a3477f859683f3350ae5",
+      "valueHash": "e29a49210e23214460cc92928c64f212ee5213263043a31d9ad961fdc7817362",
+      "translatedAt": "2026-02-17T10:07:06.371Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059250500",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "c302b018c4349c225bf8b467a31b0b4fbb47a10a87ad0baa4171c27f571643aa",
+      "valueHash": "150b0d39481c06b0e78c129177d500b047b2918fa3037d99b09e657295349452",
+      "translatedAt": "2026-02-17T10:07:06.371Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059250500",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "d1ff14ede3249fc9bb6901d4a16b07bc4db11fc7fe998e977d3efbee2fd23dd6",
+      "valueHash": "4e976963968a6fc501781c2d6327fb15a34ace39e184dab608a11c2f4252e8e8",
+      "translatedAt": "2026-02-17T10:07:06.371Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059381572",
+      "locale": "cs",
+      "key": "title",
+      "digest": "4eba960a3b0d546cb77dd871930c163dc8f547b7d0a4590f2a642fcedfbabc92",
+      "valueHash": "5bd45b5a308b58fa255f876b9bbd7fdd14cf0e6e2f3e1ffe61adc1465c13d6f8",
+      "translatedAt": "2026-02-17T10:07:06.618Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059381572",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "356a8bbd5d21d4c0131047f5f3ef14b056af67b8ac1e4f3e3fc0b20693417b17",
+      "valueHash": "85f698e94a86e225775c5b977c508d59f7796451a3887cd8e6084d3fed0cf41d",
+      "translatedAt": "2026-02-17T10:07:06.618Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059381572",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "c3fcdb677b34db2ba6b7d6aec83613ae035f41bc009f6530492018d958fbd0d8",
+      "valueHash": "301195835a9cd44018182db5a112f7f5ae4a68778f3a56d0bf48f31e3b63df44",
+      "translatedAt": "2026-02-17T10:07:06.618Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059414340",
+      "locale": "cs",
+      "key": "title",
+      "digest": "cf637327330bc0ca0dc79fdee1780be6a6d8b16281e5d8364b28094025206e88",
+      "valueHash": "ec2048a7cad38f77f806427cb204d4f1b1e1150aa3b73ac7b67ff31226ef54e2",
+      "translatedAt": "2026-02-17T10:07:07.170Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059414340",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "b436924e375a470b08c531a23a0e10dacf01d8ec2eb231ed5820565ded7c4ddd",
+      "valueHash": "bf7643a84e16e98b5f701ef3b8cdf5e029bde4fbf31d930ccdcd9b14b9fb044e",
+      "translatedAt": "2026-02-17T10:07:07.170Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059414340",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "b07a86e04fbbbb264a818b3f1bb314ab06badb8024d766fd2ad6bac3318a0e2b",
+      "valueHash": "6e1abddde765b83e77bfc475b08e819149238168c6558739c38f9c68813633bd",
+      "translatedAt": "2026-02-17T10:07:07.170Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059479876",
+      "locale": "cs",
+      "key": "title",
+      "digest": "9d5fdac7c64a1da37f0a41557f76f48b1892bae65de650de900779643fb5e865",
+      "valueHash": "b113ea05f82e9872c8aff8d9ce5b804114749815d86891eaf4d6569ecbc4b959",
+      "translatedAt": "2026-02-17T10:07:07.459Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059479876",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "e8141ea8395084b5a5398cb1628a777ec064182ed297bd5cf4d16c27cc7deb3c",
+      "valueHash": "23c5f81dab7ffd3aef8ea3ade7f28cfdaf0cd493cfa0bed4531ad359ba6a37e0",
+      "translatedAt": "2026-02-17T10:07:07.459Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059479876",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "3a4868150925044c6a61a6058fa672424c3897da1b79aca426ae1192e06f1d7e",
+      "valueHash": "ffab605bb8e4bc986073f4878b10d8f5a811e2fbe2ee2f1c5a03d99155f4914a",
+      "translatedAt": "2026-02-17T10:07:07.459Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059578180",
+      "locale": "cs",
+      "key": "title",
+      "digest": "c14d4541212a270b095767a506af68d35c6514c0b62c39ee0f02216f46a53f52",
+      "valueHash": "21c5fde964626331164eb90ca7c6109a1583f02d56dc684267cd17c1e64b2605",
+      "translatedAt": "2026-02-17T10:07:07.697Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059578180",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "52967674c0f9d5e04bb415687cbf3cc009377408cef1ab8c40835b4579829702",
+      "valueHash": "d288705a51d54edc79c90674ce3fe0c3643d42ac3374c2387d96aa173aa50b2c",
+      "translatedAt": "2026-02-17T10:07:07.697Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657059578180",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "4629f19e7b0a2035f133419e1693cd428764779781d431aed17c7d69ae9f01cc",
+      "valueHash": "ca56916ffe699af240cf435935a2e6057857327ed513f30b049d42e227e4e7a7",
+      "translatedAt": "2026-02-17T10:07:07.697Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657060331844",
+      "locale": "cs",
+      "key": "title",
+      "digest": "03d0cfe8212536e3535cabf0d6b341a6d3a497531b3685b4978ab5ac6e939033",
+      "valueHash": "bb517da43263219cfc9f280bff2df726997493f2e02dceac9c4c91289938f3bf",
+      "translatedAt": "2026-02-17T10:07:07.948Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657060331844",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "f8bef8d31d280b1bbc996f537433e1e92be1dfd129df1e75d0ad79f0664a2e7c",
+      "valueHash": "862481d11c811a6eec5ece1a7b694a69f444ea8be2fb59f9c36d1b61dd44b3ca",
+      "translatedAt": "2026-02-17T10:07:07.948Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657060331844",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "9ad0fa6d6764987be20813b60da5f1ae2c03778838112161b60b7f83ecb13f13",
+      "valueHash": "d1c572fc799a612b4faef6634c9870ad5b25fd3ababde1cb971f5a62c9dd7646",
+      "translatedAt": "2026-02-17T10:07:07.948Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657060528452",
+      "locale": "cs",
+      "key": "title",
+      "digest": "60110f2012805c6eb5b20d23f069f65ff7bc3c4604d41f40b798c6325211c8cf",
+      "valueHash": "5b1e2e06987259a5a71d2962b480b720ee4fc897db72996e84ea829e0a2c4d74",
+      "translatedAt": "2026-02-17T10:07:08.199Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657060528452",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "8564eb1dc247b0b894c16257a975f48378592968cd0bf0adc9ea556602d53446",
+      "valueHash": "87700ef7af013bfcc5c6644a2f1211a0f6d0651d8dc17ef05dcc6506378b54fe",
+      "translatedAt": "2026-02-17T10:07:08.199Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657060528452",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "1a09521b0a56c1519e52a0e600de892126a1824f328feb6de817d25ce4759185",
+      "valueHash": "7a7a3f42c7ff2756318142c9a450fcc7c0d952f9f5a168ae9fd58933a1fea29f",
+      "translatedAt": "2026-02-17T10:07:08.199Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535631684",
+      "locale": "cs",
+      "key": "title",
+      "digest": "986058c9bbb2b91697ee13edd5fd56fe53802f4fd176c90182cd97463e2cba9a",
+      "valueHash": "c1859742166fde9eea33906971d56554df84ac56afb8bfafe9abb719877dcb5b",
+      "translatedAt": "2026-02-17T10:07:08.474Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535631684",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "723d7cf1f72e85dddb26d7603d2a9add19b5810305b2b5a81b55799d1e938528",
+      "valueHash": "de4c7d8141ac152e7215220e198837efb9bad477b856e22ae8621d35caec4543",
+      "translatedAt": "2026-02-17T10:07:08.474Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535631684",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "29ba06c21f96fdc69d3a484130acb6bee1ff485ff1ed1ae4b2e5e13a29b96be1",
+      "valueHash": "82852ce32cda4b63761d18c7c3388990ff1493d030432386f304b2c706772fb6",
+      "translatedAt": "2026-02-17T10:07:08.474Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535664452",
+      "locale": "cs",
+      "key": "title",
+      "digest": "e9084538cd6973ff9db345b4f018f8b9389d9efa4cf93ac6aad7785360da8b0c",
+      "valueHash": "6970329ae76a5e46161ab99e5c29103f2d2252101a551075d3b479aa11c4486b",
+      "translatedAt": "2026-02-17T10:07:08.751Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535664452",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "59c90dadcb371653a5041efc13d519e679bb6085bf2b1b531a17d78540bb4f89",
+      "valueHash": "74c11e9c73d14329ed352881f67d519baa886d123d56e6a25ca41927691928d6",
+      "translatedAt": "2026-02-17T10:07:08.751Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535664452",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "5bf565149224345392ba04e5eb75700c8b877736e566868f152a0a9e97a4f1ff",
+      "valueHash": "35d2d81ea62c09b7da1b9a4430025c937293e48e3e667ff54a6529f667db0074",
+      "translatedAt": "2026-02-17T10:07:08.751Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535697220",
+      "locale": "cs",
+      "key": "title",
+      "digest": "2f50164754c3a8664d5dbd0ea8a265d23e8defdc4547dc469dfce4cf2908940c",
+      "valueHash": "a249263d9fc3d346ddb65300f80ac11f8ac0309e3d08a27ce1703304c6a87b0d",
+      "translatedAt": "2026-02-17T10:07:09.012Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535697220",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "ba03c29bc08d34463d6ce9baa0ec08e295d66264daef2bdacbf6282c7d646285",
+      "valueHash": "8f53fac7e35917a22a7ef57fdab51a87bf0bf861a7c126bf18b5533f0b7d769b",
+      "translatedAt": "2026-02-17T10:07:09.012Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535697220",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "0bfb1409a83df73d5bbc64997080149ee67a5fcc065ed215f47d85c91c1100eb",
+      "valueHash": "5cf2b6edeee6cbf8592600ac4ca1646cae695426a11286649b03d783c17a434f",
+      "translatedAt": "2026-02-17T10:07:09.012Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535729988",
+      "locale": "cs",
+      "key": "title",
+      "digest": "c5df55515a5ff669c0f6e66f66775fe540fd49154b20eb6751aa97fc702d4538",
+      "valueHash": "8f576d4634584fcd535591d2d81e3c9d358fff3e9a8f41eafd648c5b021379a8",
+      "translatedAt": "2026-02-17T10:07:09.287Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535729988",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "e6740d54f4b11c2c479519f775c7bc3a2249f8704bd2acdde2abd317f45799c4",
+      "valueHash": "96087a41313686c207a3dedd32c13e5291acbb43d1145c8e258c5cde881ca137",
+      "translatedAt": "2026-02-17T10:07:09.287Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535729988",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "69fb97fba8218c6efb949be5e1893d27d65c7631ef4a13a2cb16f38b96a1a1ec",
+      "valueHash": "d8bf88c8e3b72e3f35d408db6b70fa1cea3aa6ab5f0b07ad81a62097bacacc47",
+      "translatedAt": "2026-02-17T10:07:09.287Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535762756",
+      "locale": "cs",
+      "key": "title",
+      "digest": "93baa42f0385b5e74ffb8c707bf9e72f6f0edeb5f7dfde5586c6dd44684ef3cd",
+      "valueHash": "a476890973c5fb10fb62f7acbc35eecbb1fa94c2ae141657d8acb3dce0645c8f",
+      "translatedAt": "2026-02-17T10:07:09.536Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535762756",
+      "locale": "cs",
+      "key": "body_html",
+      "digest": "a67f611a46ce928a98b8d8f805f83f05b44780210474a7e698ed22c1d2e875cb",
+      "valueHash": "4f922071cba17e6a07534f79e8334f344c4544e459bbcd24a21191a3c3658c65",
+      "translatedAt": "2026-02-17T10:07:09.536Z",
+      "status": "success"
+    },
+    {
+      "resourceId": "gid://shopify/Collection/657535762756",
+      "locale": "cs",
+      "key": "handle",
+      "digest": "9870e6ba13bf9765cf3725dd6a836814ac4e8d88e9de5ed1cd9b961cbe9ee1a2",
+      "valueHash": "83c876e87527f4213d7231d919df78f40f83bb8cb68241ebd6294e831e4660d0",
+      "translatedAt": "2026-02-17T10:07:09.536Z",
+      "status": "success"
+    }
+  ]
+}
