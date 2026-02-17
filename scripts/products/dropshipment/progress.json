@@ -1,0 +1,1601 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "productId": "gid://shopify/Product/15466931487044",
+      "sku": "8719958012677",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:16.859Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466931388740",
+      "sku": "8719958012660",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:16.860Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466933551428",
+      "sku": "8719958012653",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:16.861Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466931945796",
+      "sku": "8719958012646",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:16.861Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466931257668",
+      "sku": "8719958012639",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:17.718Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466931355972",
+      "sku": "8719958012622",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:17.718Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466931749188",
+      "sku": "8719958012615",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:17.718Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466931224900",
+      "sku": "8719958012608",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:17.719Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466931061060",
+      "sku": "8719958012592",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:18.582Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466931028292",
+      "sku": "8719958012585",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:18.583Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466930700612",
+      "sku": "8719958012578",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:18.583Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466930602308",
+      "sku": "8719958012561",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:18.583Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466930405700",
+      "sku": "8719958012554",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:19.431Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466930372932",
+      "sku": "8719958012547",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:19.431Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466929848644",
+      "sku": "8719958012530",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:19.432Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466929783108",
+      "sku": "8719958012523",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:19.432Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466929291588",
+      "sku": "8719958012516",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:20.273Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466929258820",
+      "sku": "8719958012509",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:20.273Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466928963908",
+      "sku": "8719958012493",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:20.273Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466928931140",
+      "sku": "8719958012486",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:20.273Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466928734532",
+      "sku": "8719958012479",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:21.097Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466928668996",
+      "sku": "8719958012462",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:21.097Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466928570692",
+      "sku": "8719958012455",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:21.098Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466928341316",
+      "sku": "8719958012448",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:21.098Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466872537412",
+      "sku": "8719958012431",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:21.981Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466873061700",
+      "sku": "8719958012424",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:21.981Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466872471876",
+      "sku": "8719958012417",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:21.981Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466872275268",
+      "sku": "8719958012400",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:21.981Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466872668484",
+      "sku": "8719958012394",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:22.809Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466872209732",
+      "sku": "8719958012387",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:22.809Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466872176964",
+      "sku": "8719958012370",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:22.809Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466872078660",
+      "sku": "8719958012363",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:22.809Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466871456068",
+      "sku": "8719958012356",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:23.629Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466871423300",
+      "sku": "8719958012349",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:23.629Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466871357764",
+      "sku": "8719958012332",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:23.629Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466871324996",
+      "sku": "8719958012325",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:23.629Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466870407492",
+      "sku": "8719958012318",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:24.476Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466870505796",
+      "sku": "8719958012301",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:24.476Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466870440260",
+      "sku": "8719958012295",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:24.477Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15466870473028",
+      "sku": "8719958012288",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:24.477Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449313575236",
+      "sku": "8719958012271",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:25.320Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449312526660",
+      "sku": "8719958012264",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:25.320Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449312428356",
+      "sku": "8719958012257",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:25.320Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449311150404",
+      "sku": "8719958012240",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:25.321Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449310789956",
+      "sku": "8719958012233",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:26.225Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449313050948",
+      "sku": "8719958012226",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:26.225Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449310724420",
+      "sku": "8719958012219",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:26.225Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449310560580",
+      "sku": "8719958012202",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:26.226Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449189056836",
+      "sku": "8719958990364",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:27.078Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449188925764",
+      "sku": "8719958990371",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:27.078Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449188303172",
+      "sku": "8719958990388",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:27.079Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449189515588",
+      "sku": "8719958991231",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:27.079Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449187385668",
+      "sku": "8719958990425",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:28.012Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449188008260",
+      "sku": "8719958990432",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:28.013Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449185812804",
+      "sku": "8719958991316",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:28.013Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449186730308",
+      "sku": "8719958990777",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:28.013Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449184764228",
+      "sku": "8719958990784",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:28.889Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449177325892",
+      "sku": "8719958991620",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:28.889Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449160810820",
+      "sku": "8719958991309",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:28.889Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449162285380",
+      "sku": "8719958991125",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:28.890Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449160548676",
+      "sku": "8719958991132",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:30.002Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449160450372",
+      "sku": "8719958991149",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:30.002Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449160679748",
+      "sku": "8719958991156",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:30.003Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449157501252",
+      "sku": "8719958991163",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:30.003Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449160057156",
+      "sku": "8719958991170",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:30.936Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449157140804",
+      "sku": "8719958990791",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:30.936Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449154945348",
+      "sku": "8719958990807",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:30.937Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449160089924",
+      "sku": "8719958991354",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:30.937Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449154715972",
+      "sku": "8719958990814",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:31.837Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449157304644",
+      "sku": "8719958990821",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:31.838Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449154847044",
+      "sku": "8719958991361",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:31.838Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449153470788",
+      "sku": "8719958990838",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:31.838Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449153601860",
+      "sku": "8719958990845",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:32.774Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449151799620",
+      "sku": "8719958991378",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:32.774Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449151209796",
+      "sku": "8719958990852",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:32.774Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449152651588",
+      "sku": "8719958990869",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:32.774Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449150030148",
+      "sku": "8719958991385",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:33.666Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449150980420",
+      "sku": "8719958990876",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:33.666Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449149636932",
+      "sku": "8719958990883",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:33.666Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449147343172",
+      "sku": "8719958992382",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:33.666Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449147736388",
+      "sku": "8719958992399",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:34.535Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449141805380",
+      "sku": "8719958991736",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:34.536Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449138889028",
+      "sku": "8719958991798",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:34.536Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449137676612",
+      "sku": "8719958991859",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:34.536Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449136595268",
+      "sku": "8719958991910",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:35.362Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449140035908",
+      "sku": "8719958991972",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:35.362Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449129582916",
+      "sku": "8719958992092",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:35.362Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449129550148",
+      "sku": "8719958992153",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:35.362Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449127485764",
+      "sku": "8719958992214",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:36.402Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449124012356",
+      "sku": "8719958992276",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:36.403Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449117884740",
+      "sku": "8719958992030",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:36.403Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449121816900",
+      "sku": "8719958992337",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:36.403Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449148653892",
+      "sku": "8719958992344",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:47.396Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449148031300",
+      "sku": "8719958992351",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:47.398Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449148293444",
+      "sku": "8719958992368",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:47.398Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449147507012",
+      "sku": "8719958992375",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:47.399Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449147539780",
+      "sku": "8719958991392",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:47.399Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449145737540",
+      "sku": "8719958991682",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:47.399Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449142690116",
+      "sku": "8719958991699",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:47.400Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449142559044",
+      "sku": "8719958991705",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:47.400Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449145508164",
+      "sku": "8719958991712",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:47.400Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449141182788",
+      "sku": "8719958991729",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:47.401Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449140068676",
+      "sku": "8719958991743",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:48.362Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449140363588",
+      "sku": "8719958991750",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:48.362Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449146392900",
+      "sku": "8719958991767",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:48.363Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449139249476",
+      "sku": "8719958991774",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:48.363Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449139151172",
+      "sku": "8719958991781",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:48.363Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449138856260",
+      "sku": "8719958991804",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:48.364Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449139675460",
+      "sku": "8719958991811",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:48.364Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449138692420",
+      "sku": "8719958991828",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:48.364Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449138299204",
+      "sku": "8719958991835",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:48.365Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449137873220",
+      "sku": "8719958991842",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:48.365Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449137742148",
+      "sku": "8719958991866",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:49.246Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449137512772",
+      "sku": "8719958991873",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:49.247Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449137021252",
+      "sku": "8719958991880",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:49.247Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449136824644",
+      "sku": "8719958991897",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:49.247Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449136890180",
+      "sku": "8719958991903",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:49.247Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449136529732",
+      "sku": "8719958991927",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:49.247Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449136431428",
+      "sku": "8719958991934",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:49.248Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449135808836",
+      "sku": "8719958991941",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:49.248Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449136464196",
+      "sku": "8719958991958",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:49.248Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449135448388",
+      "sku": "8719958991965",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:49.248Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449134989636",
+      "sku": "8719958991989",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:50.105Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449134825796",
+      "sku": "8719958991996",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:50.105Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449134727492",
+      "sku": "8719958992009",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:50.106Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449134563652",
+      "sku": "8719958992016",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:50.106Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449134367044",
+      "sku": "8719958992023",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:50.106Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449134629188",
+      "sku": "8719958992047",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:50.106Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449134235972",
+      "sku": "8719958992054",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:50.106Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449134072132",
+      "sku": "8719958992061",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:50.106Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449132368196",
+      "sku": "8719958992078",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:50.106Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449129943364",
+      "sku": "8719958992085",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:50.107Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449130991940",
+      "sku": "8719958992108",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.005Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449128501572",
+      "sku": "8719958992115",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.006Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449127551300",
+      "sku": "8719958992122",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.006Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449126928708",
+      "sku": "8719958992139",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.006Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449134137668",
+      "sku": "8719958992146",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.007Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449126404420",
+      "sku": "8719958992160",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.007Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449126797636",
+      "sku": "8719958992177",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.007Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449126240580",
+      "sku": "8719958992184",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.007Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449125912900",
+      "sku": "8719958992191",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.008Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449125978436",
+      "sku": "8719958992207",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.008Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449125683524",
+      "sku": "8719958992221",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.944Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449125388612",
+      "sku": "8719958992238",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.944Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449124929860",
+      "sku": "8719958992245",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.945Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449124569412",
+      "sku": "8719958992252",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.945Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449125093700",
+      "sku": "8719958992269",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.945Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449124045124",
+      "sku": "8719958992283",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.946Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449124700484",
+      "sku": "8719958992290",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.946Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449123422532",
+      "sku": "8719958992306",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.946Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449123946820",
+      "sku": "8719958992313",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.946Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449120768324",
+      "sku": "8719958992320",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:51.947Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449119686980",
+      "sku": "5430004138044",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:52.829Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449104810308",
+      "sku": "8719958992924",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:52.830Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449094193476",
+      "sku": "8719958993167",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:52.830Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449096618308",
+      "sku": "8719958993174",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:52.830Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449094095172",
+      "sku": "8719958993181",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:52.830Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449094783300",
+      "sku": "8719958993297",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:52.830Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449094160708",
+      "sku": "8719958993303",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:52.830Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449093898564",
+      "sku": "8719958994096",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:52.831Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449084625220",
+      "sku": "8719958996229",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:52.831Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449081020740",
+      "sku": "8719958993532",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:52.831Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449080856900",
+      "sku": "8719958993549",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:53.686Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449082593604",
+      "sku": "8719958997677",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:53.687Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449080267076",
+      "sku": "8719958997684",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:53.687Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449080201540",
+      "sku": "8719958993440",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:53.687Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449080430916",
+      "sku": "8719958993457",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:53.687Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449362760004",
+      "sku": "8719958993464",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:53.687Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449362891076",
+      "sku": "8719958993471",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:53.688Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449074565444",
+      "sku": "8719958993686",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:53.688Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449068077380",
+      "sku": "8719958993693",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:53.688Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449073910084",
+      "sku": "8719958993709",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:53.688Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449067913540",
+      "sku": "8719958993716",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:54.779Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449361613124",
+      "sku": "8719958993891",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:54.779Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449360171332",
+      "sku": "8719958994393",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:54.780Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449361416516",
+      "sku": "8719958994409",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:54.780Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449358369092",
+      "sku": "8719958994416",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:54.780Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449358303556",
+      "sku": "8719958994423",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:54.781Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449359974724",
+      "sku": "8719958994430",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:54.781Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449058967876",
+      "sku": "8719958995772",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:54.782Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449357386052",
+      "sku": "8719958995789",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:54.782Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449357549892",
+      "sku": "8719958995802",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:54.782Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449356075332",
+      "sku": "8719958995819",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:55.595Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449043992900",
+      "sku": "8719958997202",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:55.595Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449355747652",
+      "sku": "8719958997219",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:55.595Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449355354436",
+      "sku": "8719958997226",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:55.596Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449355387204",
+      "sku": "8719958997233",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:55.596Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449354436932",
+      "sku": "8719958997288",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:55.596Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449354076484",
+      "sku": "8719958997295",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:55.596Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449350504772",
+      "sku": "8719958997301",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:55.597Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449351291204",
+      "sku": "8719958997318",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:55.597Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449347719492",
+      "sku": "8719958997325",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:55.597Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449351520580",
+      "sku": "8719958997332",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:56.468Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449347522884",
+      "sku": "8719958997349",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:56.469Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449350209860",
+      "sku": "8719958997356",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:56.469Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449347129668",
+      "sku": "8719958997363",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:56.469Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449346703684",
+      "sku": "8719958997486",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:56.470Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449339658564",
+      "sku": "8719958997493",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:56.470Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449338806596",
+      "sku": "8719958997509",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:56.470Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449338446148",
+      "sku": "8719958997547",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:56.471Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449039700292",
+      "sku": "8719958997585",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:56.471Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449039929668",
+      "sku": "8719958997592",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:56.471Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449039569220",
+      "sku": "8719958997608",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:57.373Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449337528644",
+      "sku": "8719958997615",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:57.373Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449338249540",
+      "sku": "8719958997554",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:57.373Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449337364804",
+      "sku": "8719958997561",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:57.374Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449336774980",
+      "sku": "8719958997745",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:57.374Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449335955780",
+      "sku": "8719958997783",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:57.374Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449333956932",
+      "sku": "8719958997790",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:57.375Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449333596484",
+      "sku": "8719958997813",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:57.375Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449333268804",
+      "sku": "8719958997820",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:57.375Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449333170500",
+      "sku": "8719958997998",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:57.376Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449333006660",
+      "sku": "8719958998001",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:58.227Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449332711748",
+      "sku": "8719958998025",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:58.228Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449332646212",
+      "sku": "8719958998032",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:58.228Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449332547908",
+      "sku": "8719958998742",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:58.229Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449001230660",
+      "sku": "8719958998988",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:58.229Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449332089156",
+      "sku": "8719958998971",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:58.229Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449332515140",
+      "sku": "8719958999008",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:58.229Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449000771908",
+      "sku": "8719958998995",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:58.230Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449331401028",
+      "sku": "8719958998940",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:58.230Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449331794244",
+      "sku": "8719958998933",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:58.230Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15454948753732",
+      "sku": "8719958998964",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.038Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449330712900",
+      "sku": "8719958998957",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.038Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449330516292",
+      "sku": "8719958999022",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.039Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449329893700",
+      "sku": "8719958999015",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.039Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449329992004",
+      "sku": "8719958999039",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.040Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449329205572",
+      "sku": "8719958999046",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.040Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449329697092",
+      "sku": "5904816017533",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.040Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448990449988",
+      "sku": "8719958999268",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.041Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448990482756",
+      "sku": "8719958999275",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.041Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449329074500",
+      "sku": "8719958999336",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.041Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449329041732",
+      "sku": "8719958999343",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.935Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449328451908",
+      "sku": "8719958999374",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.936Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449329172804",
+      "sku": "8719958999398",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.936Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449328386372",
+      "sku": "8719958999381",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.936Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449328419140",
+      "sku": "8719958999077",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.937Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449326321988",
+      "sku": "8719958999404",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.937Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449323929924",
+      "sku": "8719958999411",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.937Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449321963844",
+      "sku": "8719958999428",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.938Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448978194756",
+      "sku": "8719958999473",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.938Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448976228676",
+      "sku": "8719958999183",
+      "status": "success",
+      "processedAt": "2026-02-17T15:07:59.939Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448986485060",
+      "sku": "8719958999497",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:00.900Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448975769924",
+      "sku": "8719958999480",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:00.901Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448975114564",
+      "sku": "8719958999565",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:00.901Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448972853572",
+      "sku": "8719958999589",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:00.902Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448965349700",
+      "sku": "8719958999572",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:00.902Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448972919108",
+      "sku": "8719958999190",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:00.902Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448961319236",
+      "sku": "8719958999114",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:00.903Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449318752580",
+      "sku": "8719958999138",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:00.903Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449319407940",
+      "sku": "8719958999121",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:00.904Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449318883652",
+      "sku": "8719958999145",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:00.904Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449317704004",
+      "sku": "8719958999206",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:01.774Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448960172356",
+      "sku": "8719958999657",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:01.774Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449317736772",
+      "sku": "8719958999664",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:01.774Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449318719812",
+      "sku": "8719958999671",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:01.775Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448951161156",
+      "sku": "8719958999763",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:01.775Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448951849284",
+      "sku": "8719958999756",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:01.775Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448953061700",
+      "sku": "8719958999213",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:01.775Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448953422148",
+      "sku": "8719958999749",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:01.776Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448948146500",
+      "sku": "8719958999220",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:01.776Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449317671236",
+      "sku": "8719958999435",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:01.776Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15449317638468",
+      "sku": "8719958999367",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:02.613Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448928616772",
+      "sku": "8719958213852",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:02.613Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448937169220",
+      "sku": "8719958213869",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:02.613Z"
+    },
+    {
+      "productId": "gid://shopify/Product/15448928584004",
+      "sku": "8719958213876",
+      "status": "success",
+      "processedAt": "2026-02-17T15:08:02.613Z"
+    }
+  ]
+}

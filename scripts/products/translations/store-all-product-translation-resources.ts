@@ -1,9 +1,9 @@
 import { writeFileSync } from "fs";
-import { adminQuery, type GraphQLResponse } from "../shopify-admin.js";
-import type { GetTranslatableProductsQuery } from "../../app/types/admin.generated.js";
-import { disconnect } from "../shopify-auth.js";
-import type { TranslatableResource } from "../shared/types.js";
-import { sleep } from "../shared/helpers";
+import { adminQuery, type GraphQLResponse } from "../../shopify-admin.js";
+import type { GetTranslatableProductsQuery } from "../../../app/types/admin.generated.js";
+import { disconnect } from "../../shopify-auth.js";
+import type { TranslatableResource } from "../../shared/types.js";
+import { sleep } from "../../shared/helpers.js";
 
 const QUERY = `#graphql
   query getTranslatableProducts(
