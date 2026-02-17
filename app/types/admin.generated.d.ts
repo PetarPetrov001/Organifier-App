@@ -79,6 +79,13 @@ export type GetProductsQuery = { products: { nodes: Array<(
       & { variants: { nodes: Array<Pick<AdminTypes.ProductVariant, 'sku'>> } }
     )>, pageInfo: Pick<AdminTypes.PageInfo, 'hasNextPage' | 'endCursor'> } };
 
+export type ProductUpdateMutationVariables = AdminTypes.Exact<{
+  product: AdminTypes.ProductUpdateInput;
+}>;
+
+
+export type ProductUpdateMutation = { productUpdate?: AdminTypes.Maybe<{ product?: AdminTypes.Maybe<Pick<AdminTypes.Product, 'id' | 'handle'>>, userErrors: Array<Pick<AdminTypes.UserError, 'field' | 'message'>> }> };
+
 export type GetTranslatableProductsQueryVariables = AdminTypes.Exact<{
   resourceType: AdminTypes.TranslatableResourceType;
   first: AdminTypes.Scalars['Int']['input'];
@@ -112,6 +119,7 @@ interface GeneratedMutationTypes {
   "#graphql\n    mutation shopifyRemixTemplateUpdateVariant($productId: ID!, $variants: [ProductVariantsBulkInput!]!) {\n      productVariantsBulkUpdate(productId: $productId, variants: $variants) {\n        productVariants {\n          id\n          price\n          barcode\n          createdAt\n        }\n      }\n    }": {return: ShopifyRemixTemplateUpdateVariantMutation, variables: ShopifyRemixTemplateUpdateVariantMutationVariables},
   "#graphql\n  mutation collectionUpdate($input: CollectionInput!) {\n    collectionUpdate(input: $input) {\n      collection {\n        id\n        title\n        handle\n        descriptionHtml\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: CollectionUpdateMutation, variables: CollectionUpdateMutationVariables},
   "#graphql\n  mutation tagsAdd($id: ID!, $tags: [String!]!) {\n    tagsAdd(id: $id, tags: $tags) {\n      node {\n        id\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: TagsAddMutation, variables: TagsAddMutationVariables},
+  "#graphql\n  mutation productUpdate($product: ProductUpdateInput!) {\n    productUpdate(product: $product) {\n      product {\n        id\n        handle\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: ProductUpdateMutation, variables: ProductUpdateMutationVariables},
   "#graphql\n  mutation translationsRegister($resourceId: ID!, $translations: [TranslationInput!]!) {\n    translationsRegister(resourceId: $resourceId, translations: $translations) {\n      translations {\n        key\n        locale\n        value\n      }\n      userErrors {\n        code\n        field\n        message\n      }\n    }\n  }\n": {return: TranslationsRegisterMutation, variables: TranslationsRegisterMutationVariables},
 }
 declare module '@shopify/admin-api-client' {
