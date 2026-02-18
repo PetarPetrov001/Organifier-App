@@ -1130,10 +1130,10 @@
     "resourceId": "gid://shopify/Collection/657057349956",
     "translatableContent": [
       {
-        "digest": "9f601f389ad05211db655a6962f099639a42f57b463f6b42c7d51f7b31594397",
+        "digest": "807f577f47b6bd7e7290e636bd33f4a77a1d9efe5b3118105cfb324fdc27b1b7",
         "key": "title",
         "locale": "en",
-        "value": "Pro Turf &amp; Lawn Fertiliser"
+        "value": "Pro Turf & Lawn Fertiliser"
       },
       {
         "digest": "be9a08663909943c655db35481d3a4b9a89a620953f62e9bb1018f5e4f580eff",
@@ -1219,59 +1219,13 @@
     ]
   },
   {
-    "resourceId": "gid://shopify/Collection/657057513796",
-    "translatableContent": [
-      {
-        "digest": "cb4237f4b27e5a6b842189bd28c0c617d680eb6018fdb6170b97da989ccc88bd",
-        "key": "title",
-        "locale": "en",
-        "value": "Garden / Border"
-      },
-      {
-        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "key": "body_html",
-        "locale": "en",
-        "value": ""
-      },
-      {
-        "digest": "8a6d7ce08f0d415d4ceb2ee4cebda8a02b4ce9c8390f00d824d909a8ed8d3c8e",
-        "key": "handle",
-        "locale": "en",
-        "value": "garden-border"
-      }
-    ]
-  },
-  {
-    "resourceId": "gid://shopify/Collection/657057546564",
-    "translatableContent": [
-      {
-        "digest": "4999c6c6c7badf456f5b0053b09a2076bdb2391a09ab10c9064a680f8f9a0b30",
-        "key": "title",
-        "locale": "en",
-        "value": "Subscription"
-      },
-      {
-        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "key": "body_html",
-        "locale": "en",
-        "value": ""
-      },
-      {
-        "digest": "a8fa7fd60893411a49907b5545ccf9c47ed8073cc38e2ac3b79c4f6156cd7755",
-        "key": "handle",
-        "locale": "en",
-        "value": "subscription"
-      }
-    ]
-  },
-  {
     "resourceId": "gid://shopify/Collection/657057612100",
     "translatableContent": [
       {
-        "digest": "535b8d7eaa5e6f8cb79a99f4e7bdbbcc68eadf6b27bbf26d1e58a8ff0e83b442",
+        "digest": "3f47ca6da58cdead46c26c5e9a52abdaae99a8718d8b6925c22ebb6b686e6d52",
         "key": "title",
         "locale": "en",
-        "value": "Seed Potatoes, Onion &amp; Shallot Sets"
+        "value": "Seed Potatoes, Onion & Shallot Sets"
       },
       {
         "digest": "bc8abad8384d706b9f9d22db56226fb0ac1788dbff19430e832fbb4ecd20b2a9",
@@ -1406,10 +1360,10 @@
     "resourceId": "gid://shopify/Collection/657058267460",
     "translatableContent": [
       {
-        "digest": "74c68b304f86a1bbcac451615db6811280cdd35fc745f48192c68d75a2b5de80",
+        "digest": "9d2d655e2d8e5dceef416ca5a2d4170a7a4a74d29926dedc2cb9b917968d9211",
         "key": "title",
         "locale": "en",
-        "value": "Roses &amp; Flowers"
+        "value": "Roses & Flowers"
       },
       {
         "digest": "26e879030b3c0f840ab1fbda2cebd0d9b1a3689840cfd6b646c57271496f1b40",
@@ -1613,10 +1567,10 @@
     "resourceId": "gid://shopify/Collection/657058693444",
     "translatableContent": [
       {
-        "digest": "8f0d2d985a07132b7f1c35d63f1079225dfd65ca41c47d148d4348658db47af6",
+        "digest": "bda48bf3c60bf442e69d52c27b401c51720ccdd82b7dfdd2ac53af798684845f",
         "key": "title",
         "locale": "en",
-        "value": "Hay &amp; Silage Grass Seed"
+        "value": "Hay & Silage Grass Seed"
       },
       {
         "digest": "24d93b1b070fd5643b6c0557281df67d71d35e8c10c9d903a0b14647271f9c22",
@@ -1978,29 +1932,6 @@
     ]
   },
   {
-    "resourceId": "gid://shopify/Collection/657309303108",
-    "translatableContent": [
-      {
-        "digest": "7be72941faf43cfc432ac48dc2032b25d9f210b634e143511d365030e3920cf1",
-        "key": "title",
-        "locale": "en",
-        "value": "Test Collection"
-      },
-      {
-        "digest": "3510aca029e9fee60064fddff3eaf4fbdeda11e5b81797a45459b627e305b705",
-        "key": "body_html",
-        "locale": "en",
-        "value": "<p>Afrikaanse Viooltjes Vloeibare Meststof – 1 Liter</p>"
-      },
-      {
-        "digest": "feb2f3afda3388d4d1c3f9f69906b2613d7b866be7436738cb59759938de33ed",
-        "key": "handle",
-        "locale": "en",
-        "value": "test-collection"
-      }
-    ]
-  },
-  {
     "resourceId": "gid://shopify/Collection/657508303172",
     "translatableContent": [
       {
@@ -2020,29 +1951,6 @@
         "key": "handle",
         "locale": "en",
         "value": "organic-fertiliser"
-      }
-    ]
-  },
-  {
-    "resourceId": "gid://shopify/Collection/657535598916",
-    "translatableContent": [
-      {
-        "digest": "dc66a80851ec39b20ab96a12b6ff0cef0ab99e026a491e90d1f7546cd64cf517",
-        "key": "title",
-        "locale": "en",
-        "value": "Overige"
-      },
-      {
-        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "key": "body_html",
-        "locale": "en",
-        "value": ""
-      },
-      {
-        "digest": "e1aaf003dfb75bed68fb0e835f2ad7fef5e8e55e322b934dfa6a8efb45a98f34",
-        "key": "handle",
-        "locale": "en",
-        "value": "overige"
       }
     ]
   },
@@ -2096,10 +2004,10 @@
     "resourceId": "gid://shopify/Collection/657535697220",
     "translatableContent": [
       {
-        "digest": "2f50164754c3a8664d5dbd0ea8a265d23e8defdc4547dc469dfce4cf2908940c",
+        "digest": "33a9528650c9a0820ad83e3ec8607bda23b2216c207b59000b22fef1348934fc",
         "key": "title",
         "locale": "en",
-        "value": "Diseases &amp; Pests"
+        "value": "Diseases & Pests"
       },
       {
         "digest": "ba03c29bc08d34463d6ce9baa0ec08e295d66264daef2bdacbf6282c7d646285",
@@ -2112,29 +2020,6 @@
         "key": "handle",
         "locale": "en",
         "value": "diseases-pests"
-      }
-    ]
-  },
-  {
-    "resourceId": "gid://shopify/Collection/657535729988",
-    "translatableContent": [
-      {
-        "digest": "c5df55515a5ff669c0f6e66f66775fe540fd49154b20eb6751aa97fc702d4538",
-        "key": "title",
-        "locale": "en",
-        "value": "Organische Mest"
-      },
-      {
-        "digest": "e6740d54f4b11c2c479519f775c7bc3a2249f8704bd2acdde2abd317f45799c4",
-        "key": "body_html",
-        "locale": "en",
-        "value": "<p>Organische mest is uitermate geschikt als aanlegmeststof vof basis meststof oor siertuin, border, gazon, bol- en knolgewassen, moestuin, rozen, potplanten en fruitbomen. De korrels verbeteren de bodemstructuur en het vochtvasthoudend vermogen, maken vruchtbaar bodemleven mogelijk en voorzien in een natuurlijke verrijking van de bodem om de grond aanhoudend in evenwicht te houden. Het betreft een allround-meststof die geschikt is voor alle grondsoorten en perfect kan worden gebruikt als aanleg- en basismeststof voor gazon, border, moestuin, weide en boomgaard. Bovendien zijn de korrels inzetbaar als bodemactivator door snelle stimulering van positief bodemleven.</p>"
-      },
-      {
-        "digest": "69fb97fba8218c6efb949be5e1893d27d65c7631ef4a13a2cb16f38b96a1a1ec",
-        "key": "handle",
-        "locale": "en",
-        "value": "organische-mest"
       }
     ]
   },
@@ -2158,75 +2043,6 @@
         "key": "handle",
         "locale": "en",
         "value": "fertiliser-tablets"
-      }
-    ]
-  },
-  {
-    "resourceId": "gid://shopify/Collection/657535795524",
-    "translatableContent": [
-      {
-        "digest": "fed930be120de065ade4f3c35a06f692b4c87bcf24e9705dcc2ee87972871401",
-        "key": "title",
-        "locale": "en",
-        "value": "Sports and Play Lawn"
-      },
-      {
-        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "key": "body_html",
-        "locale": "en",
-        "value": ""
-      },
-      {
-        "digest": "50f7916e2cd183df5431ba9ad5dc37a903770c7feada82f14fd67efa4ca53b45",
-        "key": "handle",
-        "locale": "en",
-        "value": "sports-and-play-lawn"
-      }
-    ]
-  },
-  {
-    "resourceId": "gid://shopify/Collection/657535828292",
-    "translatableContent": [
-      {
-        "digest": "85a3ecf44b41a3521dd96793cd27db5da3f7f45df3dd76d50dfb9b815763989a",
-        "key": "title",
-        "locale": "en",
-        "value": "Ornamental Lawn"
-      },
-      {
-        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "key": "body_html",
-        "locale": "en",
-        "value": ""
-      },
-      {
-        "digest": "6056ba6bb82376ad3fdb2be53f8b19db8ec168cf4b4b280c536c5c0718e23084",
-        "key": "handle",
-        "locale": "en",
-        "value": "ornamental-lawn"
-      }
-    ]
-  },
-  {
-    "resourceId": "gid://shopify/Collection/657535861060",
-    "translatableContent": [
-      {
-        "digest": "b9ef166afeb864c7b7768e59082f28dc7a617d2c6e846f77c6a63d2666688282",
-        "key": "title",
-        "locale": "en",
-        "value": "Tomaten-"
-      },
-      {
-        "digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "key": "body_html",
-        "locale": "en",
-        "value": ""
-      },
-      {
-        "digest": "4810783292c958d8a54fc66d3f5d1f635f998ac3b1c22772c17e682545e1aa45",
-        "key": "handle",
-        "locale": "en",
-        "value": "tomaten"
       }
     ]
   }

@@ -2,8 +2,7 @@ import { resolvePath } from "../../shared/helpers.js";
 import { runTranslations } from "../../shared/translation-runner.js";
 
 const LOCALES = [
-  "bg", "cs", "da", "de", "el", "es", "fi", "fr", "hr",
-  "hu", "it", "lt", "nl", "pl", "pt-pt", "ro", "sk", "sl", "sv",
+  "bg"
 ];
 
 for (const locale of LOCALES) {
