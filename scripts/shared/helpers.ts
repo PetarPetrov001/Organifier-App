@@ -18,6 +18,14 @@ export function resolvePath(
   return `${projectRoot}/${relativePath}`;
 }
 
+export function chunk<T>(arr: T[], size: number): T[][] {
+  const result: T[][] = [];
+  for (let i = 0; i < arr.length; i += size) {
+    result.push(arr.slice(i, i + size));
+  }
+  return result;
+}
+
 export function isTransientError(error: unknown): boolean {
   if (error instanceof Error) {
     const msg = error.message.toLowerCase();

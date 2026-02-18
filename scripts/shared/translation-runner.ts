@@ -7,7 +7,7 @@ import type {
   TranslatableResource,
   ProgressEntry,
 } from "./types.js";
-import { sleep, sha256, isTransientError } from "./helpers.js";
+import { sleep, sha256, isTransientError, chunk } from "./helpers.js";
 import {
   progressKey,
   loadProgress,
@@ -26,6 +26,7 @@ export interface TranslationRunnerConfig {
   label: string;
   csvKeyMap: Array<{ csvColumn: string; shopifyKey: string }>;
   gidColumn?: string;
+  concurrency?: number;
 }
 
 const REGISTER_MUTATION = `#graphql
@@ -58,6 +59,29 @@ function findDigest(
   return best.digest ?? null;
 }
 
+interface WorkItem {
+  index: number;
+  resourceId: string;
+  translations: Array<{
+    key: string;
+    locale: string;
+    value: string;
+    translatableContentDigest: string;
+  }>;
+  translationMeta: Array<{
+    key: string;
+    digest: string;
+    valueHash: string;
+  }>;
+}
+
+interface WorkResult {
+  item: WorkItem;
+  succeeded: boolean;
+  error: string | null;
+  throttled: boolean;
+}
+
 export async function runTranslations(
   config: TranslationRunnerConfig,
 ): Promise<void> {
@@ -72,11 +96,13 @@ export async function runTranslations(
     label,
     csvKeyMap,
   } = config;
+  const concurrency = Math.max(1, config.concurrency ?? 1);
 
   console.log(`=== ${label} Translation Registration ===`);
-  console.log(`Locale:   ${locale}`);
-  console.log(`CSV:      ${inputCsvPath}`);
-  console.log(`Dry run:  ${dryRun}`);
+  console.log(`Locale:      ${locale}`);
+  console.log(`CSV:         ${inputCsvPath}`);
+  console.log(`Dry run:     ${dryRun}`);
+  console.log(`Concurrency: ${concurrency}`);
   console.log();
 
   // 1. Read & parse CSV
@@ -112,222 +138,266 @@ export async function runTranslations(
   let skippedMissing = 0;
   let failedCount = 0;
 
-  try {
-    for (let i = 0; i < rows.length; i++) {
-      const row = rows[i];
-      const resourceId = row[config.gidColumn ?? "GID"];
-      const prefix = `[${i + 1}/${rows.length}] ${resourceId}`;
+  // 5. Build work items (sequential, no API calls)
+  const workItems: WorkItem[] = [];
 
-      // 5a. Find resource
-      const resource = resourceMap.get(resourceId);
-      if (!resource) {
-        console.log(`${prefix} — skipped (no matching resource)`);
-        skippedMissing++;
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
+    const resourceId = row[config.gidColumn ?? "GID"];
+    const prefix = `[${i + 1}/${rows.length}] ${resourceId}`;
+
+    const resource = resourceMap.get(resourceId);
+    if (!resource) {
+      console.log(`${prefix} — skipped (no matching resource)`);
+      skippedMissing++;
+      continue;
+    }
+
+    const translations: WorkItem["translations"] = [];
+    const translationMeta: WorkItem["translationMeta"] = [];
+
+    for (const { csvColumn, shopifyKey } of csvKeyMap) {
+      const value = row[csvColumn];
+      if (!value || value.trim() === "") {
         continue;
       }
 
-      // 5b. Build translations array
-      const translations: Array<{
-        key: string;
-        locale: string;
-        value: string;
-        translatableContentDigest: string;
-      }> = [];
-      const translationMeta: Array<{
-        key: string;
-        digest: string;
-        valueHash: string;
-      }> = [];
-
-      for (const { csvColumn, shopifyKey } of csvKeyMap) {
-        const value = row[csvColumn];
-        if (!value || value.trim() === "") {
-          continue;
-        }
-
-        const digest = findDigest(resource, shopifyKey);
-        if (!digest) {
-          console.log(`${prefix} — skipped key "${shopifyKey}" (no digest)`);
-          continue;
-        }
-
-        const vHash = sha256(value);
-
-        // Check idempotency
-        const pKey = progressKey(resourceId, locale, shopifyKey, digest, vHash);
-        if (successSet.has(pKey)) {
-          continue; // already done
-        }
-
-        translations.push({
-          key: shopifyKey,
-          locale,
-          value,
-          translatableContentDigest: digest,
-        });
-        translationMeta.push({ key: shopifyKey, digest, valueHash: vHash });
-      }
-
-      // 5c. Skip if nothing to send
-      if (translations.length === 0) {
-        console.log(
-          `${prefix} — skipped (already done or no translatable keys)`,
-        );
-        skippedDone++;
+      const digest = findDigest(resource, shopifyKey);
+      if (!digest) {
+        console.log(`${prefix} — skipped key "${shopifyKey}" (no digest)`);
         continue;
       }
 
-      // 5d. Dry run
-      if (dryRun) {
-        console.log(
-          `${prefix} — DRY RUN: would send ${translations.length} key(s): ${translations.map((t) => t.key).join(", ")}`,
-        );
+      const vHash = sha256(value);
+
+      const pKey = progressKey(resourceId, locale, shopifyKey, digest, vHash);
+      if (successSet.has(pKey)) {
         continue;
       }
 
-      // 5e. Call mutation with retries
+      translations.push({
+        key: shopifyKey,
+        locale,
+        value,
+        translatableContentDigest: digest,
+      });
+      translationMeta.push({ key: shopifyKey, digest, valueHash: vHash });
+    }
+
+    if (translations.length === 0) {
       console.log(
-        `${prefix} — sending ${translations.length} key(s): ${translations.map((t) => t.key).join(", ")}`,
+        `${prefix} — skipped (already done or no translatable keys)`,
       );
+      skippedDone++;
+      continue;
+    }
 
-      let lastError: string | null = null;
-      let mutationSucceeded = false;
+    if (dryRun) {
+      console.log(
+        `${prefix} — DRY RUN: would send ${translations.length} key(s): ${translations.map((t) => t.key).join(", ")}`,
+      );
+      continue;
+    }
 
-      for (let attempt = 0; attempt <= maxRetries; attempt++) {
-        try {
-          const result: GraphQLResponse<TranslationsRegisterMutation> =
-            await adminQuery(REGISTER_MUTATION, {
-              resourceId,
-              translations,
-            });
+    workItems.push({ index: i, resourceId, translations, translationMeta });
+  }
 
-          // Check for top-level GraphQL errors
-          if (result.errors) {
-            const errMsg = result.errors.map((e) => e.message).join("; ");
-            const isThrottled = errMsg.toLowerCase().includes("throttl");
-            if (isThrottled && attempt < maxRetries) {
-              const backoff =
-                Math.min(1000 * Math.pow(2, attempt), 30000) +
-                Math.random() * 500;
-              console.log(
-                `${prefix} — throttled, retrying in ${Math.round(backoff)}ms (attempt ${attempt + 1}/${maxRetries})`,
-              );
-              await sleep(backoff);
-              continue;
-            }
-            lastError = `GraphQL errors: ${errMsg}`;
-            break;
-          }
+  if (dryRun || workItems.length === 0) {
+    console.log();
+    console.log(`=== Summary ===`);
+    console.log(`Total rows:       ${rows.length}`);
+    console.log(`To process:       ${workItems.length}`);
+    console.log(`Skipped (done):   ${skippedDone}`);
+    console.log(`Skipped (no res): ${skippedMissing}`);
+    await disconnect();
+    return;
+  }
 
-          // Check userErrors
-          const { userErrors } = result.data!.translationsRegister!;
-          if (userErrors.length > 0) {
-            lastError = userErrors
-              .map((e: { code?: string | null; message: string }) =>
-                `${e.code ?? "ERROR"}: ${e.message}`,
-              )
-              .join("; ");
-            // userErrors are typically non-retryable
-            break;
-          }
+  console.log(`Work items to process: ${workItems.length}`);
+  console.log();
 
-          mutationSucceeded = true;
+  // 6. Process work items in batches
+  async function processOne(item: WorkItem): Promise<WorkResult> {
+    const prefix = `[${item.index + 1}/${rows.length}] ${item.resourceId}`;
+    console.log(
+      `${prefix} — sending ${item.translations.length} key(s): ${item.translations.map((t) => t.key).join(", ")}`,
+    );
 
-          // Throttle awareness: check extensions
-          const ext = result.extensions as
-            | {
-              cost?: {
-                throttleStatus?: { currentlyAvailable?: number };
-              };
-            }
-            | undefined;
-          const available = ext?.cost?.throttleStatus?.currentlyAvailable;
-          if (available !== undefined && available < 100) {
-            console.log(
-              `${prefix} — throttle budget low (${available}), sleeping extra 1s`,
-            );
-            await sleep(1000);
-          }
+    let lastError: string | null = null;
+    let mutationSucceeded = false;
+    let throttled = false;
 
-          break;
-        } catch (error) {
-          if (isTransientError(error) && attempt < maxRetries) {
+    for (let attempt = 0; attempt <= maxRetries; attempt++) {
+      try {
+        const result: GraphQLResponse<TranslationsRegisterMutation> =
+          await adminQuery(REGISTER_MUTATION, {
+            resourceId: item.resourceId,
+            translations: item.translations,
+          });
+
+        if (result.errors) {
+          const errMsg = result.errors.map((e) => e.message).join("; ");
+          const isThrottled = errMsg.toLowerCase().includes("throttl");
+          if (isThrottled && attempt < maxRetries) {
+            throttled = true;
             const backoff =
               Math.min(1000 * Math.pow(2, attempt), 30000) +
               Math.random() * 500;
             console.log(
-              `${prefix} — transient error, retrying in ${Math.round(backoff)}ms (attempt ${attempt + 1}/${maxRetries})`,
+              `${prefix} — throttled, retrying in ${Math.round(backoff)}ms (attempt ${attempt + 1}/${maxRetries})`,
             );
             await sleep(backoff);
             continue;
           }
-          lastError = error instanceof Error ? error.message : String(error);
+          lastError = `GraphQL errors: ${errMsg}`;
           break;
         }
-      }
 
-      // 5f. Record results
-      const now = new Date().toISOString();
-
-      if (mutationSucceeded) {
-        for (const meta of translationMeta) {
-          const entry: ProgressEntry = {
-            resourceId,
-            locale,
-            key: meta.key,
-            digest: meta.digest,
-            valueHash: meta.valueHash,
-            translatedAt: now,
-            status: "success",
-          };
-          progress.entries.push(entry);
-          successSet.add(
-            progressKey(
-              resourceId,
-              locale,
-              meta.key,
-              meta.digest,
-              meta.valueHash,
-            ),
-          );
+        const { userErrors } = result.data!.translationsRegister!;
+        if (userErrors.length > 0) {
+          lastError = userErrors
+            .map((e: { code?: string | null; message: string }) =>
+              `${e.code ?? "ERROR"}: ${e.message}`,
+            )
+            .join("; ");
+          break;
         }
-        successCount++;
-      } else {
-        console.log(`${prefix} — FAILED: ${lastError}`);
-        // Remove previous failed entries for this combo to avoid duplicates
-        for (const meta of translationMeta) {
-          progress.entries = progress.entries.filter(
-            (e) =>
-              !(
-                e.resourceId === resourceId &&
-                e.locale === locale &&
-                e.key === meta.key &&
-                e.status === "failed"
-              ),
+
+        mutationSucceeded = true;
+
+        const ext = result.extensions as
+          | {
+              cost?: {
+                throttleStatus?: { currentlyAvailable?: number };
+              };
+            }
+          | undefined;
+        const available = ext?.cost?.throttleStatus?.currentlyAvailable;
+        if (available !== undefined && available < 100) {
+          console.log(
+            `${prefix} — throttle budget low (${available}), sleeping extra 1s`,
           );
-          const entry: ProgressEntry = {
-            resourceId,
-            locale,
-            key: meta.key,
-            digest: meta.digest,
-            valueHash: meta.valueHash,
-            translatedAt: now,
-            status: "failed",
-            error: lastError ?? "Unknown error",
-          };
-          progress.entries.push(entry);
+          throttled = true;
+          await sleep(1000);
         }
-        failedCount++;
+
+        break;
+      } catch (error) {
+        if (isTransientError(error) && attempt < maxRetries) {
+          throttled = true;
+          const backoff =
+            Math.min(1000 * Math.pow(2, attempt), 30000) +
+            Math.random() * 500;
+          console.log(
+            `${prefix} — transient error, retrying in ${Math.round(backoff)}ms (attempt ${attempt + 1}/${maxRetries})`,
+          );
+          await sleep(backoff);
+          continue;
+        }
+        lastError = error instanceof Error ? error.message : String(error);
+        break;
       }
-
-      // 5g. Persist progress immediately
-      saveProgress(progressJsonPath, progress);
-
-      // 5h. Throttle between requests
-      await sleep(sleepMs);
     }
 
-    // 6. Summary
+    return {
+      item,
+      succeeded: mutationSucceeded,
+      error: lastError,
+      throttled,
+    };
+  }
+
+  try {
+    const batches = chunk(workItems, concurrency);
+
+    for (let b = 0; b < batches.length; b++) {
+      const batch = batches[b];
+
+      const results = await Promise.allSettled(batch.map(processOne));
+
+      // Collect results and update progress
+      const now = new Date().toISOString();
+      let batchThrottled = false;
+
+      for (const settled of results) {
+        if (settled.status === "rejected") {
+          // Unexpected — processOne catches internally, but guard anyway
+          console.log(`Unexpected batch error: ${settled.reason}`);
+          failedCount++;
+          continue;
+        }
+
+        const { item, succeeded, error, throttled } = settled.value;
+        const prefix = `[${item.index + 1}/${rows.length}] ${item.resourceId}`;
+
+        if (throttled) batchThrottled = true;
+
+        if (succeeded) {
+          for (const meta of item.translationMeta) {
+            const entry: ProgressEntry = {
+              resourceId: item.resourceId,
+              locale,
+              key: meta.key,
+              digest: meta.digest,
+              valueHash: meta.valueHash,
+              translatedAt: now,
+              status: "success",
+            };
+            progress.entries.push(entry);
+            successSet.add(
+              progressKey(
+                item.resourceId,
+                locale,
+                meta.key,
+                meta.digest,
+                meta.valueHash,
+              ),
+            );
+          }
+          successCount++;
+        } else {
+          console.log(`${prefix} — FAILED: ${error}`);
+          for (const meta of item.translationMeta) {
+            progress.entries = progress.entries.filter(
+              (e) =>
+                !(
+                  e.resourceId === item.resourceId &&
+                  e.locale === locale &&
+                  e.key === meta.key &&
+                  e.status === "failed"
+                ),
+            );
+            const entry: ProgressEntry = {
+              resourceId: item.resourceId,
+              locale,
+              key: meta.key,
+              digest: meta.digest,
+              valueHash: meta.valueHash,
+              translatedAt: now,
+              status: "failed",
+              error: error ?? "Unknown error",
+            };
+            progress.entries.push(entry);
+          }
+          failedCount++;
+        }
+      }
+
+      // Save progress once per batch
+      saveProgress(progressJsonPath, progress);
+
+      // Throttle-aware delay between batches
+      if (b < batches.length - 1) {
+        if (batchThrottled) {
+          console.log(`Batch ${b + 1}/${batches.length} — throttle detected, cooling down 2s`);
+          await sleep(2000);
+        } else {
+          await sleep(sleepMs);
+        }
+      }
+    }
+
+    // 7. Summary
     console.log();
     console.log(`=== Summary ===`);
     console.log(`Total rows:       ${rows.length}`);

@@ -114,11 +114,29 @@ export async function refreshAccessToken(
   return updated;
 }
 
+// Mutex to prevent concurrent refresh storms when multiple requests
+// hit 401 or detect expiry at the same time.
+let refreshMutex: Promise<void> = Promise.resolve();
+
 export async function getValidAccessToken(shop: string): Promise<string> {
   let session = await getSession(shop);
 
   if (isTokenExpired(session)) {
-    session = await refreshAccessToken(shop, session);
+    // Serialize refresh calls: wait for any in-flight refresh, then check again
+    await refreshMutex;
+    session = await getSession(shop);
+
+    if (isTokenExpired(session)) {
+      let releaseMutex!: () => void;
+      refreshMutex = new Promise((resolve) => {
+        releaseMutex = resolve;
+      });
+      try {
+        session = await refreshAccessToken(shop, session);
+      } finally {
+        releaseMutex();
+      }
+    }
   }
 
   return session.accessToken;

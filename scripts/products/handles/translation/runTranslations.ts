@@ -2,7 +2,7 @@ import { resolvePath } from "../../../shared/helpers.js";
 import { runTranslations } from "../../../shared/translation-runner.js";
 
 const LOCALES = [
-  "nl"
+  "bg"
 ];
 
 for (const locale of LOCALES) {
@@ -18,6 +18,7 @@ for (const locale of LOCALES) {
     maxRetries: 6,
     label: "Product Handle",
     gidColumn: "GID",
+    concurrency: 4,
     csvKeyMap: [
       { csvColumn: "Handle", shopifyKey: "handle" },
     ],
