@@ -106,6 +106,16 @@ export type GetTranslatableProductsQuery = { translatableResources: { nodes: Arr
       & { translatableContent: Array<Pick<AdminTypes.TranslatableContent, 'digest' | 'key' | 'locale' | 'value'>> }
     )>, pageInfo: Pick<AdminTypes.PageInfo, 'hasNextPage' | 'endCursor'> } };
 
+export type ProductUpdateSeoMutationVariables = AdminTypes.Exact<{
+  product: AdminTypes.ProductUpdateInput;
+}>;
+
+
+export type ProductUpdateSeoMutation = { productUpdate?: AdminTypes.Maybe<{ product?: AdminTypes.Maybe<(
+      Pick<AdminTypes.Product, 'id'>
+      & { seo: Pick<AdminTypes.Seo, 'title' | 'description'> }
+    )>, userErrors: Array<Pick<AdminTypes.UserError, 'field' | 'message'>> }> };
+
 export type TranslationsRegisterMutationVariables = AdminTypes.Exact<{
   resourceId: AdminTypes.Scalars['ID']['input'];
   translations: Array<AdminTypes.TranslationInput> | AdminTypes.TranslationInput;
@@ -129,6 +139,7 @@ interface GeneratedMutationTypes {
   "#graphql\n  mutation collectionUpdate($input: CollectionInput!) {\n    collectionUpdate(input: $input) {\n      collection {\n        id\n        title\n        handle\n        descriptionHtml\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: CollectionUpdateMutation, variables: CollectionUpdateMutationVariables},
   "#graphql\n  mutation tagsAdd($id: ID!, $tags: [String!]!) {\n    tagsAdd(id: $id, tags: $tags) {\n      node {\n        id\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: TagsAddMutation, variables: TagsAddMutationVariables},
   "#graphql\n  mutation productUpdate($product: ProductUpdateInput!) {\n    productUpdate(product: $product) {\n      product {\n        id\n        handle\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: ProductUpdateMutation, variables: ProductUpdateMutationVariables},
+  "#graphql\n  mutation productUpdateSeo($product: ProductUpdateInput!) {\n    productUpdate(product: $product) {\n      product {\n        id\n        seo {\n          title\n          description\n        }\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: ProductUpdateSeoMutation, variables: ProductUpdateSeoMutationVariables},
   "#graphql\n  mutation translationsRegister($resourceId: ID!, $translations: [TranslationInput!]!) {\n    translationsRegister(resourceId: $resourceId, translations: $translations) {\n      translations {\n        key\n        locale\n        value\n      }\n      userErrors {\n        code\n        field\n        message\n      }\n    }\n  }\n": {return: TranslationsRegisterMutation, variables: TranslationsRegisterMutationVariables},
 }
 declare module '@shopify/admin-api-client' {
