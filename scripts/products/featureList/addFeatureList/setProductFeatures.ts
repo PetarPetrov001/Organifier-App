@@ -1,10 +1,9 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
-import { adminQuery, type GraphQLResponse } from "../../../shopify-admin.js";
-import { disconnect } from "../../../shopify-auth.js";
+import { adminQuery } from "../../../shared/shopify-client.js";
+import { disconnect } from "../../../shared/shopify-auth.js";
 import { sleep } from "../../../shared/helpers.js";
-import type { UpdateProductFeatureListMutation } from "../../../../app/types/admin.generated.js";
 
 const DRY_RUN = false;
 const CONCURRENCY = 5;
@@ -28,18 +27,6 @@ interface ProgressEntry {
 interface ProgressFile {
   version: 1;
   entries: ProgressEntry[];
-}
-
-interface ThrottleStatus {
-  maximumAvailable: number;
-  currentlyAvailable: number;
-  restoreRate: number;
-}
-
-interface Cost {
-  requestedQueryCost: number;
-  actualQueryCost: number;
-  throttleStatus: ThrottleStatus;
 }
 
 function loadProgress(): ProgressFile {
@@ -68,7 +55,7 @@ mutation updateProductFeatureList($product: ProductUpdateInput!) {
       message
     }
   }
-}` as const;
+}`;
 
 async function main() {
   const products: ProductFeatureEntry[] = JSON.parse(
@@ -125,7 +112,7 @@ async function main() {
           try {
             const features: string[] = JSON.parse(product.short_description);
 
-            const response: GraphQLResponse<UpdateProductFeatureListMutation> = await adminQuery(MUTATION, {
+            const response = await adminQuery(MUTATION, {
               product: {
                 id: product.GID,
                 metafields: [
@@ -139,13 +126,11 @@ async function main() {
               },
             });
 
-            const cost: Cost | undefined = (
-              response.extensions as { cost?: Cost }
-            )?.cost;
-
+            const cost = response.extensions?.cost;
             if (cost) {
+              const { throttleStatus: t } = cost;
               console.log(
-                `  Throttle: ${cost.throttleStatus.currentlyAvailable}/${cost.throttleStatus.maximumAvailable} available (cost: ${cost.actualQueryCost}, restore: ${cost.throttleStatus.restoreRate}/s)`,
+                `  Throttle: ${t.currentlyAvailable}/${t.maximumAvailable} available (cost: ${cost.actualQueryCost}, restore: ${t.restoreRate}/s)`,
               );
             }
 

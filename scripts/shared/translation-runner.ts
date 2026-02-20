@@ -1,8 +1,8 @@
 import { readFileSync } from "fs";
 import { parse } from "csv-parse/sync";
-import { adminQuery, type GraphQLResponse } from "../shopify-admin.js";
+import { adminQuery, type GraphQLResponse } from "./shopify-client.js";
 import type { TranslationsRegisterMutation } from "../../app/types/admin.generated.js";
-import { disconnect } from "../shopify-auth.js";
+import { disconnect } from "./shopify-auth.js";
 import type {
   TranslatableResource,
   ProgressEntry,
@@ -268,14 +268,7 @@ export async function runTranslations(
 
         mutationSucceeded = true;
 
-        const ext = result.extensions as
-          | {
-              cost?: {
-                throttleStatus?: { currentlyAvailable?: number };
-              };
-            }
-          | undefined;
-        const available = ext?.cost?.throttleStatus?.currentlyAvailable;
+        const available = result.extensions?.cost?.throttleStatus?.currentlyAvailable;
         if (available !== undefined && available < 100) {
           console.log(
             `${prefix} — throttle budget low (${available}), sleeping extra 1s`,

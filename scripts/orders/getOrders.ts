@@ -1,6 +1,6 @@
 import { writeFileSync } from "fs";
-import { adminQuery, type GraphQLResponse } from "../shopify-admin.js";
-import { disconnect } from "../shopify-auth.js";
+import { adminQuery, type GraphQLResponse } from "../shared/shopify-client.js";
+import { disconnect } from "../shared/shopify-auth.js";
 import type { GetOrdersQuery } from "../../app/types/admin.generated.js";
 
 import { sleep } from "../shared/helpers";
@@ -43,10 +43,7 @@ const ORDERS_QUERY = `#graphql
   }
 ` as const;
 
-interface OrderNode {
-  id: string;
-  email?: string | null;
-}
+type OrderNode = GetOrdersQuery["orders"]["nodes"][number];
 
 console.log("Fetching all orders...");
 

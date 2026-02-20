@@ -1,8 +1,8 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
-import { adminQuery, type GraphQLResponse } from "../../../shopify-admin.js";
-import { disconnect } from "../../../shopify-auth.js";
+import { adminQuery, type GraphQLResponse } from "../../../shared/shopify-client.js";
+import { disconnect } from "../../../shared/shopify-auth.js";
 import { sleep } from "../../../shared/helpers.js";
 import type { AddProductVideoMutation } from "../../../../app/types/admin.generated.js";
 
@@ -25,18 +25,6 @@ interface ProgressFile {
   entries: ProgressEntry[];
 }
 
-interface ThrottleStatus {
-  maximumAvailable: number;
-  currentlyAvailable: number;
-  restoreRate: number;
-}
-
-interface Cost {
-  requestedQueryCost: number;
-  actualQueryCost: number;
-  throttleStatus: ThrottleStatus;
-}
-
 function loadProgress(): ProgressFile {
   if (existsSync(PROGRESS_FILE)) {
     return JSON.parse(readFileSync(PROGRESS_FILE, "utf-8"));
@@ -49,12 +37,14 @@ function saveProgress(progress: ProgressFile): void {
   writeFileSync(PROGRESS_FILE, JSON.stringify(progress, null, 2));
 }
 
+// NOTE: Explicit type annotation needed — TS overload resolution fails for this
+// mutation's complex `media: [CreateMediaInput!]` variables type.
 const MUTATION = `#graphql
 mutation addProductVideo($product: ProductUpdateInput!, $media: [CreateMediaInput!]) {
   productUpdate(product: $product, media: $media) {
     product {
       id
-      media(first: 10, query: "mediaType:VIDEO") {
+      media(first: 10) {
         edges {
           node {
             id
@@ -68,6 +58,39 @@ mutation addProductVideo($product: ProductUpdateInput!, $media: [CreateMediaInpu
     }
   }
 }` as const;
+
+async function addVideoToProduct(gid: string, videoUrl: string) {
+  const response: GraphQLResponse<AddProductVideoMutation> = await adminQuery(MUTATION, {
+    product: { id: gid },
+    media: [
+      {
+        mediaContentType: "EXTERNAL_VIDEO",
+        originalSource: videoUrl,
+      },
+    ],
+  });
+
+  const cost = response.extensions?.cost;
+  if (cost) {
+    const { throttleStatus: t } = cost;
+    console.log(
+      `  Throttle: ${t.currentlyAvailable}/${t.maximumAvailable} available (cost: ${cost.actualQueryCost}, restore: ${t.restoreRate}/s)`,
+    );
+  }
+
+  if (response.errors) {
+    const errorMsg = response.errors.map((e) => e.message).join("; ");
+    return { productId: gid, status: "failed" as const, error: errorMsg };
+  }
+
+  const { userErrors } = response.data!.productUpdate!;
+  if (userErrors.length > 0) {
+    const errorMsg = userErrors.map((e) => `${e.field}: ${e.message}`).join("; ");
+    return { productId: gid, status: "failed" as const, error: errorMsg };
+  }
+
+  return { productId: gid, status: "success" as const };
+}
 
 async function main() {
   const idToVideo: Record<string, string> = JSON.parse(
@@ -104,45 +127,13 @@ async function main() {
       const batch = toProcess.slice(i, i + CONCURRENCY);
 
       const results = await Promise.all(
-        batch.map(async ([gid, videoUrl]) => {
-          try {
-            const response: GraphQLResponse<AddProductVideoMutation> = await adminQuery(MUTATION, {
-              product: { id: gid },
-              media: [
-                {
-                  mediaContentType: "EXTERNAL_VIDEO",
-                  originalSource: videoUrl,
-                },
-              ],
-            });
-
-            const cost: Cost | undefined = (
-              response.extensions as { cost?: Cost }
-            )?.cost;
-
-            if (cost) {
-              console.log(
-                `  Throttle: ${cost.throttleStatus.currentlyAvailable}/${cost.throttleStatus.maximumAvailable} available (cost: ${cost.actualQueryCost}, restore: ${cost.throttleStatus.restoreRate}/s)`,
-              );
-            }
-
-            if (response.errors) {
-              const errorMsg = response.errors.map((e) => e.message).join("; ");
-              return { productId: gid, status: "failed" as const, error: errorMsg };
-            }
-
-            const { userErrors } = response.data!.productUpdate!;
-            if (userErrors.length > 0) {
-              const errorMsg = userErrors.map((e) => `${e.field}: ${e.message}`).join("; ");
-              return { productId: gid, status: "failed" as const, error: errorMsg };
-            }
-
-            return { productId: gid, status: "success" as const };
-          } catch (err) {
-            const errorMsg = err instanceof Error ? err.message : String(err);
-            return { productId: gid, status: "failed" as const, error: errorMsg };
-          }
-        }),
+        batch.map(([gid, videoUrl]) =>
+          addVideoToProduct(gid, videoUrl).catch((err) => ({
+            productId: gid,
+            status: "failed" as const,
+            error: err instanceof Error ? err.message : String(err),
+          })),
+        ),
       );
 
       for (const result of results) {

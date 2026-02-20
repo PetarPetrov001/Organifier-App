@@ -1,7 +1,7 @@
-import { adminQuery } from "scripts/shopify-admin";
+import { adminQuery } from "scripts/shared/shopify-client";
 import { readFileSync } from "fs";
 import { resolvePath, sleep } from "scripts/shared/helpers";
-import { disconnect } from "scripts/shopify-auth";
+import { disconnect } from "scripts/shared/shopify-auth";
 
 const DRY_RUN = false;
 const CONCURRENCY = 5;

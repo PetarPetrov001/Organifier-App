@@ -1,6 +1,6 @@
 import { writeFileSync } from "fs";
-import { adminQuery, type GraphQLResponse } from "scripts/shopify-admin";
-import { disconnect } from "scripts/shopify-auth";
+import { adminQuery, type GraphQLResponse } from "scripts/shared/shopify-client";
+import { disconnect } from "scripts/shared/shopify-auth";
 import { sleep } from "../shared/helpers";
 import type { GetProductsDescriptionQuery } from "../../app/types/admin.generated";
 

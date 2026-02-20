@@ -1,6 +1,6 @@
 import { writeFileSync } from "fs";
-import { adminQuery, type GraphQLResponse } from "../shopify-admin.js";
-import { disconnect } from "../shopify-auth.js";
+import { adminQuery, type GraphQLResponse } from "../shared/shopify-client.js";
+import { disconnect } from "../shared/shopify-auth.js";
 import type { GetCustomersQuery } from "../../app/types/admin.generated.js";
 
 import { sleep, isTransientError } from "../shared/helpers";

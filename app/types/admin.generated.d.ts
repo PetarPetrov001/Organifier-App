@@ -52,6 +52,16 @@ export type GetTranslatableCollectionsQuery = { translatableResources: { nodes: 
       & { translatableContent: Array<Pick<AdminTypes.TranslatableContent, 'digest' | 'key' | 'locale' | 'value'>> }
     )>, pageInfo: Pick<AdminTypes.PageInfo, 'hasNextPage' | 'endCursor'> } };
 
+export type CustomerDeleteMutationVariables = AdminTypes.Exact<{
+  input: AdminTypes.CustomerDeleteInput;
+}>;
+
+
+export type CustomerDeleteMutation = { customerDelete?: AdminTypes.Maybe<(
+    Pick<AdminTypes.CustomerDeletePayload, 'deletedCustomerId'>
+    & { userErrors: Array<Pick<AdminTypes.UserError, 'field' | 'message'>> }
+  )> };
+
 export type GetCustomersQueryVariables = AdminTypes.Exact<{
   first: AdminTypes.Scalars['Int']['input'];
   after?: AdminTypes.InputMaybe<AdminTypes.Scalars['String']['input']>;
@@ -62,6 +72,16 @@ export type GetCustomersQuery = { customers: { nodes: Array<(
       Pick<AdminTypes.Customer, 'id'>
       & { defaultEmailAddress?: AdminTypes.Maybe<Pick<AdminTypes.CustomerEmailAddress, 'emailAddress'>> }
     )>, pageInfo: Pick<AdminTypes.PageInfo, 'hasNextPage' | 'endCursor'> } };
+
+export type OrderDeleteMutationVariables = AdminTypes.Exact<{
+  orderId: AdminTypes.Scalars['ID']['input'];
+}>;
+
+
+export type OrderDeleteMutation = { orderDelete?: AdminTypes.Maybe<(
+    Pick<AdminTypes.OrderDeletePayload, 'deletedId'>
+    & { userErrors: Array<Pick<AdminTypes.OrderDeleteUserError, 'field' | 'message'>> }
+  )> };
 
 export type GetOrdersQueryVariables = AdminTypes.Exact<{
   first: AdminTypes.Scalars['Int']['input'];
@@ -228,11 +248,13 @@ interface GeneratedMutationTypes {
   "#graphql\n      mutation populateProduct($product: ProductCreateInput!) {\n        productCreate(product: $product) {\n          product {\n            id\n            title\n            handle\n            status\n            variants(first: 10) {\n              edges {\n                node {\n                  id\n                  price\n                  barcode\n                  createdAt\n                }\n              }\n            }\n          }\n        }\n      }": {return: PopulateProductMutation, variables: PopulateProductMutationVariables},
   "#graphql\n    mutation shopifyRemixTemplateUpdateVariant($productId: ID!, $variants: [ProductVariantsBulkInput!]!) {\n      productVariantsBulkUpdate(productId: $productId, variants: $variants) {\n        productVariants {\n          id\n          price\n          barcode\n          createdAt\n        }\n      }\n    }": {return: ShopifyRemixTemplateUpdateVariantMutation, variables: ShopifyRemixTemplateUpdateVariantMutationVariables},
   "#graphql\n  mutation collectionUpdate($input: CollectionInput!) {\n    collectionUpdate(input: $input) {\n      collection {\n        id\n        title\n        handle\n        descriptionHtml\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: CollectionUpdateMutation, variables: CollectionUpdateMutationVariables},
+  "#graphql\n  mutation customerDelete($input: CustomerDeleteInput!) {\n    customerDelete(input: $input) {\n      deletedCustomerId\n      userErrors { field message }\n    }\n  }\n": {return: CustomerDeleteMutation, variables: CustomerDeleteMutationVariables},
+  "#graphql\n  mutation orderDelete($orderId: ID!) {\n    orderDelete(orderId: $orderId) {\n      deletedId\n      userErrors { field message }\n    }\n  }\n": {return: OrderDeleteMutation, variables: OrderDeleteMutationVariables},
   "#graphql\n  mutation tagsAdd($id: ID!, $tags: [String!]!) {\n    tagsAdd(id: $id, tags: $tags) {\n      node {\n        id\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: TagsAddMutation, variables: TagsAddMutationVariables},
   "#graphql\nmutation updateProductFeatureList($product: ProductUpdateInput!) {\n  productUpdate(product: $product) {\n    product {\n      id\n      featureList: metafield(namespace: \"custom\", key: \"feature_list\") {\n        jsonValue\n      }\n    }\n    userErrors {\n      field\n      message\n    }\n  }\n}": {return: UpdateProductFeatureListMutation, variables: UpdateProductFeatureListMutationVariables},
   "#graphql\n  mutation productUpdate($product: ProductUpdateInput!) {\n    productUpdate(product: $product) {\n      product {\n        id\n        handle\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: ProductUpdateMutation, variables: ProductUpdateMutationVariables},
   "#graphql\n  mutation productUpdateSeo($product: ProductUpdateInput!) {\n    productUpdate(product: $product) {\n      product {\n        id\n        seo {\n          title\n          description\n        }\n      }\n      userErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: ProductUpdateSeoMutation, variables: ProductUpdateSeoMutationVariables},
-  "#graphql\nmutation addProductVideo($product: ProductUpdateInput!, $media: [CreateMediaInput!]) {\n  productUpdate(product: $product, media: $media) {\n    product {\n      id\n      media(first: 10, query: \"mediaType:VIDEO\") {\n        edges {\n          node {\n            id\n          }\n        }\n      }\n    }\n    userErrors {\n      field\n      message\n    }\n  }\n}": {return: AddProductVideoMutation, variables: AddProductVideoMutationVariables},
+  "#graphql\nmutation addProductVideo($product: ProductUpdateInput!, $media: [CreateMediaInput!]) {\n  productUpdate(product: $product, media: $media) {\n    product {\n      id\n      media(first: 10) {\n        edges {\n          node {\n            id\n          }\n        }\n      }\n    }\n    userErrors {\n      field\n      message\n    }\n  }\n}": {return: AddProductVideoMutation, variables: AddProductVideoMutationVariables},
   "#graphql\n  mutation reorderProductMedia($id: ID!, $moves: [MoveInput!]!) {\n    productReorderMedia(id: $id, moves: $moves) {\n      mediaUserErrors {\n        field\n        message\n      }\n    }\n  }\n": {return: ReorderProductMediaMutation, variables: ReorderProductMediaMutationVariables},
   "#graphql\n  mutation translationsRegister($resourceId: ID!, $translations: [TranslationInput!]!) {\n    translationsRegister(resourceId: $resourceId, translations: $translations) {\n      translations {\n        key\n        locale\n        value\n      }\n      userErrors {\n        code\n        field\n        message\n      }\n    }\n  }\n": {return: TranslationsRegisterMutation, variables: TranslationsRegisterMutationVariables},
 }

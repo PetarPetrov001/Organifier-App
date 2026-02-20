@@ -1,5 +1,5 @@
-import { adminQuery } from "../../shopify-admin.js";
-import { disconnect } from "../../shopify-auth.js";
+import { adminQuery } from "../../shared/shopify-client.js";
+import { disconnect } from "../../shared/shopify-auth.js";
 
 const PRODUCTS_QUERY = `
   query GetProducts($first: Int!) {

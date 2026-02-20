@@ -1,7 +1,8 @@
 import { readFileSync, writeFileSync } from "fs";
-import { adminQuery, type GraphQLResponse } from "../shopify-admin.js";
-import { disconnect } from "../shopify-auth.js";
+import { adminQuery, type ThrottleStatus } from "../shared/shopify-client.js";
+import { disconnect } from "../shared/shopify-auth.js";
 import { sleep, isTransientError } from "../shared/helpers.js";
+import type { GetOrdersQuery } from "../../app/types/admin.generated.js";
 
 // ── Config ───────────────────────────────────────────────────────────
 const CONCURRENCY = 10;
@@ -10,24 +11,9 @@ const MAX_RETRIES = 3;
 const SKIP = 0;
 // ─────────────────────────────────────────────────────────────────────
 
-interface OrderNode {
-  id: string;
-  email: string | null;
-}
+type OrderNode = GetOrdersQuery["orders"]["nodes"][number];
 
-interface ThrottleStatus {
-  maximumAvailable: number;
-  currentlyAvailable: number;
-  restoreRate: number;
-}
-
-interface Cost {
-  requestedQueryCost: number;
-  actualQueryCost: number;
-  throttleStatus: ThrottleStatus;
-}
-
-const DELETE_MUTATION = `
+const DELETE_MUTATION = `#graphql
   mutation orderDelete($orderId: ID!) {
     orderDelete(orderId: $orderId) {
       deletedId
@@ -47,14 +33,9 @@ interface DeleteResult {
 async function deleteOne(order: OrderNode): Promise<DeleteResult> {
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     try {
-      const result: GraphQLResponse<{
-        orderDelete: {
-          deletedId: string | null;
-          userErrors: Array<{ field: string[]; message: string }>;
-        };
-      }> = await adminQuery(DELETE_MUTATION, { orderId: order.id });
+      const result = await adminQuery(DELETE_MUTATION, { orderId: order.id });
 
-      const ext = (result as any).extensions?.cost as Cost | undefined;
+      const ext = result.extensions?.cost;
       const throttle = ext?.throttleStatus;
 
       if (result.errors) {
@@ -75,7 +56,7 @@ async function deleteOne(order: OrderNode): Promise<DeleteResult> {
         return { order, status: "failed", error: errMsg, throttle, cost: ext?.actualQueryCost };
       }
 
-      const { userErrors } = result.data!.orderDelete;
+      const userErrors = result.data!.orderDelete?.userErrors ?? [];
       if (userErrors.length > 0) {
         const errMsg = userErrors.map((e) => `${e.field}: ${e.message}`).join("; ");
         return { order, status: "failed", error: errMsg, throttle, cost: ext?.actualQueryCost };

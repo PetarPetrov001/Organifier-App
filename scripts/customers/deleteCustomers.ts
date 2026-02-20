@@ -1,7 +1,8 @@
 import { readFileSync, writeFileSync } from "fs";
-import { adminQuery, type GraphQLResponse } from "../shopify-admin.js";
-import { disconnect } from "../shopify-auth.js";
+import { adminQuery, type ThrottleStatus } from "../shared/shopify-client.js";
+import { disconnect } from "../shared/shopify-auth.js";
 import { sleep, isTransientError } from "../shared/helpers.js";
+import type { GetCustomersQuery } from "../../app/types/admin.generated.js";
 
 // ── Config ───────────────────────────────────────────────────────────
 const DRY_RUN = false;
@@ -11,24 +12,9 @@ const MAX_RETRIES = 3;
 const SKIP = 0;
 // ─────────────────────────────────────────────────────────────────────
 
-interface CustomerNode {
-  id: string;
-  defaultEmailAddress?: { emailAddress: string } | null;
-}
+type CustomerNode = GetCustomersQuery["customers"]["nodes"][number];
 
-interface ThrottleStatus {
-  maximumAvailable: number;
-  currentlyAvailable: number;
-  restoreRate: number;
-}
-
-interface Cost {
-  requestedQueryCost: number;
-  actualQueryCost: number;
-  throttleStatus: ThrottleStatus;
-}
-
-const DELETE_MUTATION = `
+const DELETE_MUTATION = `#graphql
   mutation customerDelete($input: CustomerDeleteInput!) {
     customerDelete(input: $input) {
       deletedCustomerId
@@ -48,15 +34,11 @@ interface DeleteResult {
 async function deleteOne(customer: CustomerNode): Promise<DeleteResult> {
   for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     try {
-      const result: GraphQLResponse<{
-        customerDelete: {
-          deletedCustomerId: string | null;
-          userErrors: Array<{ field: string[]; message: string }>;
-        };
-      }> = await adminQuery(DELETE_MUTATION, { input: { id: customer.id } });
+      const result = await adminQuery(DELETE_MUTATION, { input: { id: customer.id } });
 
-      const ext = (result as any).extensions?.cost as Cost | undefined;
+      const ext = result.extensions?.cost;
       const throttle = ext?.throttleStatus;
+      const cost = ext?.actualQueryCost;
 
       if (result.errors) {
         const errMsg = result.errors.map((e) => e.message).join("; ");
@@ -73,16 +55,16 @@ async function deleteOne(customer: CustomerNode): Promise<DeleteResult> {
           continue;
         }
 
-        return { customer, status: "failed", error: errMsg, throttle, cost: ext?.actualQueryCost };
+        return { customer, status: "failed", error: errMsg, throttle, cost };
       }
 
-      const { userErrors } = result.data!.customerDelete;
+      const userErrors = result.data!.customerDelete?.userErrors ?? [];
       if (userErrors.length > 0) {
         const errMsg = userErrors.map((e) => `${e.field}: ${e.message}`).join("; ");
-        return { customer, status: "failed", error: errMsg, throttle, cost: ext?.actualQueryCost };
+        return { customer, status: "failed", error: errMsg, throttle, cost };
       }
 
-      return { customer, status: "success", throttle, cost: ext?.actualQueryCost };
+      return { customer, status: "success", throttle, cost };
     } catch (err) {
       if (isTransientError(err) && attempt < MAX_RETRIES) {
         const backoff =

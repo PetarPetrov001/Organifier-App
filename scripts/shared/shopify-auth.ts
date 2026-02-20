@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+import { PrismaClient, Session } from "@prisma/client";
 
 export const DEFAULT_SHOP =
   process.env.SHOPIFY_SHOP ?? "ertis-playground.myshopify.com";
@@ -15,15 +15,6 @@ if (!CLIENT_SECRET) {
 
 const prisma = new PrismaClient();
 
-interface SessionRecord {
-  id: string;
-  shop: string;
-  accessToken: string;
-  refreshToken: string | null;
-  expires: Date | null;
-  refreshTokenExpires: Date | null;
-}
-
 interface TokenRefreshResponse {
   access_token: string;
   refresh_token: string;
@@ -33,7 +24,7 @@ interface TokenRefreshResponse {
 }
 
 // --- Token Management ---
-export async function getSession(shop: string): Promise<SessionRecord> {
+export async function getSession(shop: string): Promise<Session> {
   const sessionId = `offline_${shop}`;
   const session = await prisma.session.findUnique({
     where: { id: sessionId },
@@ -50,7 +41,7 @@ export async function getSession(shop: string): Promise<SessionRecord> {
   return session;
 }
 
-function isTokenExpired(session: SessionRecord): boolean {
+function isTokenExpired(session: Session): boolean {
   if (!session.expires) return false;
   // Refresh 5 minutes early to avoid race conditions
   const bufferMs = 5 * 60 * 1000;
@@ -59,8 +50,8 @@ function isTokenExpired(session: SessionRecord): boolean {
 
 export async function refreshAccessToken(
   shop: string,
-  session: SessionRecord,
-): Promise<SessionRecord> {
+  session: Session,
+): Promise<Session> {
   if (!session.refreshToken) {
     throw new Error(
       "Access token is expired but no refresh token is available. " +

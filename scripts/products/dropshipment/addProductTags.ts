@@ -3,9 +3,7 @@ import { parse } from "csv-parse/sync";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { resolvePath, sleep } from "scripts/shared/helpers";
-import { adminQuery, type GraphQLResponse } from "scripts/shopify-admin";
-
-import type { TagsAddMutation } from "../../../app/types/admin.generated";
+import { adminQuery } from "scripts/shared/shopify-client";
 
 const TAGS = ["dropshipment"];
 const CONCURRENCY = 10;
@@ -71,18 +69,6 @@ interface ProductSkuEntry {
   variantSkus: string;
 }
 
-interface Cost {
-  requestedQueryCost: number;
-  actualQueryCost: number;
-  throttleStatus: ThrottleStatus;
-}
-
-interface ThrottleStatus {
-  maximumAvailable: number;
-  currentlyAvailable: number;
-  restoreRate: number;
-}
-
 async function main() {
   const csvRows: CsvRow[] = parse(readFileSync(CSV_FILE, "utf-8"), {
     columns: true,
@@ -144,20 +130,16 @@ async function main() {
     const results = await Promise.all(
       batch.map(async ({ sku, productId }) => {
         try {
-          const response: GraphQLResponse<TagsAddMutation> = await adminQuery(TAGS_ADD_MUTATION, {
+          const response = await adminQuery(TAGS_ADD_MUTATION, {
             id: productId,
             tags: TAGS,
           });
 
-          const cost: Cost | undefined = (
-            response.extensions as {
-              cost?: Cost;
-            }
-          )?.cost;
-
+          const cost = response.extensions?.cost;
           if (cost) {
+            const { throttleStatus: t } = cost;
             console.log(
-              `  Throttle: ${cost.throttleStatus.currentlyAvailable}/${cost.throttleStatus.maximumAvailable} available (cost: ${cost.actualQueryCost}, restore: ${cost.throttleStatus.restoreRate}/s)`,
+              `  Throttle: ${t.currentlyAvailable}/${t.maximumAvailable} available (cost: ${cost.actualQueryCost}, restore: ${t.restoreRate}/s)`,
             );
           }
 

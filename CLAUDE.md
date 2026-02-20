@@ -22,9 +22,10 @@ Organifier is a **Shopify app** whose primary purpose is running **Admin API scr
 ## Architecture
 
 **Scripts (`scripts/`)** — the core of the project. Standalone CLI tools run via `tsx`:
-- `shopify-admin.ts` — typed GraphQL client with `#graphql` tagged template inference
-- `shopify-auth.ts` — session/token management for CLI scripts (separate from app auth)
+- `shared/shopify-client.ts` — typed GraphQL client with `#graphql` tagged template inference
+- `shared/shopify-auth.ts` — session/token management for CLI scripts (separate from app auth)
 - `shared/translation-runner.ts` — generic translation processing engine (CSV → GraphQL mutations, with progress tracking, digest-based dedup, retry logic)
+- `gql.ts` — CLI entry point for ad-hoc GraphQL queries (`npm run gql`)
 - Subdirectories (`articles/`, `collections/`, `products/`, `orders/`) contain domain-specific scripts
 
 **Remix app (`app/`)** — template-generated scaffolding, file-based routing:
@@ -40,7 +41,7 @@ When writing new scripts:
 1. Look up the needed GraphQL query/mutation using the **Shopify Dev MCP server** (`shopify-dev-mcp`)
 2. Write the query using `#graphql` tagged template literals for type inference
 3. Run `npm run graphql-codegen` to generate types into `app/types/`
-4. Use `adminQuery()` from `scripts/shopify-admin.ts` for typed execution
+4. Use `adminQuery()` from `scripts/shared/shopify-client.ts` for typed execution
 
 ## Tech Stack
 
@@ -54,6 +55,8 @@ When writing new scripts:
 ## GraphQL Type Generation
 
 Types are generated from `#graphql` tagged template literals found in `app/` and `scripts/`. Config is in `.graphqlrc.ts` (uses `ApiVersion.July25`). Run `npm run graphql-codegen` after modifying any GraphQL query/mutation. Generated types go to `app/types/`.
+
+**Important:** Always use the `#graphql` tagged template literal when writing GraphQL queries and mutations. This ensures types are inferred in the IDE and can be processed by graphql-codegen. Avoid writing custom types and interfaces for GraphQL responses where possible — rely on the generated types instead.
 
 ## Translation Scripts Pattern
 

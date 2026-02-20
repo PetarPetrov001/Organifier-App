@@ -1,7 +1,7 @@
 import { writeFileSync } from "fs";
-import { adminQuery, type GraphQLResponse } from "../../../shopify-admin.js";
+import { adminQuery, type GraphQLResponse } from "../../../shared/shopify-client.js";
 import type { GetTranslatableProductsQuery } from "../../../../app/types/admin.generated.js";
-import { disconnect } from "../../../shopify-auth.js";
+import { disconnect } from "../../../shared/shopify-auth.js";
 import type { TranslatableResource } from "../../../shared/types.js";
 import { sleep } from "../../../shared/helpers.js";
 
