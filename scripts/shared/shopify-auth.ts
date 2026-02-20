@@ -9,7 +9,7 @@ const CLIENT_SECRET = process.env.SHOPIFY_API_SECRET;
 if (!CLIENT_SECRET) {
   throw new Error(
     "SHOPIFY_API_SECRET env var is required. " +
-      "Create a .env file or export it before running scripts.",
+    "Create a .env file or export it before running scripts.",
   );
 }
 
@@ -33,8 +33,8 @@ export async function getSession(shop: string): Promise<Session> {
   if (!session) {
     throw new Error(
       `No offline session found for ${shop}. ` +
-        `Expected session ID: ${sessionId}. ` +
-        `Has the app been installed on this store?`,
+      `Expected session ID: ${sessionId}. ` +
+      `Has the app been installed on this store?`,
     );
   }
 
@@ -55,7 +55,7 @@ export async function refreshAccessToken(
   if (!session.refreshToken) {
     throw new Error(
       "Access token is expired but no refresh token is available. " +
-        "Reinstall the app on the store to get fresh tokens.",
+      "Reinstall the app on the store to get fresh tokens.",
     );
   }
 
