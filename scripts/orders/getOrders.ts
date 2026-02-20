@@ -5,13 +5,28 @@ import type { GetOrdersQuery } from "../../app/types/admin.generated.js";
 
 import { sleep } from "../shared/helpers";
 
-const LIST_TO_FILTER = [
-  "verkopen.bol.com",
-  "@kaufland-online.de",
-  "@gartentraeume.com",
-  "@marketplace.amazon",
-  "@notification.mirakl.net",
+const DOMAIN_FILTERS = [
+  "kaufland",
+  "amazon",
+  "bol.com",
+  "gartentraume",
+  "brico",
+  "mirakl",
+  "praxis",
+  "diymaxeda",
+  "worten",
+  "insightlyservice",
+  "allegro",
+  "productpine",
+  "rakuten",
+  "octopia",
 ];
+
+/** Build one combined regex: /@.*(?:kaufland|amazon|bol\.com|...)$/i */
+const DOMAIN_REGEX = new RegExp(
+  `@.*(?:${DOMAIN_FILTERS.map((d) => d.replace(/\./g, "\\.")).join("|")})`,
+  "i",
+);
 
 const ORDERS_QUERY = `#graphql
   query getOrders($first: Int!, $after: String) {
@@ -57,10 +72,7 @@ try {
     totalFetched += nodes.length;
 
     for (const order of nodes) {
-      if (
-        order.email &&
-        LIST_TO_FILTER.some((filter) => order.email!.includes(filter))
-      ) {
+      if (order.email && DOMAIN_REGEX.test(order.email)) {
         filteredOrders.push(order);
       }
     }
@@ -72,7 +84,7 @@ try {
     after = pageInfo.hasNextPage ? pageInfo.endCursor ?? null : null;
 
     if (after) {
-      await sleep(100);
+      await sleep(20);
     }
   } while (after);
 

@@ -27,6 +27,8 @@ export interface TranslationRunnerConfig {
   csvKeyMap: Array<{ csvColumn: string; shopifyKey: string }>;
   gidColumn?: string;
   concurrency?: number;
+  /** Optional map to remap CSV GIDs to resource GIDs (e.g. Product → Metafield) */
+  gidMap?: Record<string, string>;
 }
 
 const REGISTER_MUTATION = `#graphql
@@ -143,7 +145,8 @@ export async function runTranslations(
 
   for (let i = 0; i < rows.length; i++) {
     const row = rows[i];
-    const resourceId = row[config.gidColumn ?? "GID"];
+    const csvGid = row[config.gidColumn ?? "GID"];
+    const resourceId = config.gidMap?.[csvGid] ?? csvGid;
     const prefix = `[${i + 1}/${rows.length}] ${resourceId}`;
 
     const resource = resourceMap.get(resourceId);

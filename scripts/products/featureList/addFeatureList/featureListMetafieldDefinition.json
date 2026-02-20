@@ -1,0 +1,10 @@
+{
+  "metafieldDefinition": {
+    "key": "feature_list",
+    "namespace": "custom",
+    "ownerType": "PRODUCT",
+    "type": {
+      "name": "list.single_line_text_field"
+    }
+  }
+}
