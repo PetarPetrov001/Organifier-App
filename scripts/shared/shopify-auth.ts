@@ -133,7 +133,7 @@ export async function getValidAccessToken(shop: string): Promise<string> {
   return session.accessToken;
 }
 
-// --- Utilities ---
+// Utilities
 export async function listStores(): Promise<string[]> {
   const sessions = await prisma.session.findMany({
     where: { isOnline: false },

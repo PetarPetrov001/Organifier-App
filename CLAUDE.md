@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Organifier is a **Shopify app** whose primary purpose is running **Admin API scripts** (`scripts/`). The Remix web app (`app/`) is template-generated scaffolding for OAuth and session management — the real work happens in the CLI scripts.
+Organifier-app is a **Shopify app** whose primary purpose is running **Admin API scripts** (`scripts/`). The Remix web app (`app/`) is template-generated scaffolding for OAuth and session management — the real work happens in the CLI scripts.
 
 ## Commands
 

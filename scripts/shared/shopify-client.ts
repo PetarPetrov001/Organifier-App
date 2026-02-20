@@ -27,13 +27,14 @@ export interface GraphQLResponse<T = unknown> {
 }
 
 // GraphQL Execution
+
 // Strip index signatures, keeping only explicit (codegen-generated) keys.
 type StripIndexSignature<T> = {
   [K in keyof T as string extends K ? never : K]: T[K];
 };
 type Operations = StripIndexSignature<AdminQueries & AdminMutations>;
 
-/** Typed overloads */
+// Typed overloads
 export async function adminQuery<Q extends string & keyof Operations>(
   query: Q,
   variables: Operations[Q]["variables"],

@@ -4,7 +4,8 @@
       "Bash(wc:*)",
       "mcp__shopify-dev-mcp__introspect_graphql_schema",
       "mcp__shopify-dev-mcp__learn_shopify_api",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "mcp__shopify-dev-mcp__search_docs_chunks"
     ]
   }
 }
